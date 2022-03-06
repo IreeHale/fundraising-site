@@ -13,11 +13,13 @@ body{
         ul{
             display: flex;
             margin: 10px;
+            justify-content: flex-end;
         }
 
         li {
             flex-direction: row;
             padding: 10px;
+            font-family: "Commissioner", sans-serif;
         }
     }
 }
