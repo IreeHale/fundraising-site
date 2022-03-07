@@ -6,9 +6,12 @@ $black: hsl(0, 0%, 0%);
 $dark-gray: hsl(0, 0%, 48%);
 
 body{
-    background-color: red;
 
     .navbar{
+        height: 400px;
+        color: white;
+        background: url('./images/image-hero-desktop.jpg');
+        background-size: auto;
 
         ul{
             display: flex;

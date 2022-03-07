@@ -1,7 +1,10 @@
 /* Primary colors*/
 /*Secondary Colors*/
-body {
-  background-color: red;
+body .navbar {
+  height: 400px;
+  color: white;
+  background: url("./images/image-hero-desktop.jpg");
+  background-size: auto;
 }
 
 body .navbar ul {
