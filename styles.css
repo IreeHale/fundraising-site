@@ -1,17 +1,24 @@
 /* Primary colors*/
 /*Secondary Colors*/
+body {
+  padding: 0px;
+  margin: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body .navbar {
   height: 400px;
   color: white;
   background: url("./images/image-hero-desktop.jpg");
-  background-size: auto;
+  background-size: cover;
 }
 
 body .navbar ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 10px;
+  padding: 10px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
           justify-content: flex-end;

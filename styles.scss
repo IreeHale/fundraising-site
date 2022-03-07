@@ -6,22 +6,25 @@ $black: hsl(0, 0%, 0%);
 $dark-gray: hsl(0, 0%, 48%);
 
 body{
-
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
     .navbar{
         height: 400px;
         color: white;
         background: url('./images/image-hero-desktop.jpg');
-        background-size: auto;
+        background-size: cover;
 
         ul{
             display: flex;
-            margin: 10px;
+            padding: 10px;
             justify-content: flex-end;
         }
 
         li {
             flex-direction: row;
             padding: 10px;
+
             font-family: "Commissioner", sans-serif;
         }
     }
