@@ -9,6 +9,7 @@ body{
     padding: 0px;
     margin: 0px;
     box-sizing: border-box;
+
     .navbar{
         height: 400px;
         color: white;
@@ -30,33 +31,34 @@ body{
         }
     }
 
-    #intro{
-        border: 2px red solid;
-        text-align: center;
-        font-family: Commissioner, sans-serif;
-        height: 200px;
-
-        h1{
-            padding-top: 20px;
-            font-weight: 700;
-            font-size: 16px;
-        }
-
-        .detail{
-            color: $dark-gray;
-            padding-top: 15px;
-            padding-bottom: 15px; 
-        }
-
-    }
-}
-
-@media screen and (max-width: 375px) {
-    nav{
+    .column{
         display: flex;
+        flex-direction: column;
+        border: 2px solid blue;
+        margin: 0px 300px 0px 300px;
+        font-family: Commissioner, sans-serif;
 
-        ul{
-            flex-direction: row;
+        #intro{
+            border: 2px red solid;
+            text-align: center;
+            font-family: Commissioner, sans-serif;
+            height: 200px;
+    
+            h1{
+                padding-top: 20px;
+                font-weight: 700;
+                font-size: 27px;
+            }
+    
+            .detail{
+                color: $dark-gray;
+                padding-top: 15px;
+                padding-bottom: 15px; 
+            }
+    
+            #goal{
+                border: red solid 2px;
+            }
         }
     }
 }

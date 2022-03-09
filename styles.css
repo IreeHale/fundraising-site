@@ -35,36 +35,39 @@ body .navbar li {
   font-family: "Commissioner", sans-serif;
 }
 
-body #intro {
+body .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  border: 2px solid blue;
+  margin: 0px 300px 0px 300px;
+  font-family: Commissioner, sans-serif;
+}
+
+body .column #intro {
   border: 2px red solid;
   text-align: center;
   font-family: Commissioner, sans-serif;
   height: 200px;
 }
 
-body #intro h1 {
+body .column #intro h1 {
   padding-top: 20px;
   font-weight: 700;
-  font-size: 16px;
+  font-size: 27px;
 }
 
-body #intro .detail {
+body .column #intro .detail {
   color: #7a7a7a;
   padding-top: 15px;
   padding-bottom: 15px;
 }
 
-@media screen and (max-width: 375px) {
-  nav {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-  }
-  nav ul {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-  }
+body .column #intro #goal {
+  border: red solid 2px;
 }
 /*# sourceMappingURL=styles.css.map */
