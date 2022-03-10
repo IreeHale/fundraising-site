@@ -67,7 +67,7 @@ body .column #intro .detail {
   padding-bottom: 15px;
 }
 
-body .column #intro #goal {
-  border: red solid 2px;
+body .column #goal {
+  border: blue solid 2px;
 }
 /*# sourceMappingURL=styles.css.map */
