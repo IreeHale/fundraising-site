@@ -67,6 +67,10 @@ body .column #intro .detail {
   padding-bottom: 15px;
 }
 
+body .column #intro .back {
+  background-color: #3cb4ac;
+}
+
 body .column #goal {
   border: blue solid 2px;
 }

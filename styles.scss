@@ -1,5 +1,5 @@
 /* Primary colors*/
-$mod-cyan: hsl(176, 50%, 47%);
+$med-cyan: hsl(176, 50%, 47%);
 $dark-cyan: hsl(176, 72%, 28%);
 /*Secondary Colors*/
 $black: hsl(0, 0%, 0%);
@@ -55,6 +55,12 @@ body{
                 padding-top: 15px;
                 padding-bottom: 15px; 
             }
+
+            .back{
+                background-color: $med-cyan;
+            }
+
+            .book{}
         }
 
         #goal{
