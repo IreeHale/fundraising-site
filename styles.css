@@ -45,13 +45,13 @@ body .column {
           flex-direction: column;
   border: 2px solid blue;
   margin: 0px 300px 0px 300px;
-  font-family: Commissioner, sans-serif;
+  font-family: "Commissioner", sans-serif;
 }
 
 body .column #intro {
   border: 2px red solid;
   text-align: center;
-  font-family: Commissioner, sans-serif;
+  font-family: "Commissioner", sans-serif;
   height: 200px;
 }
 
@@ -61,6 +61,15 @@ body .column #intro h1 {
   font-size: 27px;
 }
 
+body .column #intro button {
+  font-family: "Commissioner", sans-serif;
+  font-weight: 500;
+  font-size: 19px;
+  padding: 12px 35px;
+  border: none;
+  border-radius: 28px;
+}
+
 body .column #intro .detail {
   color: #7a7a7a;
   padding-top: 15px;
@@ -68,7 +77,12 @@ body .column #intro .detail {
 }
 
 body .column #intro .back {
-  background-color: #3cb4ac;
+  background-color: #147b74;
+  color: white;
+}
+
+body .column #intro .book {
+  color: #3cb4ac;
 }
 
 body .column #goal {

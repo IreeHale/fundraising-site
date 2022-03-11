@@ -36,18 +36,27 @@ body{
         flex-direction: column;
         border: 2px solid blue;
         margin: 0px 300px 0px 300px;
-        font-family: Commissioner, sans-serif;
+        font-family: "Commissioner", sans-serif;
 
         #intro{
             border: 2px red solid;
             text-align: center;
-            font-family: Commissioner, sans-serif;
+            font-family: "Commissioner", sans-serif;
             height: 200px;
     
             h1{
                 padding-top: 20px;
                 font-weight: 700;
                 font-size: 27px;
+            }
+
+            button{
+                font-family: "Commissioner", sans-serif;
+                font-weight: 500;
+                font-size: 19px;
+                padding: 12px 35px;
+                border: none;
+                border-radius: 28px;
             }
     
             .detail{
@@ -57,10 +66,13 @@ body{
             }
 
             .back{
-                background-color: $med-cyan;
+                background-color: $dark-cyan;
+                color: white;
             }
 
-            .book{}
+            .book{
+                color:hsl(176, 50%, 47%);
+            }
         }
 
         #goal{
