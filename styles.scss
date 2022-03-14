@@ -34,35 +34,39 @@ body{
     .column{
         display: flex;
         flex-direction: column;
-        border: 2px solid blue;
         margin: 0px 300px 0px 300px;
         font-family: "Commissioner", sans-serif;
 
         #intro{
+            position: relative;
+            bottom: 28px;
+            background-color: white;
             border: 2px red solid;
+            border-radius: 8px;
             text-align: center;
             font-family: "Commissioner", sans-serif;
-            height: 200px;
+            height: 270px;
     
             h1{
-                padding-top: 20px;
+                padding-top: 50px;
                 font-weight: 700;
-                font-size: 27px;
+                font-size: 28px;
+            }
+    
+            .detail{
+                color: $dark-gray;
+                padding: 22px;
+                font-size: 17px;
             }
 
             button{
                 font-family: "Commissioner", sans-serif;
                 font-weight: 500;
                 font-size: 19px;
+                margin-top: 40px;
                 padding: 12px 35px;
                 border: none;
                 border-radius: 28px;
-            }
-    
-            .detail{
-                color: $dark-gray;
-                padding-top: 15px;
-                padding-bottom: 15px; 
             }
 
             .back{
@@ -71,7 +75,7 @@ body{
             }
 
             .book{
-                color:hsl(176, 50%, 47%);
+                color: $dark-cyan;
             }
         }
 
