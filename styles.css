@@ -15,11 +15,17 @@ body .navbar {
   background-repeat: no-repeat;
 }
 
+body .navbar .logo {
+  position: relative;
+  top: 40px;
+  left: 55px;
+}
+
 body .navbar ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  padding-top: 35px;
+  padding-top: 20px;
   padding-right: 44px;
   -webkit-box-pack: end;
       -ms-flex-pack: end;
