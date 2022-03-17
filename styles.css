@@ -43,8 +43,13 @@ body .column {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  margin: 0px 350px 0px 350px;
+  margin: 0px 273px 0px 360px;
   font-family: "Commissioner", sans-serif;
+}
+
+body .column .logo-mastercraft {
+  position: relative;
+  bottom: 30px;
 }
 
 body .column #intro {
@@ -55,18 +60,18 @@ body .column #intro {
   border-radius: 8px;
   text-align: center;
   font-family: "Commissioner", sans-serif;
-  height: 270px;
+  height: 275px;
 }
 
 body .column #intro h1 {
-  padding-top: 50px;
+  padding-top: 5px;
   font-weight: 700;
   font-size: 30px;
 }
 
 body .column #intro .detail {
   color: #7a7a7a;
-  padding: 20px;
+  padding-top: 20px;
   font-size: 17.5px;
 }
 
@@ -74,7 +79,7 @@ body .column #intro button {
   font-family: "Commissioner", sans-serif;
   font-weight: 500;
   font-size: 19px;
-  margin-top: 40px;
+  margin-top: 55px;
   padding: 17px 37px;
   border: none;
   border-radius: 28px;
@@ -83,10 +88,14 @@ body .column #intro button {
 body .column #intro .back {
   background-color: #147b74;
   color: white;
+  position: relative;
+  right: 100px;
 }
 
 body .column #intro .book {
   color: #147b74;
+  position: relative;
+  left: 100px;
 }
 
 body .column #goal {

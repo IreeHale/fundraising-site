@@ -34,8 +34,13 @@ body{
     .column{
         display: flex;
         flex-direction: column;
-        margin: 0px 350px 0px 350px;
+        margin: 0px 273px 0px 360px;
         font-family: "Commissioner", sans-serif;
+
+        .logo-mastercraft{
+            position: relative;
+            bottom: 30px;
+        }
 
         #intro{
             position: relative;
@@ -45,17 +50,17 @@ body{
             border-radius: 8px;
             text-align: center;
             font-family: "Commissioner", sans-serif;
-            height: 270px;
+            height: 275px;
     
             h1{
-                padding-top: 50px;
+                padding-top: 5px;
                 font-weight: 700;
                 font-size: 30px;
             }
     
             .detail{
                 color: $dark-gray;
-                padding: 20px;
+                padding-top: 20px;
                 font-size: 17.5px;
             }
 
@@ -63,7 +68,7 @@ body{
                 font-family: "Commissioner", sans-serif;
                 font-weight: 500;
                 font-size: 19px;
-                margin-top: 40px;
+                margin-top: 55px;
                 padding: 17px 37px;
                 border: none;
                 border-radius: 28px;
@@ -72,10 +77,14 @@ body{
             .back{
                 background-color: $dark-cyan;
                 color: white;
+                position: relative;
+                right: 100px;
             }
 
             .book{
                 color: $dark-cyan;
+                position: relative;
+                left: 100px;
             }
         }
 
