@@ -87,19 +87,31 @@ body{
                 background-color: $dark-cyan;
                 color: white;
                 position: relative;
-                right: 100px;
-                overflow: hidden;
+                right: 150px;
             }
 
             .book{
                 color: $dark-cyan;
                 position: relative;
                 left: 100px;
+                padding-left: 40px;
+            }
+
+            .bookmark{
+                position: relative;
+                top: 19px;
+                left: 360px;
+                z-index: 1
             }
         }
 
         #goal{
             border: blue solid 2px;
+
+            b{
+                font-weight: bold;
+            }
+
         }
     }   
 }

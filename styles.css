@@ -98,18 +98,29 @@ body .column #intro .back {
   background-color: #147b74;
   color: white;
   position: relative;
-  right: 100px;
-  overflow: hidden;
+  right: 150px;
 }
 
 body .column #intro .book {
   color: #147b74;
   position: relative;
   left: 100px;
+  padding-left: 40px;
+}
+
+body .column #intro .bookmark {
+  position: relative;
+  top: 19px;
+  left: 360px;
+  z-index: 1;
 }
 
 body .column #goal {
   border: blue solid 2px;
+}
+
+body .column #goal b {
+  font-weight: bold;
 }
 
 @media (min-width: 1440px) {
