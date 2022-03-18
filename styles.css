@@ -5,6 +5,7 @@ body {
   margin: 0px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body .navbar {
@@ -13,11 +14,12 @@ body .navbar {
   background: url("./images/image-hero-desktop.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 body .navbar .logo {
   position: relative;
-  top: 40px;
+  top: 50px;
   left: 55px;
 }
 
@@ -51,6 +53,7 @@ body .column {
           flex-direction: column;
   margin: 0px 273px 0px 360px;
   font-family: "Commissioner", sans-serif;
+  z-index: 1;
 }
 
 body .column .logo-mastercraft {
@@ -96,6 +99,7 @@ body .column #intro .back {
   color: white;
   position: relative;
   right: 100px;
+  overflow: hidden;
 }
 
 body .column #intro .book {
@@ -106,5 +110,18 @@ body .column #intro .book {
 
 body .column #goal {
   border: blue solid 2px;
+}
+
+@media (min-width: 1440px) {
+  .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px 360px 0px 360px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
