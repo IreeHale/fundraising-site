@@ -1,151 +1,45 @@
 /* Primary colors*/
 /*Secondary Colors*/
-body {
-  padding: 0px;
-  margin: 0px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-  scroll-behavior: smooth;
-}
-
-body .navbar {
-  height: 400px;
-  color: white;
-  background: url("./images/image-hero-desktop.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  overflow: hidden;
-}
-
-body .navbar .logo {
-  position: relative;
-  top: 50px;
-  left: 55px;
-}
-
-body .navbar ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding-top: 20px;
-  padding-right: 44px;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: flex-end;
-}
-
-body .navbar li {
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  padding: 10px;
-  font-family: "Commissioner", sans-serif;
-}
-
-body .column {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  margin: 0px 273px 0px 360px;
-  font-family: "Commissioner", sans-serif;
-  z-index: 1;
-}
-
-body .column .logo-mastercraft {
-  position: relative;
-  bottom: 30px;
-}
-
-body .column #intro {
-  position: relative;
-  bottom: 88px;
-  background-color: white;
-  border: 2px red solid;
-  border-radius: 8px;
-  text-align: center;
-  font-family: "Commissioner", sans-serif;
-  height: 275px;
-}
-
-body .column #intro h1 {
-  padding-top: 5px;
-  font-weight: 700;
-  font-size: 30px;
-}
-
-body .column #intro .detail {
-  color: #7a7a7a;
-  padding-top: 20px;
-  font-size: 17.5px;
-}
-
-body .column #intro button {
-  font-family: "Commissioner", sans-serif;
-  font-weight: 500;
-  font-size: 19px;
-  margin-top: 45px;
-  padding: 17px 37px;
-  border: none;
-  border-radius: 28px;
-}
-
-body .column #intro .back {
-  background-color: #147b74;
-  color: white;
-  position: relative;
-  right: 150px;
-}
-
-body .column #intro .book {
-  color: #147b74;
-  position: relative;
-  left: 105px;
-  padding-left: 49px;
-}
-
-body .column #intro .bookmark {
-  position: relative;
-  top: 19px;
-  left: 370px;
-  z-index: 1;
-}
-
-body .column #goal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  position: relative;
-  bottom: 68px;
-  height: 100px;
-  border: blue solid 2px;
-  border-radius: 5px;
-  background-color: white;
-  font-size: 30px;
-}
-
-body .column #goal .money:nth-child(1) {
-  border-right: black solid 2px;
-}
-
-body .column #goal .money:nth-child(2) {
-  border-right: black solid 2px;
-}
-
-body .column #goal b {
-  font-weight: bold;
-}
-
-@media (min-width: 1440px) {
-  .column {
+@media (max-width: 1440px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    scroll-behavior: smooth;
+  }
+  body .navbar {
+    height: 400px;
+    color: white;
+    background: url("./images/image-hero-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  body .navbar .logo {
+    position: relative;
+    top: 45px;
+    left: 55px;
+  }
+  body .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 44px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body .navbar li {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 10px;
+    font-family: "Commissioner", sans-serif;
+  }
+  body .column {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -153,7 +47,83 @@ body .column #goal b {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 0px 360px 0px 360px;
+    margin: 0px 275px 0px 360px;
+  }
+  body .column .logo-mastercraft {
+    position: relative;
+    bottom: 30px;
+  }
+  body .column #intro {
+    position: relative;
+    bottom: 88px;
+    background-color: white;
+    border: 2px red solid;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Commissioner", sans-serif;
+    height: 275px;
+  }
+  body .column #intro h1 {
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  body .column #intro .detail {
+    color: #7a7a7a;
+    padding-top: 20px;
+    font-size: 17.5px;
+  }
+  body .column #intro button {
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 47px;
+    padding: 17px 37px;
+    border: none;
+    border-radius: 28px;
+  }
+  body .column #intro .back {
+    background-color: #147b74;
+    color: white;
+    position: relative;
+    right: 150px;
+  }
+  body .column #intro .book {
+    color: #147b74;
+    position: relative;
+    left: 85px;
+    padding-left: 49px;
+  }
+  body .column #intro .bookmark {
+    position: relative;
+    top: 19px;
+    left: 349px;
+    z-index: 1;
+  }
+  body .column #goal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    bottom: 68px;
+    height: 100px;
+    border: blue solid 2px;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 30px;
+  }
+  body .column #goal .money:nth-child(1) {
+    border-right: black solid 2px;
+  }
+  body .column #goal .money:nth-child(2) {
+    border-right: black solid 2px;
+  }
+  body .column #goal b {
+    font-weight: bold;
   }
 }
 /*# sourceMappingURL=styles.css.map */
