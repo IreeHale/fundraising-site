@@ -88,7 +88,7 @@ body .column #intro button {
   font-family: "Commissioner", sans-serif;
   font-weight: 500;
   font-size: 19px;
-  margin-top: 55px;
+  margin-top: 45px;
   padding: 17px 37px;
   border: none;
   border-radius: 28px;
@@ -104,22 +104,30 @@ body .column #intro .back {
 body .column #intro .book {
   color: #147b74;
   position: relative;
-  left: 100px;
-  padding-left: 40px;
+  left: 105px;
+  padding-left: 49px;
 }
 
 body .column #intro .bookmark {
   position: relative;
   top: 19px;
-  left: 360px;
+  left: 370px;
   z-index: 1;
 }
 
 body .column #goal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
   position: relative;
   bottom: 68px;
   border: blue solid 2px;
   border-radius: 5px;
+  background-color: white;
 }
 
 body .column #goal b {

@@ -77,7 +77,7 @@ body{
                 font-family: "Commissioner", sans-serif;
                 font-weight: 500;
                 font-size: 19px;
-                margin-top: 55px;
+                margin-top: 45px;
                 padding: 17px 37px;
                 border: none;
                 border-radius: 28px;
@@ -93,23 +93,26 @@ body{
             .book{
                 color: $dark-cyan;
                 position: relative;
-                left: 100px;
-                padding-left: 40px;
+                left: 105px;
+                padding-left: 49px;
             }
 
             .bookmark{
                 position: relative;
                 top: 19px;
-                left: 360px;
+                left: 370px;
                 z-index: 1
             }
         }
 
         #goal{
+            display: flex;
+            flex-direction: row;
             position: relative;
             bottom: 68px;
             border: blue solid 2px;
             border-radius: 5px;
+            background-color: white;
 
             b{
                 font-weight: bold;
