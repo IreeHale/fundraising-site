@@ -117,7 +117,7 @@ body .column #intro .bookmark {
 
 body .column #goal {
   position: relative;
-  bottom: 72px;
+  bottom: 68px;
   border: blue solid 2px;
   border-radius: 5px;
 }
