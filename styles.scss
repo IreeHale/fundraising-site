@@ -116,6 +116,14 @@ body{
             background-color: white;
             font-size: 30px;
 
+            .money:nth-child(1){
+                border-right: black solid 2px;
+            }
+
+            .money:nth-child(2){
+                border-right: black solid 2px;
+            }
+
             b{
                 font-weight: bold;
             }

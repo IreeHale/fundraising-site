@@ -132,6 +132,14 @@ body .column #goal {
   font-size: 30px;
 }
 
+body .column #goal .money:nth-child(1) {
+  border-right: black solid 2px;
+}
+
+body .column #goal .money:nth-child(2) {
+  border-right: black solid 2px;
+}
+
 body .column #goal b {
   font-weight: bold;
 }
