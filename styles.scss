@@ -114,6 +114,10 @@ $dark-gray: hsl(0, 0%, 48%);
                 border-radius: 5px;
                 background-color: white;
                 font-size: 30px;
+
+                .money{
+                    padding:  10px 0px 0px 10px;
+                }
     
                 .money:nth-child(1){
                     border-right: black solid 2px;

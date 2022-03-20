@@ -116,6 +116,9 @@
     background-color: white;
     font-size: 30px;
   }
+  body .column #goal .money {
+    padding: 10px 0px 0px 10px;
+  }
   body .column #goal .money:nth-child(1) {
     border-right: black solid 2px;
   }
