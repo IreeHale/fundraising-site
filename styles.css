@@ -110,20 +110,25 @@
             flex-direction: row;
     position: relative;
     bottom: 68px;
-    height: 100px;
+    height: 110px;
     border: blue solid 2px;
     border-radius: 5px;
     background-color: white;
     font-size: 30px;
+    font-family: "Commissioner", sans-serif;
   }
   body .column #goal .money {
-    padding: 10px 0px 0px 10px;
+    padding: 20px 0px 0px 10px;
   }
   body .column #goal .money:nth-child(1) {
     border-right: black solid 2px;
   }
   body .column #goal .money:nth-child(2) {
     border-right: black solid 2px;
+  }
+  body .column #goal .info {
+    font-size: 16px;
+    color: #7a7a7a;
   }
   body .column #goal b {
     font-weight: bold;
