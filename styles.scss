@@ -113,11 +113,11 @@ $dark-gray: hsl(0, 0%, 48%);
                 border: blue solid 2px;
                 border-radius: 5px;
                 background-color: white;
-                font-size: 30px;
                 font-family: "Commissioner", sans-serif;
 
                 .money{
-                    padding:  20px 0px 0px 10px;
+                    padding:  15px 0px 0px 10px;
+                    font-size: 32px;                    
                 }
     
                 .money:nth-child(1){
@@ -131,6 +131,7 @@ $dark-gray: hsl(0, 0%, 48%);
                 .info{
                     font-size: 16px;
                     color:hsl(0, 0%, 48%);
+                    font-size: medium;
                 }
     
                 b{
