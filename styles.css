@@ -112,7 +112,7 @@
             flex-direction: row;
     position: relative;
     bottom: 68px;
-    height: 120px;
+    height: 190px;
     border: blue solid 2px;
     border-radius: 5px;
     background-color: white;
@@ -124,11 +124,11 @@
   }
   body .column #goal .money:nth-child(1) {
     border-right: gray solid 0.5px;
-    margin: 18px 0px 20px 0px;
+    margin: 18px 0px 90px 0px;
   }
   body .column #goal .money:nth-child(2) {
     border-right: gray solid 0.5px;
-    margin: 15px 0px 20px 0px;
+    margin: 18px 0px 90px 0px;
   }
   body .column #goal .money:nth-child(3) {
     padding-top: 32px;
@@ -139,6 +139,16 @@
   }
   body .column #goal b {
     font-weight: bold;
+  }
+  body .column .amount {
+    position: relative;
+    bottom: 90px;
+    height: 24px;
+    width: 90%;
+    border: blue solid 2px;
+  }
+  body .column #status-bar {
+    border: red solid 2px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
