@@ -58,7 +58,6 @@
     position: relative;
     bottom: 88px;
     background-color: white;
-    border: 2px red solid;
     border-radius: 8px;
     text-align: center;
     font-family: "Commissioner", sans-serif;
@@ -113,9 +112,8 @@
     position: relative;
     bottom: 68px;
     height: 190px;
-    border: blue solid 2px;
     border-radius: 5px;
-    background-color: white;
+    background-color: whitesmoke;
     font-family: "Commissioner", sans-serif;
   }
   body .column #goal .money {
@@ -142,13 +140,19 @@
   }
   body .column .amount {
     position: relative;
-    bottom: 90px;
-    height: 24px;
+    bottom: 115px;
+    left: 30px;
+    border-radius: 10px;
+    height: 10px;
     width: 90%;
-    border: blue solid 2px;
+    background-color: white;
+    border: 1px solid #7a7a7a;
   }
   body .column #status-bar {
-    border: red solid 2px;
+    background-color: #147b74;
+    width: 80%;
+    height: 10px;
+    border-radius: 10px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
