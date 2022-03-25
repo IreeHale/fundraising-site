@@ -112,7 +112,7 @@ $dark-gray: hsl(0, 0%, 48%);
                 bottom: 68px;
                 height: 190px;
                 border-radius: 5px;
-                background-color: whitesmoke;
+                background-color: white;
                 font-family: "Commissioner", sans-serif;
 
                 .money{
@@ -162,6 +162,13 @@ $dark-gray: hsl(0, 0%, 48%);
                 width: 80%;
                 height: 10px;
                 border-radius: 10px;
+            }
+
+            #about-section{
+                border: 2px solid red;
+                border-radius: 5px;
+                position: relative;
+                bottom: 55px;
             }
         }
     }

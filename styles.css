@@ -113,7 +113,7 @@
     bottom: 68px;
     height: 190px;
     border-radius: 5px;
-    background-color: whitesmoke;
+    background-color: white;
     font-family: "Commissioner", sans-serif;
   }
   body .column #goal .money {
@@ -153,6 +153,12 @@
     width: 80%;
     height: 10px;
     border-radius: 10px;
+  }
+  body .column #about-section {
+    border: 2px solid red;
+    border-radius: 5px;
+    position: relative;
+    bottom: 55px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
