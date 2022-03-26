@@ -166,7 +166,7 @@ $dark-gray: hsl(0, 0%, 48%);
 
             #about-section{
                 border: 2px solid red;
-                height : 400px;
+                height : 480px;
                 border-radius: 5px;
                 position: relative;
                 bottom: 55px;
@@ -182,6 +182,11 @@ $dark-gray: hsl(0, 0%, 48%);
 
                 p{
                     color: $dark-gray;
+                    line-height: 35px;
+                }
+
+                p:nth-child(3){
+                    padding-top: 20px;
                 }
             }
         }
