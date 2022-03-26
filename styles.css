@@ -167,6 +167,10 @@
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
+    line-height: 20px;
+  }
+  body .column #about-section p {
+    color: #7a7a7a;
   }
 }
 /*# sourceMappingURL=styles.css.map */

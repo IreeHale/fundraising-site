@@ -177,6 +177,11 @@ $dark-gray: hsl(0, 0%, 48%);
                     font-size: 20px;
                     font-weight: 600;
                     margin-bottom: 20px;
+                    line-height: 20px;
+                }
+
+                p{
+                    color: $dark-gray;
                 }
             }
         }
