@@ -174,7 +174,7 @@
     line-height: 35px;
   }
   body .column #about-section p:nth-child(3) {
-    padding-top: 20px;
+    padding: 20px 0px 20px 0px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
