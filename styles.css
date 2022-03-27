@@ -156,7 +156,7 @@
   }
   body .column #about-section {
     border: 2px solid red;
-    height: 480px;
+    height: 790px;
     border-radius: 5px;
     position: relative;
     bottom: 55px;
@@ -175,6 +175,13 @@
   }
   body .column #about-section p:nth-child(3) {
     padding: 20px 0px 20px 0px;
+  }
+  body .column #about-section .Pledge {
+    border: 1px solid #7a7a7a;
+    padding: 15px;
+  }
+  body .column #about-section .Pledge p {
+    color: black;
   }
 }
 /*# sourceMappingURL=styles.css.map */
