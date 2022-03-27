@@ -178,10 +178,9 @@
   }
   body .column #about-section .Pledge {
     border: 1px solid #7a7a7a;
-    padding: 15px;
-  }
-  body .column #about-section .Pledge p {
-    color: black;
+    padding: 20px;
+    margin: p;
+    margin-color: black;
   }
 }
 /*# sourceMappingURL=styles.css.map */
