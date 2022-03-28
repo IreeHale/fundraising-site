@@ -156,7 +156,7 @@
   }
   body .column #about-section {
     border: 2px solid red;
-    height: 790px;
+    height: 1200px;
     border-radius: 5px;
     position: relative;
     bottom: 55px;
@@ -171,16 +171,23 @@
   }
   body .column #about-section p {
     color: #7a7a7a;
-    line-height: 35px;
+    line-height: 32px;
   }
   body .column #about-section p:nth-child(3) {
-    padding: 20px 0px 20px 0px;
+    padding: 15px 0px 35px 0px;
   }
   body .column #about-section .Pledge {
     border: 1px solid #7a7a7a;
+    border-radius: 8px;
     padding: 20px;
-    margin: p;
-    margin-color: black;
+    height: 190px;
+    margin-top: 30px;
+  }
+  body .column #about-section .Pledge h3 {
+    font-weight: bold;
+  }
+  body .column #about-section .Pledge p {
+    color: black;
   }
 }
 /*# sourceMappingURL=styles.css.map */

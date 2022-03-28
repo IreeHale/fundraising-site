@@ -166,7 +166,7 @@ $dark-gray: hsl(0, 0%, 48%);
 
             #about-section{
                 border: 2px solid red;
-                height : 870px;
+                height : 1200px;
                 border-radius: 5px;
                 position: relative;
                 bottom: 55px;
@@ -182,18 +182,24 @@ $dark-gray: hsl(0, 0%, 48%);
 
                 p{
                     color: $dark-gray;
-                    line-height: 35px;
+                    line-height: 32px;
                 }
 
                 p:nth-child(3){
-                    padding: 20px 0px 20px 0px;
+                    padding: 15px 0px 35px 0px;
                 }
 
 
                 .Pledge{
                     border: 1px solid $dark-gray;
+                    border-radius: 8px; 
                     padding: 20px;
-                    margin-top: 10px;
+                    height: 190px;
+                    margin-top: 30px;
+
+                    h3{
+                        font-weight: bold;
+                    }
 
                     p{
                         color: black;
