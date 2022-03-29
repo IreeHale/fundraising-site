@@ -186,8 +186,18 @@
   body .column #about-section .Pledge h3 {
     font-weight: bold;
   }
-  body .column #about-section .Pledge p {
-    color: black;
+  body .column #about-section .Pledge .extra {
+    color: #7a7a7a;
+  }
+  body .column #about-section .Pledge .reward {
+    padding: 13px 22px 13px 22px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
   }
 }
 /*# sourceMappingURL=styles.css.map */

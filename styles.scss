@@ -201,8 +201,19 @@ $dark-gray: hsl(0, 0%, 48%);
                         font-weight: bold;
                     }
 
-                    p{
-                        color: black;
+                    .extra{
+                        color: $dark-gray;
+                    }
+
+                    .reward{
+                        padding: 13px 22px 13px 22px;
+                        border: none;
+                        border-radius: 28px;
+                        background-color: $dark-cyan;
+                        font-family: "Commissioner", sans-serif;
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: white;
                     }
                 }
 
