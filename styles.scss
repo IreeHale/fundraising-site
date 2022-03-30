@@ -30,7 +30,7 @@ $dark-gray: hsl(0, 0%, 48%);
             ul{
                 display: flex;
                 padding-top: 20px;
-                padding-right: 44px;
+                padding-right: 35px;
                 justify-content: flex-end;
             }
     
@@ -198,6 +198,9 @@ $dark-gray: hsl(0, 0%, 48%);
                     margin-bottom: 30px;
 
                     h3{
+                        position: relative;
+                        top: 5px;
+                        font-size: 19px;
                         font-weight: bold;
                     }
 
@@ -215,9 +218,9 @@ $dark-gray: hsl(0, 0%, 48%);
                     b{
                         font-weight: bold;
                         color: black;
-                        font-size: 1.8em;
+                        font-size: 1.7em;
                         position: relative;
-                        top: 12px;
+                        top: 2px;
                     }
 
                     .reward{

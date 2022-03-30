@@ -27,7 +27,7 @@
     display: -ms-flexbox;
     display: flex;
     padding-top: 20px;
-    padding-right: 44px;
+    padding-right: 35px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -184,6 +184,9 @@
     margin-bottom: 30px;
   }
   body .column #about-section .Pledge h3 {
+    position: relative;
+    top: 5px;
+    font-size: 19px;
     font-weight: bold;
   }
   body .column #about-section .Pledge .extra {
@@ -198,9 +201,9 @@
   body .column #about-section .Pledge b {
     font-weight: bold;
     color: black;
-    font-size: 1.8em;
+    font-size: 1.7em;
     position: relative;
-    top: 12px;
+    top: 2px;
   }
   body .column #about-section .Pledge .reward {
     padding: 13px 22px 13px 22px;
