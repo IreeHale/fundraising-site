@@ -155,13 +155,13 @@
     border-radius: 10px;
   }
   body .column #about-section {
-    border: 2px solid red;
-    height: 1200px;
+    height: 1050px;
     border-radius: 5px;
     position: relative;
     bottom: 55px;
+    padding: 45px;
     font-family: "Commissioner", sans-serif;
-    padding: 30px;
+    background-color: white;
   }
   body .column #about-section .about {
     font-size: 20px;
@@ -181,13 +181,26 @@
     border-radius: 8px;
     padding: 20px;
     height: 190px;
-    margin-top: 30px;
+    margin-bottom: 30px;
   }
   body .column #about-section .Pledge h3 {
     font-weight: bold;
   }
   body .column #about-section .Pledge .extra {
     color: #7a7a7a;
+  }
+  body .column #about-section .Pledge span {
+    position: relative;
+    left: 420px;
+    bottom: 12px;
+    color: #3cb4ac;
+  }
+  body .column #about-section .Pledge b {
+    font-weight: bold;
+    color: black;
+    font-size: 1.8em;
+    position: relative;
+    top: 12px;
   }
   body .column #about-section .Pledge .reward {
     padding: 13px 22px 13px 22px;
@@ -198,6 +211,9 @@
     font-weight: 500;
     font-size: 15px;
     color: white;
+    position: relative;
+    left: 420px;
+    bottom: 40px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

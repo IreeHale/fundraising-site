@@ -165,13 +165,13 @@ $dark-gray: hsl(0, 0%, 48%);
             }
 
             #about-section{
-                border: 2px solid red;
-                height : 1200px;
+                height : 1050px;
                 border-radius: 5px;
                 position: relative;
                 bottom: 55px;
+                padding: 45px;
                 font-family: "Commissioner", sans-serif;
-                padding: 30px;
+                background-color: white;
 
                 .about{
                     font-size: 20px;
@@ -195,7 +195,7 @@ $dark-gray: hsl(0, 0%, 48%);
                     border-radius: 8px; 
                     padding: 20px;
                     height: 190px;
-                    margin-top: 30px;
+                    margin-bottom: 30px;
 
                     h3{
                         font-weight: bold;
@@ -203,6 +203,21 @@ $dark-gray: hsl(0, 0%, 48%);
 
                     .extra{
                         color: $dark-gray;
+                    }
+
+                    span{
+                        position: relative;
+                        left: 420px;
+                        bottom: 12px;
+                        color: $med-cyan;
+                    }
+
+                    b{
+                        font-weight: bold;
+                        color: black;
+                        font-size: 1.8em;
+                        position: relative;
+                        top: 12px;
                     }
 
                     .reward{
@@ -214,6 +229,9 @@ $dark-gray: hsl(0, 0%, 48%);
                         font-weight: 500;
                         font-size: 15px;
                         color: white;
+                        position: relative;
+                        left: 420px;
+                        bottom: 40px;
                     }
                 }   
             }
