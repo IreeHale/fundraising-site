@@ -152,8 +152,7 @@ $dark-gray: hsl(0, 0%, 48%);
                 border-radius: 10px;
                 height: 10px;
                 width: 90%;
-                background-color: white;
-                border: 1px solid $dark-gray;
+                background-color: whitesmoke;
             }
 
             #status-bar{
@@ -191,7 +190,7 @@ $dark-gray: hsl(0, 0%, 48%);
 
 
                 .Pledge{
-                    border: 1px solid $dark-gray;
+                    border: 1px solid lightgray;
                     border-radius: 8px; 
                     padding: 20px;
                     height: 190px;
