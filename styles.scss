@@ -237,6 +237,10 @@ $dark-gray: hsl(0, 0%, 48%);
                     }
                 }   
             }
+
+            .modal-container{
+                border: red solid 2px;
+            }
         }
     }
 }

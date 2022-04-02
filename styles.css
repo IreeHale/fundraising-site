@@ -217,5 +217,8 @@
     left: 420px;
     bottom: 40px;
   }
+  body .column .modal-container {
+    border: red solid 2px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
