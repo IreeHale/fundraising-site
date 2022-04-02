@@ -217,8 +217,12 @@
     left: 420px;
     bottom: 40px;
   }
-  body .column .modal-container {
+  body .modal-container {
+    background-color: red;
     border: red solid 2px;
+  }
+  body .modal-container .modal-content {
+    background-color: white;
   }
 }
 /*# sourceMappingURL=styles.css.map */
