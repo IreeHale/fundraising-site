@@ -218,11 +218,20 @@
     bottom: 40px;
   }
   body .modal-container {
-    background-color: red;
-    border: red solid 2px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
   }
   body .modal-container .modal-content {
     background-color: white;
+    margin: 20% auto;
+    padding: 20px;
+    width: 55%;
   }
 }
 /*# sourceMappingURL=styles.css.map */
