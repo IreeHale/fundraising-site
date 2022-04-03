@@ -44,7 +44,7 @@ $dark-gray: hsl(0, 0%, 48%);
         .column{
             display: flex;
             flex-direction: column;
-            margin: 0px 275px 0px 360px;
+            margin: 0px 260px 0px 360px;
 
             .logo-mastercraft{
                 position: relative;
@@ -244,7 +244,7 @@ $dark-gray: hsl(0, 0%, 48%);
             position: fixed;
             z-index: 1;
             top: 0;
-            left: 0;
+            left: 0px;
             height: 100%;
             width: 100%;
             overflow: auto;
@@ -254,8 +254,18 @@ $dark-gray: hsl(0, 0%, 48%);
             .modal-content{
                 background-color: white;
                 margin: 20% auto;
-                padding: 20px;
-                width: 55%;
+                padding: 25px;
+                width: 50%;
+                height: 80%;
+                font-family: "Commissioner", sans-serif;
+                line-height: 30px;
+
+                h1{
+                    font-weight: bold;
+                    padding-bottom: 20px;
+                    font-size: 30px;
+
+                }
             }
         }
     }
