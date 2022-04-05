@@ -232,14 +232,14 @@
     margin: 20% auto;
     padding: 25px;
     width: 50%;
-    height: 80%;
+    height: 90%;
     font-family: "Commissioner", sans-serif;
     line-height: 30px;
   }
   body .modal-container .modal-content h1 {
     font-weight: bold;
     padding-bottom: 20px;
-    font-size: 30px;
+    font-size: 22px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
