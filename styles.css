@@ -252,6 +252,8 @@
   }
   body .modal-container .modal-content .pledge b {
     font-weight: bold;
+    color: black;
+    font-size: 19px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
