@@ -265,6 +265,7 @@ $dark-gray: hsl(0, 0%, 48%);
                     font-size: 35px;
                     bottom: 55px;
                     left: 630px;
+                    color: $dark-gray;
                 }
 
                 h1{
@@ -275,10 +276,9 @@ $dark-gray: hsl(0, 0%, 48%);
 
                 }
 
-                p{
+                .tell{
                     color: $dark-gray;
-                    padding-left: 15px;
-                    padding-bottom: 15px;
+                    padding: 0px 0px 15px 15px;
                 }
 
                 .pledge{
@@ -291,6 +291,15 @@ $dark-gray: hsl(0, 0%, 48%);
                         font-weight : bold;
                         color: black;
                         font-size: 19px;
+                    }
+
+                    h2{
+                        padding-left: 15px;
+                        font-weight : 600;
+                    }
+
+                    .part{
+                        color: $dark-gray;
                     }
                 }
             }

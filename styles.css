@@ -241,6 +241,7 @@
     font-size: 35px;
     bottom: 55px;
     left: 630px;
+    color: #7a7a7a;
   }
   body .modal-container .modal-content h1 {
     font-weight: bold;
@@ -248,10 +249,9 @@
     padding-left: 15px;
     font-size: 22px;
   }
-  body .modal-container .modal-content p {
+  body .modal-container .modal-content .tell {
     color: #7a7a7a;
-    padding-left: 15px;
-    padding-bottom: 15px;
+    padding: 0px 0px 15px 15px;
   }
   body .modal-container .modal-content .pledge {
     border: 2px solid lightgray;
@@ -263,6 +263,13 @@
     font-weight: bold;
     color: black;
     font-size: 19px;
+  }
+  body .modal-container .modal-content .pledge h2 {
+    padding-left: 15px;
+    font-weight: 600;
+  }
+  body .modal-container .modal-content .pledge .part {
+    color: #7a7a7a;
   }
 }
 /*# sourceMappingURL=styles.css.map */
