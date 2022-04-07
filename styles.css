@@ -19,7 +19,7 @@
   }
   body .navbar .logo {
     position: relative;
-    top: 45px;
+    top: 35px;
     left: 55px;
   }
   body .navbar ul {
@@ -27,7 +27,7 @@
     display: -ms-flexbox;
     display: flex;
     padding-top: 20px;
-    padding-right: 35px;
+    padding-right: 45px;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
             justify-content: flex-end;
@@ -37,7 +37,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
-    padding: 10px;
+    padding: 0px 4px 0px 30px;
     font-family: "Commissioner", sans-serif;
   }
   body .column {
@@ -232,20 +232,21 @@
     margin: 20% auto;
     padding: 30px;
     width: 50%;
-    height: 150%;
+    height: 170%;
     font-family: "Commissioner", sans-serif;
     line-height: 30px;
   }
   body .modal-container .modal-content .close {
     position: relative;
-    font-size: 35px;
+    font-size: 27px;
+    font-weight: bold;
     bottom: 55px;
-    left: 630px;
+    left: 645px;
     color: #7a7a7a;
   }
   body .modal-container .modal-content h1 {
     font-weight: bold;
-    padding-top: 20px;
+    padding-top: 10px;
     padding-left: 15px;
     font-size: 22px;
   }
@@ -256,7 +257,7 @@
   body .modal-container .modal-content .pledge {
     border: 2px solid lightgray;
     margin: 15px;
-    padding: 15px;
+    padding: 25px;
     border-radius: 12px;
   }
   body .modal-container .modal-content .pledge b {
@@ -265,11 +266,29 @@
     font-size: 19px;
   }
   body .modal-container .modal-content .pledge h2 {
-    padding-left: 15px;
+    padding-left: 4px;
     font-weight: 600;
   }
   body .modal-container .modal-content .pledge .part {
     color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge .mini-1 {
+    position: relative;
+    left: 130px;
+    bottom: 30px;
+    color: #3cb4ac;
+  }
+  body .modal-container .modal-content .pledge .mini-2 {
+    position: relative;
+    left: 170px;
+    bottom: 30px;
+    color: #3cb4ac;
+  }
+  body .modal-container .modal-content .pledge .mini-3 {
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+    color: #3cb4ac;
   }
 }
 /*# sourceMappingURL=styles.css.map */
