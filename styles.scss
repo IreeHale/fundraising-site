@@ -256,9 +256,10 @@ $dark-gray: hsl(0, 0%, 48%);
                 margin: 20% auto;
                 padding: 30px;
                 width: 50%;
-                height: 170%;
+                height: 180%;
                 font-family: "Commissioner", sans-serif;
                 line-height: 30px;
+                border-radius: 20px;
 
                 .close{
                     position: relative;
@@ -292,6 +293,7 @@ $dark-gray: hsl(0, 0%, 48%);
                         font-weight : bold;
                         color: black;
                         font-size: 19px;
+                        padding-right: 6px;
                     }
 
                     h2{
@@ -322,6 +324,13 @@ $dark-gray: hsl(0, 0%, 48%);
                         left: 210px;
                         bottom: 30px;
                         color: $med-cyan;
+                    }
+
+                    .left{
+                        position: relative;
+                        bottom: 120px;
+                        left: 535px;
+                        color: $dark-gray;
                     }
                 }
             }
