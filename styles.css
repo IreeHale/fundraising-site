@@ -258,7 +258,7 @@
   body .modal-container .modal-content .pledge {
     border: 2px solid lightgray;
     margin: 15px;
-    padding: 0px 20px 0px 5px;
+    padding: 0px 8px 11px 65px;
     border-radius: 12px;
   }
   body .modal-container .modal-content .pledge b {
@@ -268,11 +268,7 @@
     padding-right: 6px;
   }
   body .modal-container .modal-content .pledge h2 {
-    padding-left: 4px;
     font-weight: 600;
-  }
-  body .modal-container .modal-content .pledge .part {
-    color: #7a7a7a;
   }
   body .modal-container .modal-content .pledge .mini-1 {
     position: relative;
@@ -295,15 +291,19 @@
   body .modal-container .modal-content .pledge .left {
     position: relative;
     bottom: 120px;
-    left: 490px;
+    left: 500px;
     color: #7a7a7a;
   }
   body .modal-container .modal-content .pledge .radio {
     position: relative;
-    right: 50px;
+    top: 33px;
+    right: 40px;
     height: 20px;
     width: 20px;
     cursor: pointer;
+  }
+  body .modal-container .modal-content .pledge .part {
+    color: #7a7a7a;
   }
 }
 /*# sourceMappingURL=styles.css.map */

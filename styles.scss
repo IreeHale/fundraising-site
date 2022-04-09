@@ -286,7 +286,7 @@ $dark-gray: hsl(0, 0%, 48%);
                 .pledge{
                     border: 2px solid lightgray;
                     margin: 15px;
-                    padding: 0px 20px 0px 5px;
+                    padding: 0px 8px 11px 65px;
                     border-radius: 12px;
 
                     b{
@@ -297,12 +297,7 @@ $dark-gray: hsl(0, 0%, 48%);
                     }
 
                     h2{
-                        padding-left: 4px;
                         font-weight : 600;
-                    }
-
-                    .part{
-                        color: $dark-gray;
                     }
 
                     .mini-1{
@@ -329,16 +324,21 @@ $dark-gray: hsl(0, 0%, 48%);
                     .left{
                         position: relative;
                         bottom: 120px;
-                        left: 490px;
+                        left: 500px;
                         color: $dark-gray;
                     }
 
                     .radio{
                         position: relative;
-                        right: 50px;
+                        top: 33px;
+                        right: 40px;
                         height: 20px;
                         width: 20px;
                         cursor: pointer;
+                    }
+
+                    .part{
+                        color: $dark-gray;
                     }
                 }
             }
