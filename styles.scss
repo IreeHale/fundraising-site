@@ -286,7 +286,7 @@ $dark-gray: hsl(0, 0%, 48%);
                 .pledge{
                     border: 2px solid lightgray;
                     margin: 15px;
-                    padding: 25px;
+                    padding: 0px 20px 0px 5px;
                     border-radius: 12px;
 
                     b{
@@ -331,6 +331,14 @@ $dark-gray: hsl(0, 0%, 48%);
                         bottom: 120px;
                         left: 490px;
                         color: $dark-gray;
+                    }
+
+                    .radio{
+                        position: relative;
+                        right: 50px;
+                        height: 20px;
+                        width: 20px;
+                        cursor: pointer;
                     }
                 }
             }

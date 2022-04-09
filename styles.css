@@ -258,7 +258,7 @@
   body .modal-container .modal-content .pledge {
     border: 2px solid lightgray;
     margin: 15px;
-    padding: 25px;
+    padding: 0px 20px 0px 5px;
     border-radius: 12px;
   }
   body .modal-container .modal-content .pledge b {
@@ -297,6 +297,13 @@
     bottom: 120px;
     left: 490px;
     color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge .radio {
+    position: relative;
+    right: 50px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=styles.css.map */
