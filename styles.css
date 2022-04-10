@@ -305,5 +305,10 @@
   body .modal-container .modal-content .pledge .part {
     color: #7a7a7a;
   }
+  body .modal-container .modal-content .pledge .amount {
+    border: black solid 2px;
+    position: relative;
+    width: 550px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

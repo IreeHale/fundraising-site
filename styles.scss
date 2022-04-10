@@ -340,6 +340,12 @@ $dark-gray: hsl(0, 0%, 48%);
                     .part{
                         color: $dark-gray;
                     }
+
+                    .amount{
+                        border: black solid 2px;
+                        position: relative;
+                        width: 550px;
+                    }
                 }
             }
         }
