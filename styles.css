@@ -308,7 +308,9 @@
   body .modal-container .modal-content .pledge .amount {
     border: black solid 2px;
     position: relative;
-    width: 550px;
+    right: 50px;
+    height: 70%;
+    width: 610px;
   }
 }
 /*# sourceMappingURL=styles.css.map */
