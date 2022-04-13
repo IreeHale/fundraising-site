@@ -310,7 +310,17 @@
     position: relative;
     right: 50px;
     height: 70%;
-    width: 610px;
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .modal-container .modal-content .pledge .amount h3 {
+    color: #7a7a7a;
   }
 }
 /*# sourceMappingURL=styles.css.map */
