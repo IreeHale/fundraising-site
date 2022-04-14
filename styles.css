@@ -305,12 +305,13 @@
   body .modal-container .modal-content .pledge .part {
     color: #7a7a7a;
   }
-  body .modal-container .modal-content .pledge .amount {
-    border: black solid 2px;
+  body .modal-container .modal-content .pledge .donation-amount {
+    border-top: #7a7a7a solid 1px;
     position: relative;
-    right: 50px;
-    height: 70%;
-    width: 112%;
+    right: 65px;
+    bottom: 15px;
+    height: 70px;
+    width: 114.5%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -319,7 +320,7 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  body .modal-container .modal-content .pledge .amount h3 {
+  body .modal-container .modal-content .pledge .donation-amount h3 {
     color: #7a7a7a;
   }
 }

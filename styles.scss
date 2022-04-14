@@ -340,18 +340,22 @@ $dark-gray: hsl(0, 0%, 48%);
                         color: $dark-gray;
                     }
 
-                    .amount{
-                        border: black solid 2px;
+                    .donation-amount{
+                        border-top: $dark-gray solid 1px;
                         position: relative;
-                        right: 50px;
-                        height: 70%;
-                        width: 112%;
+                        right: 65px;
+                        bottom: 15px;
+                        height: 70px;
+                        width: 114.5%;
                         display: flex;
                         flex-direction: row;
 
                         h3{
                             color: $dark-gray
                         }
+
+                        
+
                     }
                 }
             }
