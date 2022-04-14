@@ -311,7 +311,7 @@
     right: 65px;
     bottom: 15px;
     height: 70px;
-    width: 114.5%;
+    width: 114.9%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -322,6 +322,16 @@
   }
   body .modal-container .modal-content .pledge .donation-amount h3 {
     color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge .donation-amount .next {
+    position: relative;
+    height: 40px;
+    width: 90px;
+    border: none;
+    background-color: #147b74;
+    color: white;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
   }
 }
 /*# sourceMappingURL=styles.css.map */

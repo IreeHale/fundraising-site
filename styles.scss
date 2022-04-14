@@ -346,7 +346,7 @@ $dark-gray: hsl(0, 0%, 48%);
                         right: 65px;
                         bottom: 15px;
                         height: 70px;
-                        width: 114.5%;
+                        width: 114.9%;
                         display: flex;
                         flex-direction: row;
 
@@ -354,7 +354,16 @@ $dark-gray: hsl(0, 0%, 48%);
                             color: $dark-gray
                         }
 
-                        
+                        .next{
+                            position: relative;
+                            height: 40px;
+                            width: 90px;
+                            border: none;
+                            background-color: $dark-cyan;
+                            color: white;
+                            font-weight: bold;
+                            font-family: "Commissioner", sans-serif;
+                        }
 
                     }
                 }
