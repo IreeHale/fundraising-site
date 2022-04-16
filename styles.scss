@@ -284,7 +284,7 @@ $dark-gray: hsl(0, 0%, 48%);
 
                 .pledge{
                     border: 2px solid lightgray;
-                    margin: 15px;
+                    margin: 17px;
                     padding: 0px 20px 11px 65px;
                     border-radius: 12px;
 
@@ -362,19 +362,21 @@ $dark-gray: hsl(0, 0%, 48%);
                         }
 
                         #donation{
-                            height: 35px;
-                            width: 10%;
+                            height: 25px;
+                            width: 12%;
                             font-weight: bold;
                             font-family: "Commissioner", sans-serif;
                             border-radius: 28px;
                             border: solid 1px $dark-gray;
-                            padding: 10px;
+                            padding: 12px;
+                            text-align: center;
+                            margin: 24px 0px 0px 250px;
                         }
 
                         .next{
                             position: relative;
                             top: 25px;
-                            left: 130px;
+                            left: 25px;
                             height: 50px;
                             width: 100px;
                             border: none;
