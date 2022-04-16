@@ -363,10 +363,12 @@ $dark-gray: hsl(0, 0%, 48%);
 
                         #donation{
                             height: 35px;
+                            width: 10%;
                             font-weight: bold;
                             font-family: "Commissioner", sans-serif;
                             border-radius: 28px;
                             border: solid 1px $dark-gray;
+                            padding: 10px;
                         }
 
                         .next{
