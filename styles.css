@@ -330,6 +330,11 @@
     color: #7a7a7a;
     padding: 30px 0px 0px 15px;
   }
+  body .modal-container .modal-content .pledge .donation-amount #donation {
+    height: 35px;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
+  }
   body .modal-container .modal-content .pledge .donation-amount .next {
     position: relative;
     top: 25px;
