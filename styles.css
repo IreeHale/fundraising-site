@@ -258,7 +258,7 @@
   body .modal-container .modal-content .pledge {
     border: 2px solid lightgray;
     margin: 17px;
-    padding: 0px 20px 11px 65px;
+    padding: 0px 20px 15px 65px;
     border-radius: 12px;
   }
   body .modal-container .modal-content .pledge b {
@@ -294,7 +294,13 @@
     bottom: 30px;
     color: #3cb4ac;
   }
-  body .modal-container .modal-content .pledge .left {
+  body .modal-container .modal-content .pledge .left-1 {
+    position: relative;
+    bottom: 150px;
+    left: 492px;
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge .left-2 {
     position: relative;
     bottom: 120px;
     left: 492px;
@@ -316,7 +322,7 @@
     position: relative;
     right: 65px;
     bottom: 15px;
-    height: 70px;
+    height: 65px;
     width: 114.9%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -337,7 +343,8 @@
     font-family: "Commissioner", sans-serif;
     border-radius: 28px;
     border: solid 1px #7a7a7a;
-    padding: 12px;
+    padding: 11px;
+    font-size: 16px;
     text-align: center;
     margin: 24px 0px 0px 250px;
   }
@@ -354,6 +361,7 @@
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
     font-size: 16px;
+    cursor: pointer;
   }
 }
 /*# sourceMappingURL=styles.css.map */
