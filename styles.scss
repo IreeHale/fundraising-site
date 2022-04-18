@@ -400,6 +400,10 @@ $dark-gray: hsl(0, 0%, 48%);
 
                     }
                 }
+
+                .pledge:focus{
+                    border: solid 2px $med-cyan;
+                }
             }
         }
     }

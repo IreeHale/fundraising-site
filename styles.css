@@ -364,5 +364,8 @@
     font-size: 16px;
     cursor: pointer;
   }
+  body .modal-container .modal-content .pledge:active {
+    border: solid 2px #3cb4ac;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
