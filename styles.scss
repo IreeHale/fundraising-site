@@ -249,6 +249,7 @@ $dark-gray: hsl(0, 0%, 48%);
             width: 100%;
             overflow: auto;
             background-color: rgba( 0, 0, 0, 0.5 );
+            display: none;
 
 
             .modal-content{
@@ -404,6 +405,29 @@ $dark-gray: hsl(0, 0%, 48%);
                 .pledge:focus{
                     border: solid 2px $med-cyan;
                 }
+            }
+        }
+
+        .thankyou-container {
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+            background-color: rgba( 0, 0, 0, 0.5 );
+
+            .thankyou-content{
+                background-color: white;
+                margin: 20% auto;
+                padding: 30px;
+                width: 50%;
+                height: 50%;
+                font-family: "Commissioner", sans-serif;
+                line-height: 30px;
+                border-radius: 20px;
+                text-align: center;
             }
         }
     }
