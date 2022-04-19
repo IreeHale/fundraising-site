@@ -392,6 +392,7 @@
     text-align: center;
   }
   body .thankyou-container .thankyou-content .check {
+    margin-top: 20px;
     height: 25%;
     width: 20%;
   }
