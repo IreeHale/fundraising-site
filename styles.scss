@@ -419,13 +419,14 @@ $dark-gray: hsl(0, 0%, 48%);
             background-color: rgba( 0, 0, 0, 0.5 );
             font-family: "Commissioner", sans-serif;
             padding: 50px;
+            display: none;
 
             .thankyou-content{
                 background-color: white;
                 margin: 20% auto;
                 padding: 20px;
                 width: 35%;
-                height: 60%;
+                height: 65%;
                 font-family: "Commissioner", sans-serif;
                 line-height: 30px;
                 border-radius: 10px;
