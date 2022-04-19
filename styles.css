@@ -384,7 +384,7 @@
     background-color: white;
     margin: 20% auto;
     padding: 20px;
-    width: 40%;
+    width: 35%;
     height: 60%;
     font-family: "Commissioner", sans-serif;
     line-height: 30px;
@@ -400,10 +400,13 @@
     font-size: 1.5em;
     margin: 20px;
   }
+  body .thankyou-container .thankyou-content p {
+    color: #7a7a7a;
+  }
   body .thankyou-container .thankyou-content button {
     height: 50px;
-    width: 90px;
-    font-size: 16px;
+    width: 110px;
+    font-size: 15px;
     border-radius: 28px;
     margin-top: 25px;
     border: none;

@@ -424,7 +424,7 @@ $dark-gray: hsl(0, 0%, 48%);
                 background-color: white;
                 margin: 20% auto;
                 padding: 20px;
-                width: 40%;
+                width: 35%;
                 height: 60%;
                 font-family: "Commissioner", sans-serif;
                 line-height: 30px;
@@ -443,10 +443,14 @@ $dark-gray: hsl(0, 0%, 48%);
                     margin: 20px;
                 }
 
+                p{
+                    color: $dark-gray;
+                }
+
                 button{
                     height: 50px;
-                    width: 90px;
-                    font-size: 16px;
+                    width: 110px;
+                    font-size: 15px;
                     border-radius: 28px;
                     margin-top: 25px;
                     border: none;
