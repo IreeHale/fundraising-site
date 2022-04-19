@@ -417,17 +417,44 @@ $dark-gray: hsl(0, 0%, 48%);
             width: 100%;
             overflow: auto;
             background-color: rgba( 0, 0, 0, 0.5 );
+            font-family: "Commissioner", sans-serif;
+            padding: 50px;
 
             .thankyou-content{
                 background-color: white;
                 margin: 20% auto;
-                padding: 30px;
-                width: 50%;
-                height: 50%;
+                padding: 20px;
+                width: 40%;
+                height: 60%;
                 font-family: "Commissioner", sans-serif;
                 line-height: 30px;
-                border-radius: 20px;
+                border-radius: 10px;
                 text-align: center;
+
+
+                .check{
+                    height: 25%;
+                    width: 20%;
+                }
+
+                h2{
+                    font-weight: bold;
+                    font-size: 1.5em;
+                    margin: 20px;
+                }
+
+                button{
+                    height: 50px;
+                    width: 90px;
+                    font-size: 16px;
+                    border-radius: 28px;
+                    margin-top: 25px;
+                    border: none;
+                    background-color: $dark-cyan;
+                    color: white;
+                    font-weight: bold;
+                    font-family: "Commissioner", sans-serif;
+                }
             }
         }
     }
