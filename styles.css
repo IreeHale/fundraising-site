@@ -217,6 +217,12 @@
     left: 420px;
     bottom: 40px;
   }
+  body .column #about-section .Pledge .reward:hover {
+    background-color: #3cb4ac;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+  }
   body .modal-container {
     position: fixed;
     z-index: 1;

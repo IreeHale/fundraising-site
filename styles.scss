@@ -156,7 +156,6 @@ $dark-gray: hsl(0, 0%, 48%);
             }
 
             #status-bar{
-                
                 background-color: $dark-cyan;
                 width: 80%;
                 height: 10px;
@@ -235,7 +234,13 @@ $dark-gray: hsl(0, 0%, 48%);
                         left: 420px;
                         bottom: 40px;
                     }
-                }   
+
+                    .reward:hover{
+                        background-color: $med-cyan;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                    }
+                }
             }
         }
 
