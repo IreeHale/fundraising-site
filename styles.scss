@@ -254,7 +254,6 @@ $dark-gray: hsl(0, 0%, 48%);
             width: 100%;
             overflow: auto;
             background-color: rgba( 0, 0, 0, 0.5 );
-            display: none;
 
 
             .modal-content{
@@ -273,7 +272,13 @@ $dark-gray: hsl(0, 0%, 48%);
                     font-weight: bold;
                     bottom: 55px;
                     left: 645px;
+                    cursor: pointer;
                     color: $dark-gray;
+                }
+
+                .close:hover{
+                    color: black;
+                    transition-duration: 0.4s;
                 }
 
                 h1{
