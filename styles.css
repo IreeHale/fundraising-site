@@ -204,7 +204,7 @@
     position: relative;
     top: 2px;
   }
-  body .column #about-section .Pledge .reward1 {
+  body .column #about-section .Pledge #reward1 {
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
@@ -217,7 +217,7 @@
     left: 420px;
     bottom: 40px;
   }
-  body .column #about-section .Pledge .reward2 {
+  body .column #about-section .Pledge #reward2 {
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
@@ -230,32 +230,13 @@
     left: 420px;
     bottom: 40px;
   }
-  body .column #about-section .Pledge .reward3 {
-    padding: 13px 22px 13px 22px;
-    border: none;
-    border-radius: 28px;
-    background-color: #147b74;
-    font-family: "Commissioner", sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    color: white;
-    position: relative;
-    left: 420px;
-    bottom: 40px;
-  }
-  body .column #about-section .Pledge .reward1:hover {
+  body .column #about-section .Pledge #reward1:hover {
     background-color: #3cb4ac;
     -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;
     cursor: pointer;
   }
-  body .column #about-section .Pledge .reward2:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
-    cursor: pointer;
-  }
-  body .column #about-section .Pledge .reward3:hover {
+  body .column #about-section .Pledge #reward2:hover {
     background-color: #3cb4ac;
     -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;
@@ -307,7 +288,7 @@
   }
   body .modal-container .modal-content .pledge {
     border: 2px solid lightgray;
-    margin: 17px;
+    margin: 32px;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
   }
@@ -347,13 +328,13 @@
   body .modal-container .modal-content .pledge .left-1 {
     position: relative;
     bottom: 150px;
-    left: 492px;
+    left: 452px;
     color: #7a7a7a;
   }
   body .modal-container .modal-content .pledge .left-2 {
     position: relative;
     bottom: 120px;
-    left: 492px;
+    left: 452px;
     color: #7a7a7a;
   }
   body .modal-container .modal-content .pledge .radio {
