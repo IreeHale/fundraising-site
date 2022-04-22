@@ -221,7 +221,7 @@ $dark-gray: hsl(0, 0%, 48%);
                         top: 2px;
                     }
 
-                    .reward{
+                    .reward1{
                         padding: 13px 22px 13px 22px;
                         border: none;
                         border-radius: 28px;
@@ -235,7 +235,47 @@ $dark-gray: hsl(0, 0%, 48%);
                         bottom: 40px;
                     }
 
-                    .reward:hover{
+                    .reward2{
+                        padding: 13px 22px 13px 22px;
+                        border: none;
+                        border-radius: 28px;
+                        background-color: $dark-cyan;
+                        font-family: "Commissioner", sans-serif;
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: white;
+                        position: relative;
+                        left: 420px;
+                        bottom: 40px;
+                    }
+
+                    .reward3{
+                        padding: 13px 22px 13px 22px;
+                        border: none;
+                        border-radius: 28px;
+                        background-color: $dark-cyan;
+                        font-family: "Commissioner", sans-serif;
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: white;
+                        position: relative;
+                        left: 420px;
+                        bottom: 40px;
+                    }
+
+                    .reward1:hover{
+                        background-color: $med-cyan;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                    }
+
+                    .reward2:hover{
+                        background-color: $med-cyan;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                    }
+
+                    .reward3:hover{
                         background-color: $med-cyan;
                         transition-duration: 0.4s;
                         cursor: pointer;

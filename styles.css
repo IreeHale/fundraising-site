@@ -204,7 +204,7 @@
     position: relative;
     top: 2px;
   }
-  body .column #about-section .Pledge .reward {
+  body .column #about-section .Pledge .reward1 {
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
@@ -217,7 +217,45 @@
     left: 420px;
     bottom: 40px;
   }
-  body .column #about-section .Pledge .reward:hover {
+  body .column #about-section .Pledge .reward2 {
+    padding: 13px 22px 13px 22px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 420px;
+    bottom: 40px;
+  }
+  body .column #about-section .Pledge .reward3 {
+    padding: 13px 22px 13px 22px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 420px;
+    bottom: 40px;
+  }
+  body .column #about-section .Pledge .reward1:hover {
+    background-color: #3cb4ac;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  body .column #about-section .Pledge .reward2:hover {
+    background-color: #3cb4ac;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  body .column #about-section .Pledge .reward3:hover {
     background-color: #3cb4ac;
     -webkit-transition-duration: 0.4s;
             transition-duration: 0.4s;
