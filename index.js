@@ -1,13 +1,12 @@
-let modal = document.querySelector('.modal-container');
 let close = document.querySelector('.close');
-let reward = document.getElementById('reward1');
 let modalOpen = document.querySelector('.modal-container');
+let reward = document.getElementById('reward1');
 let reward2 = document.getElementById('reward2');
 let reward3 = document.getElementById('reward3');
 
 
 close.addEventListener('click', () => {
-    modal.style.display = 'none';
+    modalOpen.style.display = 'none';
 });
 
 reward.addEventListener('click', () => {

@@ -356,6 +356,12 @@
     left: 452px;
     color: #7a7a7a;
   }
+  body .modal-container .modal-content .pledge .left-3 {
+    position: relative;
+    bottom: 149px;
+    left: 452px;
+    color: #7a7a7a;
+  }
   body .modal-container .modal-content .pledge .radio {
     position: relative;
     top: 33px;

@@ -234,7 +234,7 @@ $dark-gray: hsl(0, 0%, 48%);
                         left: 420px;
                         bottom: 40px;
                     }
-                    
+
 
                     #reward2{
                         padding: 13px 22px 13px 22px;
@@ -390,6 +390,13 @@ $dark-gray: hsl(0, 0%, 48%);
                     .left-2{
                         position: relative;
                         bottom: 120px;
+                        left: 452px;
+                        color: $dark-gray;
+                    }
+
+                    .left-3{
+                        position: relative;
+                        bottom: 149px;
                         left: 452px;
                         color: $dark-gray;
                     }
