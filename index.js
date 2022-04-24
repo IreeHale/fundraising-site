@@ -3,8 +3,12 @@ let modalOpen = document.querySelector('.modal-container');
 let reward = document.getElementById('reward1');
 let reward2 = document.getElementById('reward2');
 let reward3 = document.getElementById('reward3');
+let thankyou = document.getElementById('thankyou-container');
+let radio1 = document.getElementById('radio1');
+let pledge1 = document.getElementById('pledge1');
 
 
+/*Open modal with a click and close with a click*/
 close.addEventListener('click', () => {
     modalOpen.style.display = 'none';
 });
@@ -19,4 +23,13 @@ reward2.addEventListener('click', () => {
 
 reward3.addEventListener('click', () => {
     modalOpen.style.display = 'block';
+});
+
+/*Pledge with no reward*/
+radio1.addEventListener('click', () => {
+    thankyou.style.display = 'block';
+});
+
+thankyou.addEventListener('click', () => {
+    thankyou.style.display = 'none';
 });

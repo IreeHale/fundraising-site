@@ -325,7 +325,7 @@
     -webkit-transition: ease-in 0.1s;
     transition: ease-in 0.1s;
   }
-  body .modal-container .modal-content .pledge1 .radio1 {
+  body .modal-container .modal-content .pledge1 #radio1 {
     position: relative;
     top: 33px;
     right: 40px;
@@ -368,7 +368,7 @@
     left: 452px;
     color: #7a7a7a;
   }
-  body .modal-container .modal-content .pledge2 .radio2 {
+  body .modal-container .modal-content .pledge2 #radio2 {
     position: relative;
     top: 33px;
     right: 40px;
@@ -458,7 +458,7 @@
     left: 452px;
     color: #7a7a7a;
   }
-  body .modal-container .modal-content .pledge3 .radio3 {
+  body .modal-container .modal-content .pledge3 #radio3 {
     position: relative;
     top: 33px;
     right: 40px;
@@ -548,7 +548,7 @@
     left: 452px;
     color: #7a7a7a;
   }
-  body .modal-container .modal-content .pledge4 .radio4 {
+  body .modal-container .modal-content .pledge4 #radio4 {
     position: relative;
     top: 33px;
     right: 40px;
@@ -559,7 +559,7 @@
   body .modal-container .modal-content .pledge4 .part4 {
     color: #7a7a7a;
   }
-  body .thankyou-container {
+  body #thankyou-container {
     position: fixed;
     z-index: 1;
     top: 0;
@@ -572,7 +572,7 @@
     padding: 50px;
     display: none;
   }
-  body .thankyou-container .thankyou-content {
+  body #thankyou-container .thankyou-content {
     background-color: white;
     margin: 20% auto;
     padding: 20px;
@@ -583,20 +583,20 @@
     border-radius: 10px;
     text-align: center;
   }
-  body .thankyou-container .thankyou-content .check {
+  body #thankyou-container .thankyou-content .check {
     margin-top: 20px;
     height: 25%;
     width: 20%;
   }
-  body .thankyou-container .thankyou-content h2 {
+  body #thankyou-container .thankyou-content h2 {
     font-weight: bold;
     font-size: 1.5em;
     margin: 20px;
   }
-  body .thankyou-container .thankyou-content p {
+  body #thankyou-container .thankyou-content p {
     color: #7a7a7a;
   }
-  body .thankyou-container .thankyou-content button {
+  body #thankyou-container .thankyou-content button {
     height: 50px;
     width: 110px;
     font-size: 15px;

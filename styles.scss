@@ -358,7 +358,7 @@ $dark-gray: hsl(0, 0%, 48%);
                         transition: ease-in 0.1s;
                     }
 
-                    .radio1{
+                    #radio1{
                         position: relative;
                         top: 33px;
                         right: 40px;
@@ -409,7 +409,7 @@ $dark-gray: hsl(0, 0%, 48%);
                         color: $dark-gray;
                     }
 
-                    .radio2{
+                    #radio2{
                         position: relative;
                         top: 33px;
                         right: 40px;
@@ -507,7 +507,7 @@ $dark-gray: hsl(0, 0%, 48%);
                         color: $dark-gray;
                     }
 
-                    .radio3{
+                    #radio3{
                         position: relative;
                         top: 33px;
                         right: 40px;
@@ -605,7 +605,7 @@ $dark-gray: hsl(0, 0%, 48%);
                         color: $dark-gray;
                     }
 
-                    .radio4{
+                    #radio4{
                         position: relative;
                         top: 33px;
                         right: 40px;
@@ -621,7 +621,7 @@ $dark-gray: hsl(0, 0%, 48%);
             }
         }
 
-        .thankyou-container {
+        #thankyou-container {
             position: fixed;
             z-index: 1;
             top: 0;
