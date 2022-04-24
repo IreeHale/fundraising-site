@@ -305,64 +305,27 @@
     color: #7a7a7a;
     padding: 0px 0px 15px 15px;
   }
-  body .modal-container .modal-content .pledge {
+  body .modal-container .modal-content .pledge1 {
     border: 2px solid lightgray;
     margin: 32px;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
   }
-  body .modal-container .modal-content .pledge b {
+  body .modal-container .modal-content .pledge1 b {
     font-weight: bold;
     color: black;
     font-size: 19px;
     padding-right: 6px;
   }
-  body .modal-container .modal-content .pledge h2 {
+  body .modal-container .modal-content .pledge1 h2 {
     font-weight: 600;
   }
-  body .modal-container .modal-content .pledge h2:hover {
+  body .modal-container .modal-content .pledge1 h2:hover {
     color: #3cb4ac;
-    cursor: pointer;
     -webkit-transition: ease-in 0.1s;
     transition: ease-in 0.1s;
   }
-  body .modal-container .modal-content .pledge .mini-1 {
-    position: relative;
-    left: 130px;
-    bottom: 30px;
-    color: #3cb4ac;
-  }
-  body .modal-container .modal-content .pledge .mini-2 {
-    position: relative;
-    left: 170px;
-    bottom: 30px;
-    color: #3cb4ac;
-  }
-  body .modal-container .modal-content .pledge .mini-3 {
-    position: relative;
-    left: 210px;
-    bottom: 30px;
-    color: #3cb4ac;
-  }
-  body .modal-container .modal-content .pledge .left-1 {
-    position: relative;
-    bottom: 150px;
-    left: 452px;
-    color: #7a7a7a;
-  }
-  body .modal-container .modal-content .pledge .left-2 {
-    position: relative;
-    bottom: 120px;
-    left: 452px;
-    color: #7a7a7a;
-  }
-  body .modal-container .modal-content .pledge .left-3 {
-    position: relative;
-    bottom: 149px;
-    left: 452px;
-    color: #7a7a7a;
-  }
-  body .modal-container .modal-content .pledge .radio {
+  body .modal-container .modal-content .pledge1 .radio1 {
     position: relative;
     top: 33px;
     right: 40px;
@@ -370,10 +333,53 @@
     width: 20px;
     cursor: pointer;
   }
-  body .modal-container .modal-content .pledge .part {
+  body .modal-container .modal-content .pledge1 .part1 {
     color: #7a7a7a;
   }
-  body .modal-container .modal-content .pledge .donation-amount {
+  body .modal-container .modal-content .pledge2 {
+    border: 2px solid lightgray;
+    margin: 32px;
+    padding: 0px 20px 15px 65px;
+    border-radius: 12px;
+  }
+  body .modal-container .modal-content .pledge2 b {
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    padding-right: 6px;
+  }
+  body .modal-container .modal-content .pledge2 h2 {
+    font-weight: 600;
+  }
+  body .modal-container .modal-content .pledge2 h2:hover {
+    color: #3cb4ac;
+    -webkit-transition: ease-in 0.1s;
+    transition: ease-in 0.1s;
+  }
+  body .modal-container .modal-content .pledge2 .mini-2 {
+    position: relative;
+    left: 170px;
+    bottom: 30px;
+    color: #3cb4ac;
+  }
+  body .modal-container .modal-content .pledge2 .left-2 {
+    position: relative;
+    bottom: 120px;
+    left: 452px;
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge2 .radio2 {
+    position: relative;
+    top: 33px;
+    right: 40px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  body .modal-container .modal-content .pledge2 .part2 {
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge2 .donation-amount2 {
     border-top: #7a7a7a solid 1px;
     position: relative;
     right: 65px;
@@ -389,11 +395,11 @@
         -ms-flex-direction: row;
             flex-direction: row;
   }
-  body .modal-container .modal-content .pledge .donation-amount h3 {
+  body .modal-container .modal-content .pledge2 .donation-amount2 h3 {
     color: #7a7a7a;
     padding: 30px 0px 0px 15px;
   }
-  body .modal-container .modal-content .pledge .donation-amount #donation {
+  body .modal-container .modal-content .pledge2 .donation-amount2 #donation2 {
     height: 25px;
     width: 12%;
     font-weight: bold;
@@ -405,7 +411,7 @@
     text-align: center;
     margin: 24px 0px 0px 250px;
   }
-  body .modal-container .modal-content .pledge .donation-amount .next {
+  body .modal-container .modal-content .pledge2 .donation-amount2 .next2 {
     position: relative;
     top: 25px;
     left: 25px;
@@ -420,8 +426,138 @@
     font-size: 16px;
     cursor: pointer;
   }
-  body .modal-container .modal-content .pledge:focus {
-    border: solid 2px #3cb4ac;
+  body .modal-container .modal-content .pledge3 {
+    border: 2px solid lightgray;
+    margin: 32px;
+    padding: 0px 20px 15px 65px;
+    border-radius: 12px;
+  }
+  body .modal-container .modal-content .pledge3 b {
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    padding-right: 6px;
+  }
+  body .modal-container .modal-content .pledge3 h2 {
+    font-weight: 600;
+  }
+  body .modal-container .modal-content .pledge3 h2:hover {
+    color: #3cb4ac;
+    -webkit-transition: ease-in 0.1s;
+    transition: ease-in 0.1s;
+  }
+  body .modal-container .modal-content .pledge3 .mini-3 {
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+    color: #3cb4ac;
+  }
+  body .modal-container .modal-content .pledge3 .left-3 {
+    position: relative;
+    bottom: 149px;
+    left: 452px;
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge3 .radio3 {
+    position: relative;
+    top: 33px;
+    right: 40px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  body .modal-container .modal-content .pledge3 .part3 {
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge3 .donation-amount3 {
+    border-top: #7a7a7a solid 1px;
+    position: relative;
+    right: 65px;
+    bottom: 15px;
+    height: 65px;
+    width: 114.9%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: none;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+  body .modal-container .modal-content .pledge3 .donation-amount3 h3 {
+    color: #7a7a7a;
+    padding: 30px 0px 0px 15px;
+  }
+  body .modal-container .modal-content .pledge3 .donation-amount3 #donation3 {
+    height: 25px;
+    width: 12%;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
+    border-radius: 28px;
+    border: solid 1px #7a7a7a;
+    padding: 11px;
+    font-size: 16px;
+    text-align: center;
+    margin: 24px 0px 0px 250px;
+  }
+  body .modal-container .modal-content .pledge3 .donation-amount3 .next3 {
+    position: relative;
+    top: 25px;
+    left: 25px;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    color: white;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  body .modal-container .modal-content .pledge4 {
+    border: 2px solid lightgray;
+    margin: 32px;
+    padding: 0px 20px 15px 65px;
+    border-radius: 12px;
+  }
+  body .modal-container .modal-content .pledge4 b {
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    padding-right: 6px;
+  }
+  body .modal-container .modal-content .pledge4 h2 {
+    font-weight: 600;
+  }
+  body .modal-container .modal-content .pledge4 h2:hover {
+    color: #3cb4ac;
+    -webkit-transition: ease-in 0.1s;
+    transition: ease-in 0.1s;
+  }
+  body .modal-container .modal-content .pledge4 .mini-4 {
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+    color: #3cb4ac;
+  }
+  body .modal-container .modal-content .pledge4 .left-4 {
+    position: relative;
+    bottom: 149px;
+    left: 452px;
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge4 .radio4 {
+    position: relative;
+    top: 33px;
+    right: 40px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  body .modal-container .modal-content .pledge4 .part4 {
+    color: #7a7a7a;
   }
   body .thankyou-container {
     position: fixed;
