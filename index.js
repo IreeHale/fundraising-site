@@ -26,14 +26,23 @@ reward3.addEventListener('click', () => {
     modalOpen.style.display = 'block';
 });
 
+
+
 /*Pledge with no reward*/
+
+radio1.checked = false;
+
 radio1.addEventListener('click', () =>{
     pledge1.style.borderColor = "hsl(176, 50%, 47%)";
-
-    radio1.addEventListener('click', () => {
-        thankyou.style.display = 'block';
-    });
 });
+
+radio1.addEventListener('click', () => {
+    thankyou.style.display = 'block';
+});
+
+/*$25 Pledge with reward*/
+/*$75 Pledge with reward*/
+
 
 /*Thank you modal functionality*/
 

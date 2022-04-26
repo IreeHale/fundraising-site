@@ -333,6 +333,9 @@
     width: 20px;
     cursor: pointer;
   }
+  body .modal-container .modal-content #pledge1 #radio1::before {
+    color: none;
+  }
   body .modal-container .modal-content #pledge1 .part1 {
     color: #7a7a7a;
   }
