@@ -608,5 +608,11 @@
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
   }
+  body #thankyou-container .thankyou-content #ty-btn:hover {
+    background-color: #3cb4ac;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    cursor: pointer;
+  }
 }
 /*# sourceMappingURL=styles.css.map */

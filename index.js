@@ -31,6 +31,13 @@ radio1.addEventListener('click', () => {
     thankyou.style.display = 'block';
 });
 
+/*Thank you modal functionality*/
+
+thankyouBtn.addEventListener('click', () => {
+    thankyou.style.display = 'none';
+});
+
 thankyou.addEventListener('click', () => {
     thankyou.style.display = 'none';
 });
+

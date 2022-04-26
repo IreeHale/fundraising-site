@@ -674,6 +674,12 @@ $dark-gray: hsl(0, 0%, 48%);
                     font-weight: bold;
                     font-family: "Commissioner", sans-serif;
                 }
+
+                #ty-btn:hover{
+                    background-color: $med-cyan;
+                    transition-duration: 0.2s;
+                    cursor: pointer;
+                }
             }
         }
     }
