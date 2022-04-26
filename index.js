@@ -27,8 +27,12 @@ reward3.addEventListener('click', () => {
 });
 
 /*Pledge with no reward*/
-radio1.addEventListener('click', () => {
-    thankyou.style.display = 'block';
+radio1.addEventListener('click', () =>{
+    pledge1.style.borderColor = "hsl(176, 50%, 47%)";
+
+    radio1.addEventListener('click', () => {
+        thankyou.style.display = 'block';
+    });
 });
 
 /*Thank you modal functionality*/
