@@ -4,6 +4,7 @@ let reward = document.getElementById('reward1');
 let reward2 = document.getElementById('reward2');
 let reward3 = document.getElementById('reward3');
 let thankyou = document.getElementById('thankyou-container');
+let thankyouBtn = document.getElementById('ty-btn');
 let radio1 = document.getElementById('radio1');
 let pledge1 = document.getElementById('pledge1');
 
