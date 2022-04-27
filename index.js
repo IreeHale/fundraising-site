@@ -7,6 +7,9 @@ let thankyou = document.getElementById('thankyou-container');
 let thankyouBtn = document.getElementById('ty-btn');
 let radio1 = document.getElementById('radio1');
 let pledge1 = document.getElementById('pledge1');
+let radio2 = document.getElementById('radio2');
+let pledge2 = document.getElementById('pledge2');
+let donation1 = document.getElementById('donation2');
 
 
 /*Open modal with a click and close with a click*/
@@ -41,7 +44,18 @@ radio1.addEventListener('click', () => {
 });
 
 /*$25 Pledge with reward*/
+radio2.checked = false;
+
+radio2.addEventListener('click', () =>{
+    pledge2.style.borderColor = "hsl(176, 50%, 47%)";
+});
+
+radio2.addEventListener('click', () =>{
+    thankyou.style.display = 'block';
+});
+
 /*$75 Pledge with reward*/
+
 
 
 /*Thank you modal functionality*/
@@ -53,4 +67,10 @@ thankyouBtn.addEventListener('click', () => {
 thankyou.addEventListener('click', () => {
     thankyou.style.display = 'none';
 });
+
+function newFunction() {
+    radio2.addEventListener('click', () => {
+        pledge2.borderColor = "hsl(176, 50%, 47%)";
+    });
+}
 

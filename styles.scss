@@ -367,17 +367,12 @@ $dark-gray: hsl(0, 0%, 48%);
                         cursor: pointer;
                     }
 
-                    #radio1::before {
-                        color: none;
-                    }
-
                     .part1{
                         color: $dark-gray;
                     }
-
                 }
 
-                .pledge2{
+                #pledge2{
                     border: 2px solid lightgray;
                     margin: 32px;
                     padding: 0px 20px 15px 65px;
