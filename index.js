@@ -67,10 +67,3 @@ thankyouBtn.addEventListener('click', () => {
 thankyou.addEventListener('click', () => {
     thankyou.style.display = 'none';
 });
-
-function newFunction() {
-    radio2.addEventListener('click', () => {
-        pledge2.borderColor = "hsl(176, 50%, 47%)";
-    });
-}
-

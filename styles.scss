@@ -4,6 +4,7 @@ $dark-cyan: hsl(176, 72%, 28%);
 /*Secondary Colors*/
 $black: hsl(0, 0%, 0%);
 $dark-gray: hsl(0, 0%, 48%);
+$med-gray: lightgray;
 
 @media (max-width: 1440px) {
     body{
@@ -189,7 +190,7 @@ $dark-gray: hsl(0, 0%, 48%);
 
 
                 .Pledge{
-                    border: 1px solid lightgray;
+                    border: 1px solid $med-gray;
                     border-radius: 8px; 
                     padding: 20px;
                     height: 190px;
@@ -337,7 +338,7 @@ $dark-gray: hsl(0, 0%, 48%);
                 }
 
                 #pledge1{
-                    border: 2px solid lightgray;
+                    border: 2px solid $med-gray;
                     margin: 32px;
                     padding: 0px 20px 15px 65px;
                     border-radius: 12px;
@@ -373,7 +374,7 @@ $dark-gray: hsl(0, 0%, 48%);
                 }
 
                 #pledge2{
-                    border: 2px solid lightgray;
+                    border: 2px solid $med-gray;
                     margin: 32px;
                     padding: 0px 20px 15px 65px;
                     border-radius: 12px;
@@ -403,7 +404,7 @@ $dark-gray: hsl(0, 0%, 48%);
 
                     .left-2{
                         position: relative;
-                        bottom: 120px;
+                        bottom: 155px;
                         left: 452px;
                         color: $dark-gray;
                     }
@@ -466,12 +467,13 @@ $dark-gray: hsl(0, 0%, 48%);
                             cursor: pointer;
                         }
                     }
+
                 }
     
 
 
                 .pledge3{
-                    border: 2px solid lightgray;
+                    border: 2px solid $med-gray;
                     margin: 32px;
                     padding: 0px 20px 15px 65px;
                     border-radius: 12px;
@@ -501,7 +503,7 @@ $dark-gray: hsl(0, 0%, 48%);
 
                     .left-3{
                         position: relative;
-                        bottom: 149px;
+                        bottom: 120px;
                         left: 452px;
                         color: $dark-gray;
                     }
@@ -569,7 +571,7 @@ $dark-gray: hsl(0, 0%, 48%);
 
 
                 .pledge4{
-                    border: 2px solid lightgray;
+                    border: 2px solid $med-gray;
                     margin: 32px;
                     padding: 0px 20px 15px 65px;
                     border-radius: 12px;
