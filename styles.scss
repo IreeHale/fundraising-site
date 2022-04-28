@@ -447,8 +447,8 @@ $med-gray: hsl(0,0%,83%);
                             text-align: center;
                             margin: 25px 0px 0px 225px;
                             position: relative;
-                            bottom: 60px;
-                            left: 145px;
+                            bottom: 88%;
+                            left: 25%;
                         }
     
                         #next2{
@@ -463,8 +463,8 @@ $med-gray: hsl(0,0%,83%);
                             font-size: 16px;
                             cursor: pointer;
                             position: relative;
-                            bottom: 60px;
-                            left: 165px;
+                            bottom: 88%;
+                            left: 29%;
                         }
 
                         #next2:hover {
@@ -532,9 +532,7 @@ $med-gray: hsl(0,0%,83%);
                         bottom: 15px;
                         height: 65px;
                         width: 114.9%;
-                        display: flex;
                         display: none;
-                        flex-direction: row;
     
                         h3{
                             color: $dark-gray;
@@ -551,13 +549,12 @@ $med-gray: hsl(0,0%,83%);
                             padding: 11px;
                             font-size: 16px;
                             text-align: center;
-                            margin: 24px 0px 0px 250px;
+                            position: relative;
+                            bottom: 60%;
+                            left: 62%;
                         }
     
                         .next3{
-                            position: relative;
-                            top: 25px;
-                            left: 25px;
                             height: 50px;
                             width: 100px;
                             border: none;
@@ -568,6 +565,9 @@ $med-gray: hsl(0,0%,83%);
                             font-family: "Commissioner", sans-serif;
                             font-size: 16px;
                             cursor: pointer;
+                            position: relative;
+                            bottom: 40px;
+                            left: 65%;
                         }
                     }
     
