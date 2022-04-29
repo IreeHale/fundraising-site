@@ -83,14 +83,14 @@ $med-gray: hsl(0,0%,83%);
                     border-radius: 28px;
                 }
     
-                .back{
+                #back{
                     background-color: $dark-cyan;
                     color: white;
                     position: relative;
                     right: 150px;
                 }
     
-                .book{
+                #book{
                     color: $dark-cyan;
                     position: relative;
                     left: 85px;
@@ -153,7 +153,7 @@ $med-gray: hsl(0,0%,83%);
                 border-radius: 10px;
                 height: 10px;
                 width: 90%;
-                background-color: whitesmoke;
+                background-color: lightgray;
             }
 
             #status-bar{

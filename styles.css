@@ -82,13 +82,13 @@
     border: none;
     border-radius: 28px;
   }
-  body .column #intro .back {
+  body .column #intro #back {
     background-color: #147b74;
     color: white;
     position: relative;
     right: 150px;
   }
-  body .column #intro .book {
+  body .column #intro #book {
     color: #147b74;
     position: relative;
     left: 85px;
@@ -145,7 +145,7 @@
     border-radius: 10px;
     height: 10px;
     width: 90%;
-    background-color: whitesmoke;
+    background-color: lightgray;
   }
   body .column #status-bar {
     background-color: #147b74;
