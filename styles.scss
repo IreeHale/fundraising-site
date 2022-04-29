@@ -554,7 +554,7 @@ $med-gray: hsl(0,0%,83%);
                             left: 62%;
                         }
     
-                        .next3{
+                        #next3{
                             height: 50px;
                             width: 100px;
                             border: none;
@@ -568,6 +568,10 @@ $med-gray: hsl(0,0%,83%);
                             position: relative;
                             bottom: 40px;
                             left: 65%;
+                        }
+
+                        #next:hover{
+                            background-color: $med-cyan;
                         }
                     }
     

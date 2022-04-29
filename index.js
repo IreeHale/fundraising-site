@@ -8,9 +8,12 @@ let pledge1 = document.getElementById('pledge1');
 let radio2 = document.getElementById('radio2');
 let pledge2 = document.getElementById('pledge2');
 let donation1 = document.getElementById('donation-amount2');
+let amount1 = document.getElementById('donation2')
+let next1 = document.getElementById('next2')
 let radio3 = document.getElementById('radio3');
 let pledge3 = document.getElementById('pledge3');
 let donation2 = document.getElementById('donation-amount3');
+let next3 = document.getElementById('next3');
 let thankyou = document.getElementById('thankyou-container');
 let thankyouBtn = document.getElementById('ty-btn');
 
@@ -35,7 +38,6 @@ reward3.addEventListener('click', () => {
 
 
 /*Pledge with no reward*/
-
 radio1.checked = false;
 
 radio1.addEventListener('click', () =>{
@@ -52,6 +54,15 @@ radio2.addEventListener('click', () =>{
     pledge2.style.borderColor = "hsl(176, 50%, 47%)";
 });
 
+next1.addEventListener('click', () =>{
+    let amount1 = document.getElementById('donation2');
+    if(amount1.value > '24'){
+        thankyou.style.display = 'block';
+    }else if (amount1.value < '24') {
+        alert('You must make a donation of $25 or more to receive your Bamboo stand.');
+    }
+});
+
 /*$75 Pledge with reward*/
 radio3.checked = false;
 donation2.style.display = 'none';
@@ -61,9 +72,17 @@ radio3.addEventListener('click', () =>{
     donation2.style.display = 'block';
 });
 
+next3.addEventListener('click', () =>{
+    let amount2 = document.getElementById('donation3');
+    if(amount2.value > '74'){
+        thankyou.style.display = 'block';
+    }else if (amount2.value < '75') {
+        alert('You must make a donation of $75 or more to receive your Bamboo stand.');
+    }
+});
+
 
 /*Thank you modal functionality*/
-
 thankyou.addEventListener('click', () => {
     thankyou.style.display = 'none';
 });
@@ -72,4 +91,12 @@ thankyouBtn.addEventListener('click', () => {
     thankyou.style.display = 'none';
     radio1.checked = false;
     pledge1.style.borderColor = 'hsl(0,0%,83%)';
+
+    radio2.checked = false;
+    donation1.style.display = 'none';
+    pledge2.style.borderColor = 'hsl(0,0%,83%)';
+
+    radio3.checked = false;
+    donation2.style.display = 'none';
+    pledge3.style.borderColor = 'hsl(0,0%,83%)';
 });

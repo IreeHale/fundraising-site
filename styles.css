@@ -494,7 +494,7 @@
     bottom: 60%;
     left: 62%;
   }
-  body .modal-container .modal-content #pledge3 #donation-amount3 .next3 {
+  body .modal-container .modal-content #pledge3 #donation-amount3 #next3 {
     height: 50px;
     width: 100px;
     border: none;
@@ -508,6 +508,9 @@
     position: relative;
     bottom: 40px;
     left: 65%;
+  }
+  body .modal-container .modal-content #pledge3 #donation-amount3 #next:hover {
+    background-color: #3cb4ac;
   }
   body .modal-container .modal-content .pledge4 {
     border: 2px solid #d4d4d4;
