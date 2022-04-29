@@ -58,7 +58,7 @@ next1.addEventListener('click', () =>{
     let amount1 = document.getElementById('donation2');
     if(amount1.value > '24'){
         thankyou.style.display = 'block';
-    }else if (amount1.value < '24') {
+    }else if (amount1.value < ' ') {
         alert('You must make a donation of $25 or more to receive your Bamboo stand.');
     }
 });
@@ -76,7 +76,7 @@ next3.addEventListener('click', () =>{
     let amount2 = document.getElementById('donation3');
     if(amount2.value > '74'){
         thankyou.style.display = 'block';
-    }else if (amount2.value < '75') {
+    }else if (amount2.value < ' ') {
         alert('You must make a donation of $75 or more to receive your Bamboo stand.');
     }
 });
