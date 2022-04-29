@@ -91,6 +91,8 @@
   body .column #intro #back:hover {
     background-color: #3cb4ac;
     cursor: pointer;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
   }
   body .column #intro #book {
     color: #147b74;

@@ -24,6 +24,10 @@ back.addEventListener('click',() => {
     modalOpen.style.display = 'block';
 });
 
+book.addEventListener('click',() => {
+    book.style.backgroundColor = '';
+});
+
 /*Open modal with a click and close with a click*/
 close.addEventListener('click', () => {
     modalOpen.style.display = 'none';

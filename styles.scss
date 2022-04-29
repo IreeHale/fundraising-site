@@ -93,6 +93,7 @@ $med-gray: hsl(0,0%,83%);
                 #back:hover{
                     background-color: $med-cyan;
                     cursor: pointer;
+                    transition: 0.2s;
                 }
     
                 #book{
