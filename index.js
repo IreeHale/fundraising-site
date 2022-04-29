@@ -20,6 +20,9 @@ let thankyou = document.getElementById('thankyou-container');
 let thankyouBtn = document.getElementById('ty-btn');
 
 
+back.addEventListener('click',() => {
+    modalOpen.style.display = 'block';
+});
 
 /*Open modal with a click and close with a click*/
 close.addEventListener('click', () => {

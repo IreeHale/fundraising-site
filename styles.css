@@ -88,6 +88,10 @@
     position: relative;
     right: 150px;
   }
+  body .column #intro #back:hover {
+    background-color: #3cb4ac;
+    cursor: pointer;
+  }
   body .column #intro #book {
     color: #147b74;
     position: relative;

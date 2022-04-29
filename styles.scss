@@ -89,6 +89,11 @@ $med-gray: hsl(0,0%,83%);
                     position: relative;
                     right: 150px;
                 }
+
+                #back:hover{
+                    background-color: $med-cyan;
+                    cursor: pointer;
+                }
     
                 #book{
                     color: $dark-cyan;
