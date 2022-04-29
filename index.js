@@ -54,11 +54,11 @@ radio2.addEventListener('click', () =>{
 
 /*$75 Pledge with reward*/
 radio3.checked = false;
+donation2.style.display = 'none';
 
 radio3.addEventListener('click', () =>{
-    thankyou.style.display = 'block';
-    pledge3.style.display = 'block';
     pledge3.style.borderColor = "hsl(176, 50%, 47%)";
+    donation2.style.display = 'block';
 });
 
 
@@ -66,10 +66,10 @@ radio3.addEventListener('click', () =>{
 
 thankyou.addEventListener('click', () => {
     thankyou.style.display = 'none';
-    radio1.checked = false;
-    pledge1.style.borderColor = 'hsl(0,0%,83%)';
 });
 
 thankyouBtn.addEventListener('click', () => {
     thankyou.style.display = 'none';
+    radio1.checked = false;
+    pledge1.style.borderColor = 'hsl(0,0%,83%)';
 });
