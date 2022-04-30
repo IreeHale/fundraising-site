@@ -40,6 +40,12 @@ $med-gray: hsl(0,0%,83%);
                 padding: 0px 4px 0px 30px;
                 font-family: "Commissioner", sans-serif;
             }
+
+            a{
+                color: white;
+                text-decoration: none;
+                cursor: pointer;
+            }
         }
 
         .column{

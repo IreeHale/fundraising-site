@@ -40,6 +40,11 @@
     padding: 0px 4px 0px 30px;
     font-family: "Commissioner", sans-serif;
   }
+  body .navbar a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
   body .column {
     display: -webkit-box;
     display: -ms-flexbox;
