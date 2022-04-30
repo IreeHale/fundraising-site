@@ -25,7 +25,13 @@ back.addEventListener('click',() => {
 });
 
 book.addEventListener('click',() => {
-    book.style.backgroundColor = '';
+    book.style.backgroundColor = 'hsl(176, 72%, 28%)';
+    book.style.color = 'hsl(0, 0%, 100%)';
+
+    book.addEventListener('click', () => {
+        book.style.backgroundColor = 'hsl(0, 0%, 90%)';
+        book.style.color = 'hsl(176, 72%, 28%)';
+    });
 });
 
 /*Open modal with a click and close with a click*/
