@@ -621,4 +621,626 @@
     cursor: pointer;
   }
 }
+
+@media (max-width: 375px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    scroll-behavior: smooth;
+    background-color: whitesmoke;
+  }
+  body .navbar {
+    height: 400px;
+    color: white;
+    background: url("./images/image-hero-desktop.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  body .navbar .logo {
+    position: relative;
+    top: 35px;
+    left: 55px;
+  }
+  body .navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-top: 20px;
+    padding-right: 45px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+  }
+  body .navbar li {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    padding: 0px 4px 0px 30px;
+    font-family: "Commissioner", sans-serif;
+  }
+  body .navbar a {
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  body .column {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 0px 260px 0px 360px;
+  }
+  body .column .logo-mastercraft {
+    position: relative;
+    bottom: 30px;
+  }
+  body .column #intro {
+    position: relative;
+    bottom: 88px;
+    background-color: white;
+    border-radius: 8px;
+    text-align: center;
+    font-family: "Commissioner", sans-serif;
+    height: 275px;
+  }
+  body .column #intro h1 {
+    padding-top: 5px;
+    font-weight: 700;
+    font-size: 30px;
+  }
+  body .column #intro .detail {
+    color: #7a7a7a;
+    padding-top: 20px;
+    font-size: 17.5px;
+  }
+  body .column #intro button {
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 19px;
+    margin-top: 47px;
+    padding: 17px 37px;
+    border: none;
+    border-radius: 28px;
+  }
+  body .column #intro #back {
+    background-color: #147b74;
+    color: white;
+    position: relative;
+    right: 150px;
+  }
+  body .column #intro #back:hover {
+    background-color: #3cb4ac;
+    cursor: pointer;
+    -webkit-transition: 0.2s;
+    transition: 0.2s;
+  }
+  body .column #intro #book {
+    color: #147b74;
+    position: relative;
+    left: 85px;
+    padding-left: 49px;
+  }
+  body .column #intro .bookmark {
+    position: relative;
+    top: 19px;
+    left: 349px;
+    z-index: 1;
+  }
+  body .column #goal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    position: relative;
+    bottom: 68px;
+    height: 190px;
+    border-radius: 5px;
+    background-color: white;
+    font-family: "Commissioner", sans-serif;
+  }
+  body .column #goal .money {
+    padding: 15px 80px 0px 40px;
+    font-size: 30px;
+  }
+  body .column #goal .money:nth-child(1) {
+    border-right: gray solid 0.5px;
+    margin: 18px 0px 90px 0px;
+  }
+  body .column #goal .money:nth-child(2) {
+    border-right: gray solid 0.5px;
+    margin: 18px 0px 90px 0px;
+  }
+  body .column #goal .money:nth-child(3) {
+    padding-top: 32px;
+  }
+  body .column #goal .info {
+    color: #7a7a7a;
+    font-size: 18px;
+  }
+  body .column #goal b {
+    font-weight: bold;
+  }
+  body .column .amount {
+    position: relative;
+    bottom: 115px;
+    left: 30px;
+    border-radius: 10px;
+    height: 10px;
+    width: 90%;
+    background-color: lightgray;
+  }
+  body .column #status-bar {
+    background-color: #147b74;
+    width: 80%;
+    height: 10px;
+    border-radius: 10px;
+  }
+  body .column #about-section {
+    height: 1050px;
+    border-radius: 5px;
+    position: relative;
+    bottom: 55px;
+    padding: 45px;
+    font-family: "Commissioner", sans-serif;
+    background-color: white;
+  }
+  body .column #about-section .about {
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: 20px;
+  }
+  body .column #about-section p {
+    color: #7a7a7a;
+    line-height: 32px;
+  }
+  body .column #about-section p:nth-child(3) {
+    padding: 15px 0px 35px 0px;
+  }
+  body .column #about-section .Pledge {
+    border: 1px solid #d4d4d4;
+    border-radius: 8px;
+    padding: 20px;
+    height: 190px;
+    margin-bottom: 30px;
+  }
+  body .column #about-section .Pledge h3 {
+    position: relative;
+    top: 5px;
+    font-size: 19px;
+    font-weight: bold;
+  }
+  body .column #about-section .Pledge .extra {
+    color: #7a7a7a;
+  }
+  body .column #about-section .Pledge span {
+    position: relative;
+    left: 420px;
+    bottom: 12px;
+    color: #3cb4ac;
+  }
+  body .column #about-section .Pledge b {
+    font-weight: bold;
+    color: black;
+    font-size: 1.7em;
+    position: relative;
+    top: 2px;
+  }
+  body .column #about-section .Pledge #reward1 {
+    padding: 13px 22px 13px 22px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 420px;
+    bottom: 40px;
+  }
+  body .column #about-section .Pledge #reward2 {
+    padding: 13px 22px 13px 22px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 420px;
+    bottom: 40px;
+  }
+  body .column #about-section .Pledge #reward3 {
+    padding: 13px 22px 13px 22px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    font-family: "Commissioner", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: white;
+    position: relative;
+    left: 420px;
+    bottom: 40px;
+  }
+  body .column #about-section .Pledge #reward1:hover {
+    background-color: #3cb4ac;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  body .column #about-section .Pledge #reward2:hover {
+    background-color: #3cb4ac;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  body .column #about-section .Pledge #reward3:hover {
+    background-color: #3cb4ac;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+    cursor: pointer;
+  }
+  body .modal-container {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    height: 108%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  body .modal-container .modal-content {
+    background-color: white;
+    margin: 17% auto;
+    padding: 30px;
+    width: 50%;
+    height: 180%;
+    font-family: "Commissioner", sans-serif;
+    line-height: 30px;
+    border-radius: 20px;
+  }
+  body .modal-container .modal-content .close {
+    position: relative;
+    font-size: 27px;
+    font-weight: bold;
+    bottom: 50px;
+    left: 665px;
+    cursor: pointer;
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content .close:hover {
+    color: black;
+    -webkit-transition-duration: 0.4s;
+            transition-duration: 0.4s;
+  }
+  body .modal-container .modal-content h1 {
+    font-weight: bold;
+    padding: 10px 0px 0px 35px;
+    font-size: 22px;
+  }
+  body .modal-container .modal-content .tell {
+    color: #7a7a7a;
+    padding: 0px 0px 15px 35px;
+  }
+  body .modal-container .modal-content #pledge1 {
+    border: 2px solid #d4d4d4;
+    margin: 32px;
+    padding: 0px 20px 15px 65px;
+    border-radius: 12px;
+  }
+  body .modal-container .modal-content #pledge1 b {
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    padding-right: 6px;
+  }
+  body .modal-container .modal-content #pledge1 h2 {
+    font-weight: 600;
+  }
+  body .modal-container .modal-content #pledge1 h2:hover {
+    color: #3cb4ac;
+    -webkit-transition: ease-in 0.1s;
+    transition: ease-in 0.1s;
+  }
+  body .modal-container .modal-content #pledge1 #radio1 {
+    position: relative;
+    top: 33px;
+    right: 40px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  body .modal-container .modal-content #pledge1 .part1 {
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content #pledge2 {
+    border: 2px solid #d4d4d4;
+    margin: 32px;
+    padding: 0px 20px 15px 65px;
+    border-radius: 12px;
+  }
+  body .modal-container .modal-content #pledge2 b {
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    padding-right: 6px;
+  }
+  body .modal-container .modal-content #pledge2 h2 {
+    font-weight: 600;
+  }
+  body .modal-container .modal-content #pledge2 h2:hover {
+    color: #3cb4ac;
+    -webkit-transition: ease-in 0.1s;
+    transition: ease-in 0.1s;
+  }
+  body .modal-container .modal-content #pledge2 .mini-2 {
+    position: relative;
+    left: 170px;
+    bottom: 30px;
+    color: #3cb4ac;
+  }
+  body .modal-container .modal-content #pledge2 .left-2 {
+    position: relative;
+    bottom: 155px;
+    left: 452px;
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content #pledge2 #radio2 {
+    position: relative;
+    top: 33px;
+    right: 40px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  body .modal-container .modal-content #pledge2 .part2 {
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content #pledge2 #donation-amount2 {
+    border-top: #7a7a7a solid 1px;
+    position: relative;
+    right: 65px;
+    bottom: 15px;
+    height: 65px;
+    width: 114.9%;
+  }
+  body .modal-container .modal-content #pledge2 #donation-amount2 h3 {
+    color: #7a7a7a;
+    padding: 30px 0px 0px 15px;
+    text-align: left;
+  }
+  body .modal-container .modal-content #pledge2 #donation-amount2 #donation2 {
+    height: 25px;
+    width: 12%;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
+    border-radius: 28px;
+    border: solid 1px #7a7a7a;
+    padding: 11px;
+    font-size: 16px;
+    text-align: center;
+    margin: 25px 0px 0px 225px;
+    position: relative;
+    bottom: 88%;
+    left: 25%;
+  }
+  body .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    color: white;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    bottom: 88%;
+    left: 29%;
+  }
+  body .modal-container .modal-content #pledge2 #donation-amount2 #next2:hover {
+    background-color: #3cb4ac;
+  }
+  body .modal-container .modal-content #pledge3 {
+    border: 2px solid #d4d4d4;
+    margin: 32px;
+    padding: 0px 20px 15px 65px;
+    border-radius: 12px;
+  }
+  body .modal-container .modal-content #pledge3 b {
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    padding-right: 6px;
+  }
+  body .modal-container .modal-content #pledge3 h2 {
+    font-weight: 600;
+  }
+  body .modal-container .modal-content #pledge3 h2:hover {
+    color: #3cb4ac;
+    -webkit-transition: ease-in 0.1s;
+    transition: ease-in 0.1s;
+  }
+  body .modal-container .modal-content #pledge3 .mini-3 {
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+    color: #3cb4ac;
+  }
+  body .modal-container .modal-content #pledge3 .left-3 {
+    position: relative;
+    bottom: 120px;
+    left: 452px;
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content #pledge3 #radio3 {
+    position: relative;
+    top: 33px;
+    right: 40px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  body .modal-container .modal-content #pledge3 .part3 {
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content #pledge3 #donation-amount3 {
+    border-top: #7a7a7a solid 1px;
+    position: relative;
+    right: 65px;
+    bottom: 15px;
+    height: 65px;
+    width: 114.9%;
+    display: none;
+  }
+  body .modal-container .modal-content #pledge3 #donation-amount3 h3 {
+    color: #7a7a7a;
+    padding: 30px 0px 0px 15px;
+  }
+  body .modal-container .modal-content #pledge3 #donation-amount3 #donation3 {
+    height: 25px;
+    width: 12%;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
+    border-radius: 28px;
+    border: solid 1px #7a7a7a;
+    padding: 11px;
+    font-size: 16px;
+    text-align: center;
+    position: relative;
+    bottom: 60%;
+    left: 62%;
+  }
+  body .modal-container .modal-content #pledge3 #donation-amount3 #next3 {
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 28px;
+    background-color: #147b74;
+    color: white;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    bottom: 40px;
+    left: 65%;
+  }
+  body .modal-container .modal-content #pledge3 #donation-amount3 #next:hover {
+    background-color: #3cb4ac;
+  }
+  body .modal-container .modal-content .pledge4 {
+    border: 2px solid #d4d4d4;
+    margin: 32px;
+    padding: 0px 20px 15px 65px;
+    border-radius: 12px;
+  }
+  body .modal-container .modal-content .pledge4 b {
+    font-weight: bold;
+    color: black;
+    font-size: 19px;
+    padding-right: 6px;
+  }
+  body .modal-container .modal-content .pledge4 h2 {
+    font-weight: 600;
+  }
+  body .modal-container .modal-content .pledge4 h2:hover {
+    color: #3cb4ac;
+    -webkit-transition: ease-in 0.1s;
+    transition: ease-in 0.1s;
+  }
+  body .modal-container .modal-content .pledge4 .mini-4 {
+    position: relative;
+    left: 210px;
+    bottom: 30px;
+    color: #3cb4ac;
+  }
+  body .modal-container .modal-content .pledge4 .left-4 {
+    position: relative;
+    bottom: 149px;
+    left: 452px;
+    color: #7a7a7a;
+  }
+  body .modal-container .modal-content .pledge4 #radio4 {
+    position: relative;
+    top: 33px;
+    right: 40px;
+    height: 20px;
+    width: 20px;
+    cursor: pointer;
+  }
+  body .modal-container .modal-content .pledge4 .part4 {
+    color: #7a7a7a;
+  }
+  body #thankyou-container {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0px;
+    height: 100%;
+    width: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    font-family: "Commissioner", sans-serif;
+    padding: 50px;
+    display: none;
+  }
+  body #thankyou-container .thankyou-content {
+    background-color: white;
+    margin: 20% auto;
+    padding: 20px;
+    width: 35%;
+    height: 65%;
+    font-family: "Commissioner", sans-serif;
+    line-height: 30px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  body #thankyou-container .thankyou-content .check {
+    margin-top: 20px;
+    height: 25%;
+    width: 20%;
+  }
+  body #thankyou-container .thankyou-content h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin: 20px;
+  }
+  body #thankyou-container .thankyou-content p {
+    color: #7a7a7a;
+  }
+  body #thankyou-container .thankyou-content button {
+    height: 50px;
+    width: 110px;
+    font-size: 15px;
+    border-radius: 28px;
+    margin-top: 25px;
+    border: none;
+    background-color: #147b74;
+    color: white;
+    font-weight: bold;
+    font-family: "Commissioner", sans-serif;
+  }
+  body #thankyou-container .thankyou-content #ty-btn:hover {
+    background-color: #3cb4ac;
+    -webkit-transition-duration: 0.2s;
+            transition-duration: 0.2s;
+    cursor: pointer;
+  }
+}
 /*# sourceMappingURL=styles.css.map */

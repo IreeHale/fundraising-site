@@ -704,3 +704,702 @@ $med-gray: hsl(0,0%,83%);
         }
     }
 }
+
+@media(max-width: 375px) {
+    body{
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+        scroll-behavior: smooth;
+        background-color: whitesmoke;
+
+        .navbar{
+            height: 400px;
+            color: white;
+            background: url('./images/image-hero-desktop.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            overflow: hidden;
+    
+            .logo{
+                position: relative;
+                top: 35px;
+                left: 55px;
+            }
+    
+            ul{
+                display: flex;
+                padding-top: 20px;
+                padding-right: 45px;
+                justify-content: flex-end;
+            }
+    
+            li {
+                flex-direction: row;
+                padding: 0px 4px 0px 30px;
+                font-family: "Commissioner", sans-serif;
+            }
+
+            a{
+                color: white;
+                text-decoration: none;
+                cursor: pointer;
+            }
+        }
+
+        .column{
+            display: flex;
+            flex-direction: column;
+            margin: 0px 260px 0px 360px;
+
+            .logo-mastercraft{
+                position: relative;
+                bottom: 30px;
+            }
+    
+            #intro{
+                position: relative;
+                bottom: 88px;
+                background-color: white;
+                border-radius: 8px;
+                text-align: center;
+                font-family: "Commissioner", sans-serif;
+                height: 275px;
+        
+                h1{
+                    padding-top: 5px;
+                    font-weight: 700;
+                    font-size: 30px;
+                }
+        
+                .detail{
+                    color: $dark-gray;
+                    padding-top: 20px;
+                    font-size: 17.5px;
+                }
+    
+                button{
+                    font-family: "Commissioner", sans-serif;
+                    font-weight: 500;
+                    font-size: 19px;
+                    margin-top: 47px;
+                    padding: 17px 37px;
+                    border: none;
+                    border-radius: 28px;
+                }
+    
+                #back{
+                    background-color: $dark-cyan;
+                    color: white;
+                    position: relative;
+                    right: 150px;
+                }
+
+                #back:hover{
+                    background-color: $med-cyan;
+                    cursor: pointer;
+                    transition: 0.2s;
+                }
+    
+                #book{
+                    color: $dark-cyan;
+                    position: relative;
+                    left: 85px;
+                    padding-left: 49px;
+                }
+    
+                .bookmark{
+                    position: relative;
+                    top: 19px;
+                    left: 349px;
+                    z-index: 1;
+                }
+            }
+
+            #goal{
+                display: flex;
+                flex-direction: row;
+                position: relative;
+                bottom: 68px;
+                height: 190px;
+                border-radius: 5px;
+                background-color: white;
+                font-family: "Commissioner", sans-serif;
+
+                .money{
+                    padding:  15px 80px 0px 40px;
+                    font-size: 30px;                    
+                }
+    
+                .money:nth-child(1){
+                    border-right: gray solid 0.5px;
+                    margin: 18px 0px 90px 0px;
+                }
+    
+                .money:nth-child(2){
+                    border-right:  gray solid 0.5px;
+                    margin: 18px 0px 90px 0px;
+                }
+
+                .money:nth-child(3) {
+                    padding-top: 32px;
+                }
+
+                .info{
+                    color: $dark-gray;
+                    font-size: 18px;
+                }
+    
+                b{
+                    font-weight: bold;
+                }
+    
+            }
+
+            .amount{
+                position: relative;
+                bottom: 115px;
+                left: 30px;
+                border-radius: 10px;
+                height: 10px;
+                width: 90%;
+                background-color: lightgray;
+            }
+
+            #status-bar{
+                background-color: $dark-cyan;
+                width: 80%;
+                height: 10px;
+                border-radius: 10px;
+            }
+
+            #about-section{
+                height : 1050px;
+                border-radius: 5px;
+                position: relative;
+                bottom: 55px;
+                padding: 45px;
+                font-family: "Commissioner", sans-serif;
+                background-color: white;
+
+                .about{
+                    font-size: 20px;
+                    font-weight: 600;
+                    margin-bottom: 20px;
+                    line-height: 20px;
+                }
+
+                p{
+                    color: $dark-gray;
+                    line-height: 32px;
+                }
+
+                p:nth-child(3){
+                    padding: 15px 0px 35px 0px;
+                }
+
+
+                .Pledge{
+                    border: 1px solid $med-gray;
+                    border-radius: 8px; 
+                    padding: 20px;
+                    height: 190px;
+                    margin-bottom: 30px;
+
+                    h3{
+                        position: relative;
+                        top: 5px;
+                        font-size: 19px;
+                        font-weight: bold;
+                    }
+
+                    .extra{
+                        color: $dark-gray;
+                    }
+
+                    span{
+                        position: relative;
+                        left: 420px;
+                        bottom: 12px;
+                        color: $med-cyan;
+                    }
+
+                    b{
+                        font-weight: bold;
+                        color: black;
+                        font-size: 1.7em;
+                        position: relative;
+                        top: 2px;
+                    }
+
+                    #reward1{
+                        padding: 13px 22px 13px 22px;
+                        border: none;
+                        border-radius: 28px;
+                        background-color: $dark-cyan;
+                        font-family: "Commissioner", sans-serif;
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: white;
+                        position: relative;
+                        left: 420px;
+                        bottom: 40px;
+                    }
+
+
+                    #reward2{
+                        padding: 13px 22px 13px 22px;
+                        border: none;
+                        border-radius: 28px;
+                        background-color: $dark-cyan;
+                        font-family: "Commissioner", sans-serif;
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: white;
+                        position: relative;
+                        left: 420px;
+                        bottom: 40px;
+                    }
+
+
+                    #reward3{
+                        padding: 13px 22px 13px 22px;
+                        border: none;
+                        border-radius: 28px;
+                        background-color: $dark-cyan;
+                        font-family: "Commissioner", sans-serif;
+                        font-weight: 500;
+                        font-size: 15px;
+                        color: white;
+                        position: relative;
+                        left: 420px;
+                        bottom: 40px;
+                    }
+
+
+                    #reward1:hover{
+                        background-color: $med-cyan;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                    }
+
+                    #reward2:hover{
+                        background-color: $med-cyan;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                    }
+
+                    #reward3:hover{
+                        background-color: $med-cyan;
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+
+
+        .modal-container{
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0px;
+            height: 108%;
+            width: 100%;
+            overflow: auto;
+            background-color: rgba( 0, 0, 0, 0.5 );
+
+
+            .modal-content{
+                background-color: white;
+                margin: 17% auto;
+                padding: 30px;
+                width: 50%;
+                height: 180%;
+                font-family: "Commissioner", sans-serif;
+                line-height: 30px;
+                border-radius: 20px;
+
+                .close{
+                    position: relative;
+                    font-size: 27px;
+                    font-weight: bold;
+                    bottom: 50px;
+                    left: 665px;
+                    cursor: pointer;
+                    color: $dark-gray;
+                }
+
+                .close:hover{
+                    color: black;
+                    transition-duration: 0.4s;
+                }
+
+                h1{
+                    font-weight: bold;
+                    padding: 10px 0px 0px 35px;
+                    font-size: 22px;
+                }
+
+                .tell{
+                    color: $dark-gray;
+                    padding: 0px 0px 15px 35px;
+                }
+
+                #pledge1{
+                    border: 2px solid $med-gray;
+                    margin: 32px;
+                    padding: 0px 20px 15px 65px;
+                    border-radius: 12px;
+
+                    b{
+                        font-weight : bold;
+                        color: black;
+                        font-size: 19px;
+                        padding-right: 6px;
+                    }
+
+                    h2{
+                        font-weight : 600;
+                    }
+
+                    h2:hover{
+                        color: $med-cyan; 
+                        transition: ease-in 0.1s;
+                    }
+
+                    #radio1{
+                        position: relative;
+                        top: 33px;
+                        right: 40px;
+                        height: 20px;
+                        width: 20px;
+                        cursor: pointer;
+                    }
+
+                    .part1{
+                        color: $dark-gray;
+                    }
+                }
+
+                #pledge2{
+                    border: 2px solid $med-gray;
+                    margin: 32px;
+                    padding: 0px 20px 15px 65px;
+                    border-radius: 12px;
+
+                    b{
+                        font-weight : bold;
+                        color: black;
+                        font-size: 19px;
+                        padding-right: 6px;
+                    }
+
+                    h2{
+                        font-weight : 600;
+                    }
+
+                    h2:hover{
+                        color: $med-cyan; 
+                        transition: ease-in 0.1s;
+                    }
+
+                    .mini-2{
+                        position: relative;
+                        left: 170px;
+                        bottom: 30px;
+                        color: $med-cyan;
+                    }
+
+                    .left-2{
+                        position: relative;
+                        bottom: 155px;
+                        left: 452px;
+                        color: $dark-gray;
+                    }
+
+                    #radio2{
+                        position: relative;
+                        top: 33px;
+                        right: 40px;
+                        height: 20px;
+                        width: 20px;
+                        cursor: pointer;
+                    }
+
+                    .part2{
+                        color: $dark-gray;
+                    }
+
+                    #donation-amount2{
+                        border-top: $dark-gray solid 1px;
+                        position: relative;
+                        right: 65px;
+                        bottom: 15px;
+                        height: 65px;
+                        width: 114.9%;
+    
+                        h3{
+                            color: $dark-gray;
+                            padding: 30px 0px 0px 15px;;
+                            text-align: left;
+                        }
+    
+                        #donation2{
+                            height: 25px;
+                            width: 12%;
+                            font-weight: bold;
+                            font-family: "Commissioner", sans-serif;
+                            border-radius: 28px;
+                            border: solid 1px $dark-gray;
+                            padding: 11px;
+                            font-size: 16px;
+                            text-align: center;
+                            margin: 25px 0px 0px 225px;
+                            position: relative;
+                            bottom: 88%;
+                            left: 25%;
+                        }
+    
+                        #next2{
+                            height: 50px;
+                            width: 100px;
+                            border: none;
+                            border-radius: 28px;
+                            background-color: $dark-cyan;
+                            color: white;
+                            font-weight: bold;
+                            font-family: "Commissioner", sans-serif;
+                            font-size: 16px;
+                            cursor: pointer;
+                            position: relative;
+                            bottom: 88%;
+                            left: 29%;
+                        }
+
+                        #next2:hover {
+                            background-color: $med-cyan;
+                        }
+                    }
+
+                }
+    
+
+
+                #pledge3{
+                    border: 2px solid $med-gray;
+                    margin: 32px;
+                    padding: 0px 20px 15px 65px;
+                    border-radius: 12px;
+
+                    b{
+                        font-weight : bold;
+                        color: black;
+                        font-size: 19px;
+                        padding-right: 6px;
+                    }
+
+                    h2{
+                        font-weight : 600;
+                    }
+
+                    h2:hover{
+                        color: $med-cyan; 
+                        transition: ease-in 0.1s;
+                    }
+
+                    .mini-3{
+                        position: relative;
+                        left: 210px;
+                        bottom: 30px;
+                        color: $med-cyan;
+                    }
+
+                    .left-3{
+                        position: relative;
+                        bottom: 120px;
+                        left: 452px;
+                        color: $dark-gray;
+                    }
+
+                    #radio3{
+                        position: relative;
+                        top: 33px;
+                        right: 40px;
+                        height: 20px;
+                        width: 20px;
+                        cursor: pointer;
+                    }
+
+                    .part3{
+                        color: $dark-gray;
+                    }
+
+                    #donation-amount3{
+                        border-top: $dark-gray solid 1px;
+                        position: relative;
+                        right: 65px;
+                        bottom: 15px;
+                        height: 65px;
+                        width: 114.9%;
+                        display: none;
+    
+                        h3{
+                            color: $dark-gray;
+                            padding: 30px 0px 0px 15px;
+                        }
+    
+                        #donation3{
+                            height: 25px;
+                            width: 12%;
+                            font-weight: bold;
+                            font-family: "Commissioner", sans-serif;
+                            border-radius: 28px;
+                            border: solid 1px $dark-gray;
+                            padding: 11px;
+                            font-size: 16px;
+                            text-align: center;
+                            position: relative;
+                            bottom: 60%;
+                            left: 62%;
+                        }
+    
+                        #next3{
+                            height: 50px;
+                            width: 100px;
+                            border: none;
+                            border-radius: 28px;
+                            background-color: $dark-cyan;
+                            color: white;
+                            font-weight: bold;
+                            font-family: "Commissioner", sans-serif;
+                            font-size: 16px;
+                            cursor: pointer;
+                            position: relative;
+                            bottom: 40px;
+                            left: 65%;
+                        }
+
+                        #next:hover{
+                            background-color: $med-cyan;
+                        }
+                    }
+    
+                }
+
+
+                .pledge4{
+                    border: 2px solid $med-gray;
+                    margin: 32px;
+                    padding: 0px 20px 15px 65px;
+                    border-radius: 12px;
+
+                    b{
+                        font-weight : bold;
+                        color: black;
+                        font-size: 19px;
+                        padding-right: 6px;
+                    }
+
+                    h2{
+                        font-weight : 600;
+                    }
+
+                    h2:hover{
+                        color: $med-cyan; 
+                        transition: ease-in 0.1s;
+                    }
+
+                    .mini-4{
+                        position: relative;
+                        left: 210px;
+                        bottom: 30px;
+                        color: $med-cyan;
+                    }
+
+                    .left-4{
+                        position: relative;
+                        bottom: 149px;
+                        left: 452px;
+                        color: $dark-gray;
+                    }
+
+                    #radio4{
+                        position: relative;
+                        top: 33px;
+                        right: 40px;
+                        height: 20px;
+                        width: 20px;
+                        cursor: pointer;
+                    }
+
+                    .part4{
+                        color: $dark-gray;
+                    }
+                }
+            }
+        }
+
+        #thankyou-container {
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0px;
+            height: 100%;
+            width: 100%;
+            overflow: auto;
+            background-color: rgba( 0, 0, 0, 0.5 );
+            font-family: "Commissioner", sans-serif;
+            padding: 50px;
+            display: none;
+
+            .thankyou-content{
+                background-color: white;
+                margin: 20% auto;
+                padding: 20px;
+                width: 35%;
+                height: 65%;
+                font-family: "Commissioner", sans-serif;
+                line-height: 30px;
+                border-radius: 10px;
+                text-align: center;
+
+
+                .check{
+                    margin-top: 20px;
+                    height: 25%;
+                    width: 20%;
+                }
+
+                h2{
+                    font-weight: bold;
+                    font-size: 1.5em;
+                    margin: 20px;
+                }
+
+                p{
+                    color: $dark-gray;
+                }
+
+                button{
+                    height: 50px;
+                    width: 110px;
+                    font-size: 15px;
+                    border-radius: 28px;
+                    margin-top: 25px;
+                    border: none;
+                    background-color: $dark-cyan;
+                    color: white;
+                    font-weight: bold;
+                    font-family: "Commissioner", sans-serif;
+                }
+
+                #ty-btn:hover{
+                    background-color: $med-cyan;
+                    transition-duration: 0.2s;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
