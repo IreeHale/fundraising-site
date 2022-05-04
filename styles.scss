@@ -841,17 +841,13 @@ $med-gray: hsl(0,0%,83%);
                 .money:nth-child(1){
                     border-bottom: gray solid 0.5px;
                     border-right: none;
-                    margin: 28px 90px 50px 90px;
+                    margin: 15px 90px 0px 90px;
                 }
     
                 .money:nth-child(2){
                     border-bottom:  gray solid 0.5px;
                     border-right: none;
-                    margin: 8px 90px 50px 90px;
-                }
-
-                .money:nth-child(3) {
-                    padding-top: 10px;
+                    margin: 0px 90px 5px 90px;
                 }
 
                 .info{
@@ -866,19 +862,20 @@ $med-gray: hsl(0,0%,83%);
             }
 
             .amount{
-                position: relative;
-                bottom: 115px;
-                left: 30px;
+                position: absolute;
+                top: 1000px;
+                right: 20px;
+                left: 40px;
                 border-radius: 10px;
-                height: 10px;
-                width: 90%;
+                height: 16px;
+                width: 80%;
                 background-color: lightgray;
             }
 
             #status-bar{
                 background-color: $dark-cyan;
-                width: 80%;
-                height: 10px;
+                width: 75%;
+                height: 16px;
                 border-radius: 10px;
             }
 
@@ -886,6 +883,8 @@ $med-gray: hsl(0,0%,83%);
                 height : 1050px;
                 border-radius: 5px;
                 position: relative;
+                top: 50px;
+                right: 310px;
                 bottom: 55px;
                 padding: 45px;
                 font-family: "Commissioner", sans-serif;
