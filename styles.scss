@@ -880,13 +880,15 @@ $med-gray: hsl(0,0%,83%);
             }
 
             #about-section{
-                height : 1050px;
+                height : 1750px;
+                width: 83%;
                 border-radius: 5px;
                 position: relative;
                 top: 50px;
-                right: 310px;
+                right: 340px;
                 bottom: 55px;
-                padding: 45px;
+                text-align: left;
+                padding: 55px;
                 font-family: "Commissioner", sans-serif;
                 background-color: white;
 
@@ -910,34 +912,36 @@ $med-gray: hsl(0,0%,83%);
                 .Pledge{
                     border: 1px solid $med-gray;
                     border-radius: 8px; 
-                    padding: 20px;
-                    height: 190px;
+                    padding: 15px;
+                    height: 320px;
+                    width: 220px;
                     margin-bottom: 30px;
 
                     h3{
                         position: relative;
                         top: 5px;
-                        font-size: 19px;
+                        font-size: 16px;
                         font-weight: bold;
                     }
 
                     .extra{
                         color: $dark-gray;
+                        padding-top: 25px;
                     }
 
                     span{
                         position: relative;
-                        left: 420px;
-                        bottom: 12px;
+                        left: 0px;
+                        bottom: -19px;
                         color: $med-cyan;
                     }
 
                     b{
                         font-weight: bold;
                         color: black;
-                        font-size: 1.7em;
+                        font-size: 1.5em;
                         position: relative;
-                        top: 2px;
+                        top: 0px;
                     }
 
                     #reward1{
@@ -950,7 +954,7 @@ $med-gray: hsl(0,0%,83%);
                         font-size: 15px;
                         color: white;
                         position: relative;
-                        left: 420px;
+                        left: 0px;
                         bottom: 40px;
                     }
 
@@ -965,7 +969,7 @@ $med-gray: hsl(0,0%,83%);
                         font-size: 15px;
                         color: white;
                         position: relative;
-                        left: 420px;
+                        left: 0px;
                         bottom: 40px;
                     }
 
@@ -980,7 +984,7 @@ $med-gray: hsl(0,0%,83%);
                         font-size: 15px;
                         color: white;
                         position: relative;
-                        left: 420px;
+                        left: 0px;
                         bottom: 40px;
                     }
 

@@ -793,13 +793,15 @@
     border-radius: 10px;
   }
   body .column #about-section {
-    height: 1050px;
+    height: 1750px;
+    width: 83%;
     border-radius: 5px;
     position: relative;
     top: 50px;
-    right: 310px;
+    right: 340px;
     bottom: 55px;
-    padding: 45px;
+    text-align: left;
+    padding: 55px;
     font-family: "Commissioner", sans-serif;
     background-color: white;
   }
@@ -819,31 +821,33 @@
   body .column #about-section .Pledge {
     border: 1px solid #d4d4d4;
     border-radius: 8px;
-    padding: 20px;
-    height: 190px;
+    padding: 15px;
+    height: 320px;
+    width: 220px;
     margin-bottom: 30px;
   }
   body .column #about-section .Pledge h3 {
     position: relative;
     top: 5px;
-    font-size: 19px;
+    font-size: 16px;
     font-weight: bold;
   }
   body .column #about-section .Pledge .extra {
     color: #7a7a7a;
+    padding-top: 25px;
   }
   body .column #about-section .Pledge span {
     position: relative;
-    left: 420px;
-    bottom: 12px;
+    left: 0px;
+    bottom: -19px;
     color: #3cb4ac;
   }
   body .column #about-section .Pledge b {
     font-weight: bold;
     color: black;
-    font-size: 1.7em;
+    font-size: 1.5em;
     position: relative;
-    top: 2px;
+    top: 0px;
   }
   body .column #about-section .Pledge #reward1 {
     padding: 13px 22px 13px 22px;
@@ -855,7 +859,7 @@
     font-size: 15px;
     color: white;
     position: relative;
-    left: 420px;
+    left: 0px;
     bottom: 40px;
   }
   body .column #about-section .Pledge #reward2 {
@@ -868,7 +872,7 @@
     font-size: 15px;
     color: white;
     position: relative;
-    left: 420px;
+    left: 0px;
     bottom: 40px;
   }
   body .column #about-section .Pledge #reward3 {
@@ -881,7 +885,7 @@
     font-size: 15px;
     color: white;
     position: relative;
-    left: 420px;
+    left: 0px;
     bottom: 40px;
   }
   body .column #about-section .Pledge #reward1:hover {
