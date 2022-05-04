@@ -705,7 +705,7 @@ $med-gray: hsl(0,0%,83%);
     }
 }
 
-@media(max-width: 375px) {
+@media(min-width: 375px) {
     body{
         padding: 0px;
         margin: 0px;
@@ -714,7 +714,7 @@ $med-gray: hsl(0,0%,83%);
         background-color: whitesmoke;
 
         .navbar{
-            height: 400px;
+            height: 300px;
             color: white;
             background: url('./images/image-hero-desktop.jpg');
             background-size: cover;
@@ -723,12 +723,13 @@ $med-gray: hsl(0,0%,83%);
     
             .logo{
                 position: relative;
-                top: 35px;
-                left: 55px;
+                top: 25px;
+                left: 20px;
             }
     
             ul{
                 display: flex;
+                display: none;
                 padding-top: 20px;
                 padding-right: 45px;
                 justify-content: flex-end;
@@ -750,7 +751,7 @@ $med-gray: hsl(0,0%,83%);
         .column{
             display: flex;
             flex-direction: column;
-            margin: 0px 260px 0px 360px;
+            width: 75%;
 
             .logo-mastercraft{
                 position: relative;
@@ -759,22 +760,23 @@ $med-gray: hsl(0,0%,83%);
     
             #intro{
                 position: relative;
-                bottom: 88px;
+                right: 332px;
+                bottom: 50px;
                 background-color: white;
                 border-radius: 8px;
                 text-align: center;
                 font-family: "Commissioner", sans-serif;
                 height: 275px;
+                width: 115%;
         
                 h1{
-                    padding-top: 5px;
                     font-weight: 700;
                     font-size: 30px;
                 }
         
                 .detail{
                     color: $dark-gray;
-                    padding-top: 20px;
+                    padding-top: 29px;
                     font-size: 17.5px;
                 }
     
@@ -782,17 +784,18 @@ $med-gray: hsl(0,0%,83%);
                     font-family: "Commissioner", sans-serif;
                     font-weight: 500;
                     font-size: 19px;
-                    margin-top: 47px;
                     padding: 17px 37px;
                     border: none;
                     border-radius: 28px;
+                    position: relative;
+                    bottom: 25px;
+                    left: -69px;
                 }
     
                 #back{
                     background-color: $dark-cyan;
                     color: white;
                     position: relative;
-                    right: 150px;
                 }
 
                 #back:hover{
@@ -802,6 +805,7 @@ $med-gray: hsl(0,0%,83%);
                 }
     
                 #book{
+                    display: none;
                     color: $dark-cyan;
                     position: relative;
                     left: 85px;
@@ -810,44 +814,49 @@ $med-gray: hsl(0,0%,83%);
     
                 .bookmark{
                     position: relative;
-                    top: 19px;
-                    left: 349px;
+                    left: 229px;
+                    top: -5px;
                     z-index: 1;
                 }
             }
 
             #goal{
                 display: flex;
-                flex-direction: row;
+                flex-direction: column;
                 position: relative;
-                bottom: 68px;
-                height: 190px;
+                top: 15px;
+                right: 330px;
+                height: 490px;
+                width: 115%;
                 border-radius: 5px;
                 background-color: white;
+                text-align: center;
                 font-family: "Commissioner", sans-serif;
 
                 .money{
-                    padding:  15px 80px 0px 40px;
+                    padding:  20px 10px 25px 10px;
                     font-size: 30px;                    
                 }
     
                 .money:nth-child(1){
-                    border-right: gray solid 0.5px;
-                    margin: 18px 0px 90px 0px;
+                    border-bottom: gray solid 0.5px;
+                    border-right: none;
+                    margin: 28px 90px 50px 90px;
                 }
     
                 .money:nth-child(2){
-                    border-right:  gray solid 0.5px;
-                    margin: 18px 0px 90px 0px;
+                    border-bottom:  gray solid 0.5px;
+                    border-right: none;
+                    margin: 8px 90px 50px 90px;
                 }
 
                 .money:nth-child(3) {
-                    padding-top: 32px;
+                    padding-top: 10px;
                 }
 
                 .info{
                     color: $dark-gray;
-                    font-size: 18px;
+                    font-size: 16px;
                 }
     
                 b{

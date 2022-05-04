@@ -622,7 +622,7 @@
   }
 }
 
-@media (max-width: 375px) {
+@media (min-width: 375px) {
   body {
     padding: 0px;
     margin: 0px;
@@ -632,7 +632,7 @@
     background-color: whitesmoke;
   }
   body .navbar {
-    height: 400px;
+    height: 300px;
     color: white;
     background: url("./images/image-hero-desktop.jpg");
     background-size: cover;
@@ -641,13 +641,14 @@
   }
   body .navbar .logo {
     position: relative;
-    top: 35px;
-    left: 55px;
+    top: 25px;
+    left: 20px;
   }
   body .navbar ul {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    display: none;
     padding-top: 20px;
     padding-right: 45px;
     -webkit-box-pack: end;
@@ -675,7 +676,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 0px 260px 0px 360px;
+    width: 75%;
   }
   body .column .logo-mastercraft {
     position: relative;
@@ -683,37 +684,39 @@
   }
   body .column #intro {
     position: relative;
-    bottom: 88px;
+    right: 332px;
+    bottom: 50px;
     background-color: white;
     border-radius: 8px;
     text-align: center;
     font-family: "Commissioner", sans-serif;
     height: 275px;
+    width: 115%;
   }
   body .column #intro h1 {
-    padding-top: 5px;
     font-weight: 700;
     font-size: 30px;
   }
   body .column #intro .detail {
     color: #7a7a7a;
-    padding-top: 20px;
+    padding-top: 29px;
     font-size: 17.5px;
   }
   body .column #intro button {
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 19px;
-    margin-top: 47px;
     padding: 17px 37px;
     border: none;
     border-radius: 28px;
+    position: relative;
+    bottom: 25px;
+    left: -69px;
   }
   body .column #intro #back {
     background-color: #147b74;
     color: white;
     position: relative;
-    right: 150px;
   }
   body .column #intro #back:hover {
     background-color: #3cb4ac;
@@ -722,6 +725,7 @@
     transition: 0.2s;
   }
   body .column #intro #book {
+    display: none;
     color: #147b74;
     position: relative;
     left: 85px;
@@ -729,43 +733,48 @@
   }
   body .column #intro .bookmark {
     position: relative;
-    top: 19px;
-    left: 349px;
+    left: 229px;
+    top: -5px;
     z-index: 1;
   }
   body .column #goal {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
+    -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+        -ms-flex-direction: column;
+            flex-direction: column;
     position: relative;
-    bottom: 68px;
-    height: 190px;
+    top: 15px;
+    right: 330px;
+    height: 490px;
+    width: 115%;
     border-radius: 5px;
     background-color: white;
+    text-align: center;
     font-family: "Commissioner", sans-serif;
   }
   body .column #goal .money {
-    padding: 15px 80px 0px 40px;
+    padding: 20px 10px 25px 10px;
     font-size: 30px;
   }
   body .column #goal .money:nth-child(1) {
-    border-right: gray solid 0.5px;
-    margin: 18px 0px 90px 0px;
+    border-bottom: gray solid 0.5px;
+    border-right: none;
+    margin: 28px 90px 50px 90px;
   }
   body .column #goal .money:nth-child(2) {
-    border-right: gray solid 0.5px;
-    margin: 18px 0px 90px 0px;
+    border-bottom: gray solid 0.5px;
+    border-right: none;
+    margin: 8px 90px 50px 90px;
   }
   body .column #goal .money:nth-child(3) {
-    padding-top: 32px;
+    padding-top: 10px;
   }
   body .column #goal .info {
     color: #7a7a7a;
-    font-size: 18px;
+    font-size: 16px;
   }
   body .column #goal b {
     font-weight: bold;
