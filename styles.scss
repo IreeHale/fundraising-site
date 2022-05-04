@@ -1018,17 +1018,18 @@ $med-gray: hsl(0,0%,83%);
             z-index: 1;
             top: 0;
             left: 0px;
-            height: 108%;
+            height: 98%;
             width: 100%;
             overflow: auto;
             background-color: rgba( 0, 0, 0, 0.5 );
 
 
             .modal-content{
+                display: block;
                 background-color: white;
-                margin: 17% auto;
+                margin: 16% auto;
                 padding: 30px;
-                width: 50%;
+                width: 70%;
                 height: 180%;
                 font-family: "Commissioner", sans-serif;
                 line-height: 30px;
@@ -1039,7 +1040,7 @@ $med-gray: hsl(0,0%,83%);
                     font-size: 27px;
                     font-weight: bold;
                     bottom: 50px;
-                    left: 665px;
+                    left: 0px;
                     cursor: pointer;
                     color: $dark-gray;
                 }
