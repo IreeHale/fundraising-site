@@ -629,6 +629,7 @@
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden;
     background-color: whitesmoke;
   }
   body .navbar {
@@ -677,6 +678,7 @@
         -ms-flex-direction: column;
             flex-direction: column;
     width: 75%;
+    margin-right: 55px;
   }
   body .column .logo-mastercraft {
     position: relative;
@@ -859,7 +861,7 @@
     font-size: 15px;
     color: white;
     position: relative;
-    left: 0px;
+    left: 85px;
     bottom: 40px;
   }
   body .column #about-section .Pledge #reward2 {
@@ -872,7 +874,7 @@
     font-size: 15px;
     color: white;
     position: relative;
-    left: 0px;
+    left: 75px;
     bottom: 40px;
   }
   body .column #about-section .Pledge #reward3 {
@@ -885,7 +887,7 @@
     font-size: 15px;
     color: white;
     position: relative;
-    left: 0px;
+    left: 75px;
     bottom: 40px;
   }
   body .column #about-section .Pledge #reward1:hover {
