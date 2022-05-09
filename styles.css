@@ -53,7 +53,7 @@
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    margin: 0px 280px 0px 355px;
+    margin: 0px 270px 0px 360px;
   }
   body .column .logo-mastercraft {
     position: relative;
@@ -367,7 +367,7 @@
   }
   body .modal-container .modal-content #pledge2 .mini-2 {
     position: relative;
-    left: 170px;
+    left: 130px;
     bottom: 30px;
     color: #3cb4ac;
   }
@@ -456,7 +456,7 @@
   }
   body .modal-container .modal-content #pledge3 .mini-3 {
     position: relative;
-    left: 210px;
+    left: 170px;
     bottom: 30px;
     color: #3cb4ac;
   }
@@ -916,7 +916,6 @@
     height: 100%;
     width: 100%;
     overflow: auto;
-    overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.5);
   }
   body .modal-container .modal-content {
@@ -933,8 +932,8 @@
     position: relative;
     font-size: 27px;
     font-weight: bold;
-    bottom: 20px;
-    left: 260px;
+    bottom: 50px;
+    left: 290px;
     cursor: pointer;
     color: #7a7a7a;
   }
@@ -966,7 +965,6 @@
     font-weight: bold;
     color: black;
     font-size: 16px;
-    padding-right: 6px;
     padding-bottom: 20px;
   }
   body .modal-container .modal-content #pledge1 h2 {
@@ -980,7 +978,7 @@
   body .modal-container .modal-content #pledge1 #radio1 {
     position: relative;
     top: 33px;
-    right: 40px;
+    right: 55px;
     height: 25px;
     width: 25px;
     cursor: pointer;
@@ -1014,8 +1012,8 @@
   }
   body .modal-container .modal-content #pledge2 .mini-2 {
     position: relative;
-    left: 170px;
-    bottom: 30px;
+    top: 2px;
+    left: 0px;
     color: #3cb4ac;
   }
   body .modal-container .modal-content #pledge2 .left-2 {

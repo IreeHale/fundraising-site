@@ -51,7 +51,7 @@ $med-gray: hsl(0,0%,83%);
         .column{
             display: flex;
             flex-direction: column;
-            margin: 0px 280px 0px 355px;
+            margin: 0px 270px 0px 360px;
 
             .logo-mastercraft{
                 position: relative;
@@ -407,7 +407,7 @@ $med-gray: hsl(0,0%,83%);
 
                     .mini-2{
                         position: relative;
-                        left: 170px;
+                        left: 130px;
                         bottom: 30px;
                         color: $med-cyan;
                     }
@@ -511,7 +511,7 @@ $med-gray: hsl(0,0%,83%);
 
                     .mini-3{
                         position: relative;
-                        left: 210px;
+                        left: 170px;
                         bottom: 30px;
                         color: $med-cyan;
                     }
@@ -1021,7 +1021,6 @@ $med-gray: hsl(0,0%,83%);
             height: 100%;
             width: 100%;
             overflow: auto;
-            overflow-x: hidden;
             background-color: rgba( 0, 0, 0, 0.5 );
 
 
@@ -1039,8 +1038,8 @@ $med-gray: hsl(0,0%,83%);
                     position: relative;
                     font-size: 27px;
                     font-weight: bold;
-                    bottom: 20px;
-                    left: 260px;
+                    bottom: 50px;
+                    left: 290px;
                     cursor: pointer;
                     color: $dark-gray;
                 }
@@ -1075,7 +1074,6 @@ $med-gray: hsl(0,0%,83%);
                         font-weight : bold;
                         color: black;
                         font-size: 16px;
-                        padding-right: 6px;
                         padding-bottom: 20px;
                     }
 
@@ -1091,7 +1089,7 @@ $med-gray: hsl(0,0%,83%);
                     #radio1{
                         position: relative;
                         top: 33px;
-                        right: 40px;
+                        right: 55px;
                         height: 25px;
                         width: 25px;
                         cursor: pointer;
@@ -1130,8 +1128,8 @@ $med-gray: hsl(0,0%,83%);
 
                     .mini-2{
                         position: relative;
-                        left: 170px;
-                        bottom: 30px;
+                        top: 2px;
+                        left: 0px;
                         color: $med-cyan;
                     }
 
