@@ -1019,7 +1019,7 @@
   body .modal-container .modal-content #pledge2 .left-2 {
     position: relative;
     top: 5px;
-    left: -50px;
+    left: -45px;
     color: #7a7a7a;
   }
   body .modal-container .modal-content #pledge2 #radio2 {
@@ -1032,6 +1032,9 @@
   }
   body .modal-container .modal-content #pledge2 .part2 {
     color: #7a7a7a;
+    width: 120%;
+    margin: 10px 40px 0px -40px;
+    font-size: 15px;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 {
     border-top: #7a7a7a solid 1px;
@@ -1122,6 +1125,9 @@
   }
   body .modal-container .modal-content #pledge3 .part3 {
     color: #7a7a7a;
+    width: 130%;
+    margin: 10px 20px 0px -45px;
+    font-size: 15px;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 {
     border-top: #7a7a7a solid 1px;
@@ -1198,7 +1204,7 @@
   body .modal-container .modal-content .pledge4 .left-4 {
     position: relative;
     top: 2px;
-    left: -40px;
+    left: -45px;
     color: #7a7a7a;
   }
   body .modal-container .modal-content .pledge4 #radio4 {
@@ -1211,6 +1217,9 @@
   }
   body .modal-container .modal-content .pledge4 .part4 {
     color: #7a7a7a;
+    width: 130%;
+    margin: 10px 10px 0px -45px;
+    font-size: 15px;
   }
   body #thankyou-container {
     position: fixed;

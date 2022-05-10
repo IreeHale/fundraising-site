@@ -1136,7 +1136,7 @@ $med-gray: hsl(0,0%,83%);
                     .left-2{
                         position: relative;
                         top: 5px;
-                        left: -50px;
+                        left: -45px;
                         color: $dark-gray;
                     }
 
@@ -1151,6 +1151,9 @@ $med-gray: hsl(0,0%,83%);
 
                     .part2{
                         color: $dark-gray;
+                        width: 120%;
+                        margin: 10px 40px 0px -40px;
+                        font-size: 15px;
                     }
 
                     #donation-amount2{
@@ -1256,6 +1259,9 @@ $med-gray: hsl(0,0%,83%);
 
                     .part3{
                         color: $dark-gray;
+                        width: 130%;
+                        margin: 10px 20px 0px -45px;
+                        font-size: 15px;
                     }
 
                     #donation-amount3{
@@ -1345,7 +1351,7 @@ $med-gray: hsl(0,0%,83%);
                     .left-4{
                         position: relative;
                         top: 2px;
-                        left: -40px;
+                        left: -45px;
                         color: $dark-gray;
                     }
 
@@ -1360,6 +1366,9 @@ $med-gray: hsl(0,0%,83%);
 
                     .part4{
                         color: $dark-gray;
+                        width: 130%;
+                        margin: 10px 10px 0px -45px;
+                        font-size: 15px;
                     }
                 }
             }
