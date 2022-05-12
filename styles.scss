@@ -1137,6 +1137,7 @@ $med-gray: hsl(0,0%,83%);
                         position: relative;
                         top: 5px;
                         left: -45px;
+                        margin-bottom: 30px;
                         color: $dark-gray;
                     }
 
@@ -1159,15 +1160,15 @@ $med-gray: hsl(0,0%,83%);
                     #donation-amount2{
                         border-top: $dark-gray solid 1px;
                         position: relative;
-                        right: 65px;
+                        right: 40px;
                         bottom: 15px;
-                        height: 65px;
+                        height: 95px;
                         width: 114.9%;
     
                         h3{
                             color: $dark-gray;
-                            padding: 30px 0px 0px 15px;;
-                            text-align: left;
+                            padding: 5px 0px 0px 15px;;
+                            text-align: center;
                         }
     
                         #donation2{
@@ -1182,8 +1183,6 @@ $med-gray: hsl(0,0%,83%);
                             text-align: center;
                             margin: 25px 0px 0px 225px;
                             position: relative;
-                            bottom: 88%;
-                            left: 25%;
                         }
     
                         #next2{
@@ -1198,8 +1197,8 @@ $med-gray: hsl(0,0%,83%);
                             font-size: 16px;
                             cursor: pointer;
                             position: relative;
-                            bottom: 88%;
-                            left: 29%;
+                            top: -35px;
+                            left: 90px;
                         }
 
                         #next2:hover {
