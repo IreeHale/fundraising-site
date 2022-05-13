@@ -1042,7 +1042,7 @@
     position: relative;
     right: 40px;
     bottom: 15px;
-    height: 95px;
+    height: 75px;
     width: 114.9%;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 h3 {
@@ -1062,7 +1062,7 @@
     text-align: center;
     margin: 25px 0px 0px 225px;
     position: relative;
-    top: -5px;
+    top: -20px;
     left: -200px;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
@@ -1077,7 +1077,7 @@
     font-size: 16px;
     cursor: pointer;
     position: relative;
-    top: -55px;
+    top: -68px;
     left: 130px;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 #next2:hover {
@@ -1134,20 +1134,20 @@
   body .modal-container .modal-content #pledge3 #donation-amount3 {
     border-top: #7a7a7a solid 1px;
     position: relative;
-    right: 65px;
+    right: 40px;
     bottom: 15px;
-    height: 65px;
+    height: 75px;
     width: 114.9%;
     display: none;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 h3 {
     color: #7a7a7a;
-    padding: 5px 0px 0px 15px;
+    padding: 5px 0px 10px 15px;
     text-align: center;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 #donation3 {
     height: 25px;
-    width: 12%;
+    width: 20%;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
     border-radius: 28px;
@@ -1156,8 +1156,8 @@
     font-size: 16px;
     text-align: center;
     position: relative;
-    top: -5px;
-    left: -200px;
+    top: 0px;
+    left: 33px;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 #next3 {
     height: 50px;
@@ -1171,8 +1171,8 @@
     font-size: 16px;
     cursor: pointer;
     position: relative;
-    top: -5px;
-    left: -200px;
+    top: 0px;
+    left: 50px;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 #next:hover {
     background-color: #3cb4ac;

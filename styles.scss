@@ -1162,7 +1162,7 @@ $med-gray: hsl(0,0%,83%);
                         position: relative;
                         right: 40px;
                         bottom: 15px;
-                        height: 95px;
+                        height: 75px;
                         width: 114.9%;
     
                         h3{
@@ -1183,7 +1183,7 @@ $med-gray: hsl(0,0%,83%);
                             text-align: center;
                             margin: 25px 0px 0px 225px;
                             position: relative;
-                            top: -5px;
+                            top: -20px;
                             left: -200px;
                         }
     
@@ -1199,7 +1199,7 @@ $med-gray: hsl(0,0%,83%);
                             font-size: 16px;
                             cursor: pointer;
                             position: relative;
-                            top: -55px;
+                            top: -68px;
                             left: 130px;
                         }
 
@@ -1269,21 +1269,21 @@ $med-gray: hsl(0,0%,83%);
                     #donation-amount3{
                         border-top: $dark-gray solid 1px;
                         position: relative;
-                        right: 65px;
+                        right: 40px;
                         bottom: 15px;
-                        height: 65px;
+                        height: 75px;
                         width: 114.9%;
                         display: none;
     
                         h3{
                             color: $dark-gray;
-                            padding: 5px 0px 0px 15px;;
+                            padding: 5px 0px 10px 15px;;
                             text-align: center;
                         }
     
                         #donation3{
                             height: 25px;
-                            width: 12%;
+                            width: 20%;
                             font-weight: bold;
                             font-family: "Commissioner", sans-serif;
                             border-radius: 28px;
@@ -1292,8 +1292,8 @@ $med-gray: hsl(0,0%,83%);
                             font-size: 16px;
                             text-align: center;
                             position: relative;
-                            top: -5px;
-                            left: -200px;
+                            top: 0px;
+                            left: 33px;
                         }
     
                         #next3{
@@ -1308,8 +1308,8 @@ $med-gray: hsl(0,0%,83%);
                             font-size: 16px;
                             cursor: pointer;
                             position: relative;
-                            top: -5px;
-                            left: -200px;
+                            top: 0px;
+                            left: 50px;
                         }
 
                         #next:hover{
