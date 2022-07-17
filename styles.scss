@@ -704,7 +704,7 @@ $med-gray: hsl(0,0%,83%);
     }
 
 
-@media (max-width: 576px) {
+@media screen and (max-width: 700px) {
     body{
         padding: 0px;
         margin: 0px;
@@ -1021,25 +1021,27 @@ $med-gray: hsl(0,0%,83%);
             width: 100%;
             overflow: auto;
             box-sizing: border-box;
+            overflow-x: hidden;
             background-color: rgba( 0, 0, 0, 0.5 );
 
 
             .modal-content{
                 display: block;
                 background-color: white;
-                margin: 10% auto;
-                width: 80%;
+                margin-right: 200px;
+                margin: 2%;
+                margin-right: 300px;
+                width: 40%;
                 height: 190%;
                 font-family: "Commissioner", sans-serif;
                 line-height: 30px;
                 border-radius: 10px;
-                overflow-wrap: center;
-                box-sizing: border-box;
                 overflow: hidden;
+                overflow-x: hidden;;
 
                 .close{
                     position: relative;
-                    left: 290px;
+                    left: 270px;
                     bottom: 60px;
                     cursor: pointer;
                     color: $dark-gray;
