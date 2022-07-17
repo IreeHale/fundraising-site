@@ -704,7 +704,7 @@ $med-gray: hsl(0,0%,83%);
     }
 
 
-@media (max-width: 675px) {
+@media (max-width: 576px) {
     body{
         padding: 0px;
         margin: 0px;
@@ -1028,21 +1028,20 @@ $med-gray: hsl(0,0%,83%);
                 display: block;
                 background-color: white;
                 margin: 10% auto;
-                width: 79%;
+                width: 80%;
                 height: 190%;
                 font-family: "Commissioner", sans-serif;
                 line-height: 30px;
                 border-radius: 10px;
+                overflow-wrap: center;
+                box-sizing: border-box;
                 overflow: hidden;
 
                 .close{
                     position: relative;
-                    font-size: 27px;
-                    font-weight: bold;
+                    left: 290px;
+                    bottom: 60px;
                     cursor: pointer;
-                    bottom: 65px;
-                    margin-right: 30px;
-                    left: 280px;
                     color: $dark-gray;
                 }
 
