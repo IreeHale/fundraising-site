@@ -6,7 +6,6 @@ $black: hsl(0, 0%, 0%);
 $dark-gray: hsl(0, 0%, 48%);
 $med-gray: hsl(0,0%,83%);
 
-@media (max-width: 1440px) {
     body{
         padding: 0px;
         margin: 0px;
@@ -703,9 +702,8 @@ $med-gray: hsl(0,0%,83%);
             }
         }
     }
-}
 
-@media(min-width: 320px) {
+@media (max-width: 620px) {
     body{
         padding: 0px;
         margin: 0px;
@@ -1019,8 +1017,11 @@ $med-gray: hsl(0,0%,83%);
             top: 0;
             left: 0px;
             height: 100%;
-            width: 100%;
+            width: 80%;
             overflow: auto;
+            box-sizing: border-box;
+            scroll-behavior: smooth;
+            overflow-x: hidden;
             background-color: rgba( 0, 0, 0, 0.5 );
 
 
