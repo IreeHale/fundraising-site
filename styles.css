@@ -592,7 +592,7 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
   cursor: pointer;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 675px) {
   body {
     padding: 0px;
     margin: 0px;
@@ -862,11 +862,9 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     top: 0;
     left: 0px;
     height: 100%;
-    width: 80%;
+    width: 100%;
     overflow: auto;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.5);
   }
   body .modal-container .modal-content {
@@ -874,18 +872,20 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     background-color: white;
     margin: 10% auto;
     width: 79%;
-    height: 160%;
+    height: 190%;
     font-family: "Commissioner", sans-serif;
     line-height: 30px;
     border-radius: 10px;
+    overflow: hidden;
   }
   body .modal-container .modal-content .close {
     position: relative;
     font-size: 27px;
     font-weight: bold;
-    bottom: 50px;
-    left: 290px;
     cursor: pointer;
+    bottom: 65px;
+    margin-right: 30px;
+    left: 280px;
     color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content .close:hover {
