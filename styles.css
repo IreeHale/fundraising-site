@@ -4,8 +4,7 @@
   body {
     padding: 0px;
     margin: 0px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     scroll-behavior: smooth;
     background-color: whitesmoke;
   }
@@ -23,20 +22,13 @@
     left: 55px;
   }
   body .navbar ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     padding-top: 20px;
     padding-right: 45px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
   body .navbar li {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     padding: 0px 4px 0px 30px;
     font-family: "Commissioner", sans-serif;
   }
@@ -46,13 +38,8 @@
     cursor: pointer;
   }
   body .column {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     margin: 0px 270px 0px 360px;
   }
   body .column .logo-mastercraft {
@@ -74,7 +61,7 @@
     font-size: 30px;
   }
   body .column #intro .detail {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding-top: 20px;
     font-size: 17.5px;
   }
@@ -88,19 +75,18 @@
     border-radius: 28px;
   }
   body .column #intro #back {
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     color: white;
     position: relative;
     right: 150px;
   }
   body .column #intro #back:hover {
-    background-color: #3cb4ac;
+    background-color: hsl(176deg, 50%, 47%);
     cursor: pointer;
-    -webkit-transition: 0.2s;
     transition: 0.2s;
   }
   body .column #intro #book {
-    color: #147b74;
+    color: hsl(176deg, 72%, 28%);
     position: relative;
     left: 85px;
     padding-left: 49px;
@@ -112,13 +98,8 @@
     z-index: 1;
   }
   body .column #goal {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     position: relative;
     bottom: 68px;
     height: 190px;
@@ -142,7 +123,7 @@
     padding-top: 32px;
   }
   body .column #goal .info {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     font-size: 18px;
   }
   body .column #goal b {
@@ -158,7 +139,7 @@
     background-color: lightgray;
   }
   body .column #status-bar {
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     width: 80%;
     height: 10px;
     border-radius: 10px;
@@ -179,14 +160,14 @@
     line-height: 20px;
   }
   body .column #about-section p {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     line-height: 32px;
   }
   body .column #about-section p:nth-child(3) {
     padding: 15px 0px 35px 0px;
   }
   body .column #about-section .Pledge {
-    border: 1px solid #d4d4d4;
+    border: 1px solid hsl(0deg, 0%, 83%);
     border-radius: 8px;
     padding: 20px;
     height: 190px;
@@ -199,13 +180,13 @@
     font-weight: bold;
   }
   body .column #about-section .Pledge .extra {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .column #about-section .Pledge span {
     position: relative;
     left: 420px;
     bottom: 12px;
-    color: #3cb4ac;
+    color: hsl(176deg, 50%, 47%);
   }
   body .column #about-section .Pledge b {
     font-weight: bold;
@@ -218,7 +199,7 @@
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -231,7 +212,7 @@
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -244,7 +225,7 @@
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -254,21 +235,18 @@
     bottom: 40px;
   }
   body .column #about-section .Pledge #reward1:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    background-color: hsl(176deg, 50%, 47%);
+    transition-duration: 0.4s;
     cursor: pointer;
   }
   body .column #about-section .Pledge #reward2:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    background-color: hsl(176deg, 50%, 47%);
+    transition-duration: 0.4s;
     cursor: pointer;
   }
   body .column #about-section .Pledge #reward3:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    background-color: hsl(176deg, 50%, 47%);
+    transition-duration: 0.4s;
     cursor: pointer;
   }
   body .modal-container {
@@ -298,12 +276,11 @@
     bottom: 50px;
     left: 665px;
     cursor: pointer;
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content .close:hover {
     color: black;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    transition-duration: 0.4s;
   }
   body .modal-container .modal-content h1 {
     font-weight: bold;
@@ -311,11 +288,11 @@
     font-size: 22px;
   }
   body .modal-container .modal-content .tell {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding: 0px 0px 15px 35px;
   }
   body .modal-container .modal-content #pledge1 {
-    border: 2px solid #d4d4d4;
+    border: 2px solid hsl(0deg, 0%, 83%);
     margin: 32px;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
@@ -330,8 +307,7 @@
     font-weight: 600;
   }
   body .modal-container .modal-content #pledge1 h2:hover {
-    color: #3cb4ac;
-    -webkit-transition: ease-in 0.1s;
+    color: hsl(176deg, 50%, 47%);
     transition: ease-in 0.1s;
   }
   body .modal-container .modal-content #pledge1 #radio1 {
@@ -343,10 +319,10 @@
     cursor: pointer;
   }
   body .modal-container .modal-content #pledge1 .part1 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content #pledge2 {
-    border: 2px solid #d4d4d4;
+    border: 2px solid hsl(0deg, 0%, 83%);
     margin: 32px;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
@@ -361,21 +337,20 @@
     font-weight: 600;
   }
   body .modal-container .modal-content #pledge2 h2:hover {
-    color: #3cb4ac;
-    -webkit-transition: ease-in 0.1s;
+    color: hsl(176deg, 50%, 47%);
     transition: ease-in 0.1s;
   }
   body .modal-container .modal-content #pledge2 .mini-2 {
     position: relative;
     left: 130px;
     bottom: 30px;
-    color: #3cb4ac;
+    color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content #pledge2 .left-2 {
     position: relative;
     bottom: 155px;
     left: 452px;
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content #pledge2 #radio2 {
     position: relative;
@@ -386,10 +361,10 @@
     cursor: pointer;
   }
   body .modal-container .modal-content #pledge2 .part2 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 {
-    border-top: #7a7a7a solid 1px;
+    border-top: hsl(0deg, 0%, 48%) solid 1px;
     position: relative;
     right: 65px;
     bottom: 15px;
@@ -397,7 +372,7 @@
     width: 114.9%;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 h3 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding: 30px 0px 0px 15px;
     text-align: left;
   }
@@ -407,7 +382,7 @@
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
     border-radius: 28px;
-    border: solid 1px #7a7a7a;
+    border: solid 1px hsl(0deg, 0%, 48%);
     padding: 11px;
     font-size: 16px;
     text-align: center;
@@ -421,7 +396,7 @@
     width: 100px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
@@ -432,10 +407,10 @@
     left: 29%;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 #next2:hover {
-    background-color: #3cb4ac;
+    background-color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content #pledge3 {
-    border: 2px solid #d4d4d4;
+    border: 2px solid hsl(0deg, 0%, 83%);
     margin: 32px;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
@@ -450,21 +425,20 @@
     font-weight: 600;
   }
   body .modal-container .modal-content #pledge3 h2:hover {
-    color: #3cb4ac;
-    -webkit-transition: ease-in 0.1s;
+    color: hsl(176deg, 50%, 47%);
     transition: ease-in 0.1s;
   }
   body .modal-container .modal-content #pledge3 .mini-3 {
     position: relative;
     left: 170px;
     bottom: 30px;
-    color: #3cb4ac;
+    color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content #pledge3 .left-3 {
     position: relative;
     bottom: 120px;
     left: 452px;
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content #pledge3 #radio3 {
     position: relative;
@@ -475,10 +449,10 @@
     cursor: pointer;
   }
   body .modal-container .modal-content #pledge3 .part3 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 {
-    border-top: #7a7a7a solid 1px;
+    border-top: hsl(0deg, 0%, 48%) solid 1px;
     position: relative;
     right: 65px;
     bottom: 15px;
@@ -487,7 +461,7 @@
     display: none;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 h3 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding: 30px 0px 0px 15px;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 #donation3 {
@@ -496,7 +470,7 @@
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
     border-radius: 28px;
-    border: solid 1px #7a7a7a;
+    border: solid 1px hsl(0deg, 0%, 48%);
     padding: 11px;
     font-size: 16px;
     text-align: center;
@@ -509,7 +483,7 @@
     width: 100px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
@@ -520,10 +494,10 @@
     left: 65%;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 #next:hover {
-    background-color: #3cb4ac;
+    background-color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content .pledge4 {
-    border: 2px solid #d4d4d4;
+    border: 2px solid hsl(0deg, 0%, 83%);
     margin: 32px;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
@@ -538,21 +512,20 @@
     font-weight: 600;
   }
   body .modal-container .modal-content .pledge4 h2:hover {
-    color: #3cb4ac;
-    -webkit-transition: ease-in 0.1s;
+    color: hsl(176deg, 50%, 47%);
     transition: ease-in 0.1s;
   }
   body .modal-container .modal-content .pledge4 .mini-4 {
     position: relative;
     left: 210px;
     bottom: 30px;
-    color: #3cb4ac;
+    color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content .pledge4 .left-4 {
     position: relative;
     bottom: 149px;
     left: 452px;
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content .pledge4 #radio4 {
     position: relative;
@@ -563,7 +536,7 @@
     cursor: pointer;
   }
   body .modal-container .modal-content .pledge4 .part4 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body #thankyou-container {
     position: fixed;
@@ -600,7 +573,7 @@
     margin: 20px;
   }
   body #thankyou-container .thankyou-content p {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body #thankyou-container .thankyou-content button {
     height: 50px;
@@ -609,25 +582,22 @@
     border-radius: 28px;
     margin-top: 25px;
     border: none;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
   }
   body #thankyou-container .thankyou-content #ty-btn:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.2s;
-            transition-duration: 0.2s;
+    background-color: hsl(176deg, 50%, 47%);
+    transition-duration: 0.2s;
     cursor: pointer;
   }
 }
-
-@media (max-width: 375px) {
+@media (min-width: 320px) {
   body {
     padding: 0px;
     margin: 0px;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
+    box-sizing: border-box;
     scroll-behavior: smooth;
     overflow-x: hidden;
     background-color: whitesmoke;
@@ -646,21 +616,14 @@
     left: 20px;
   }
   body .navbar ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
     display: none;
     padding-top: 20px;
     padding-right: 45px;
-    -webkit-box-pack: end;
-        -ms-flex-pack: end;
-            justify-content: flex-end;
+    justify-content: flex-end;
   }
   body .navbar li {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    flex-direction: row;
     padding: 0px 4px 0px 30px;
     font-family: "Commissioner", sans-serif;
   }
@@ -670,13 +633,8 @@
     cursor: pointer;
   }
   body .column {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     width: 75%;
     margin-right: 55px;
   }
@@ -700,7 +658,7 @@
     font-size: 24px;
   }
   body .column #intro .detail {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding-top: 29px;
     font-size: 16px;
   }
@@ -716,19 +674,18 @@
     left: -69px;
   }
   body .column #intro #back {
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     color: white;
     position: relative;
   }
   body .column #intro #back:hover {
-    background-color: #3cb4ac;
+    background-color: hsl(176deg, 50%, 47%);
     cursor: pointer;
-    -webkit-transition: 0.2s;
     transition: 0.2s;
   }
   body .column #intro #book {
     display: none;
-    color: #147b74;
+    color: hsl(176deg, 72%, 28%);
     position: relative;
     left: 85px;
     padding-left: 49px;
@@ -740,13 +697,8 @@
     z-index: 1;
   }
   body .column #goal {
-    display: -webkit-box;
-    display: -ms-flexbox;
     display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
+    flex-direction: column;
     position: relative;
     top: 15px;
     right: 330px;
@@ -772,7 +724,7 @@
     margin: 0px 90px 5px 90px;
   }
   body .column #goal .info {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     font-size: 16px;
   }
   body .column #goal b {
@@ -789,7 +741,7 @@
     background-color: lightgray;
   }
   body .column #status-bar {
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     width: 75%;
     height: 16px;
     border-radius: 10px;
@@ -814,14 +766,14 @@
     line-height: 20px;
   }
   body .column #about-section p {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     line-height: 32px;
   }
   body .column #about-section p:nth-child(3) {
     padding: 15px 0px 35px 0px;
   }
   body .column #about-section .Pledge {
-    border: 1px solid #d4d4d4;
+    border: 1px solid hsl(0deg, 0%, 83%);
     border-radius: 8px;
     padding: 15px;
     height: 320px;
@@ -835,14 +787,14 @@
     font-weight: bold;
   }
   body .column #about-section .Pledge .extra {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding-top: 25px;
   }
   body .column #about-section .Pledge span {
     position: relative;
     left: 0px;
     bottom: -19px;
-    color: #3cb4ac;
+    color: hsl(176deg, 50%, 47%);
   }
   body .column #about-section .Pledge b {
     font-weight: bold;
@@ -855,7 +807,7 @@
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -868,7 +820,7 @@
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -881,7 +833,7 @@
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -891,21 +843,18 @@
     bottom: 40px;
   }
   body .column #about-section .Pledge #reward1:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    background-color: hsl(176deg, 50%, 47%);
+    transition-duration: 0.4s;
     cursor: pointer;
   }
   body .column #about-section .Pledge #reward2:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    background-color: hsl(176deg, 50%, 47%);
+    transition-duration: 0.4s;
     cursor: pointer;
   }
   body .column #about-section .Pledge #reward3:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    background-color: hsl(176deg, 50%, 47%);
+    transition-duration: 0.4s;
     cursor: pointer;
   }
   body .modal-container {
@@ -935,12 +884,11 @@
     bottom: 50px;
     left: 290px;
     cursor: pointer;
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content .close:hover {
     color: black;
-    -webkit-transition-duration: 0.4s;
-            transition-duration: 0.4s;
+    transition-duration: 0.4s;
   }
   body .modal-container .modal-content h1 {
     font-weight: bold;
@@ -950,12 +898,12 @@
     right: 30px;
   }
   body .modal-container .modal-content .tell {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding: 0px 0px 40px 0px;
     font-size: 14px;
   }
   body .modal-container .modal-content #pledge1 {
-    border: 2px solid #d4d4d4;
+    border: 2px solid hsl(0deg, 0%, 83%);
     margin: -5px 5px 20px 0px;
     width: 70%;
     padding: 0px 20px 15px 65px;
@@ -971,8 +919,7 @@
     font-weight: 600;
   }
   body .modal-container .modal-content #pledge1 h2:hover {
-    color: #3cb4ac;
-    -webkit-transition: ease-in 0.1s;
+    color: hsl(176deg, 50%, 47%);
     transition: ease-in 0.1s;
   }
   body .modal-container .modal-content #pledge1 #radio1 {
@@ -984,13 +931,13 @@
     cursor: pointer;
   }
   body .modal-container .modal-content #pledge1 .part1 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     width: 120%;
     margin: 10px 40px 0px -30px;
     font-size: 15px;
   }
   body .modal-container .modal-content #pledge2 {
-    border: 2px solid #d4d4d4;
+    border: 2px solid hsl(0deg, 0%, 83%);
     margin: 30px 5px 10px 0px;
     width: 70%;
     padding: 0px 20px 15px 65px;
@@ -1006,22 +953,21 @@
     font-weight: 600;
   }
   body .modal-container .modal-content #pledge2 h2:hover {
-    color: #3cb4ac;
-    -webkit-transition: ease-in 0.1s;
+    color: hsl(176deg, 50%, 47%);
     transition: ease-in 0.1s;
   }
   body .modal-container .modal-content #pledge2 .mini-2 {
     position: relative;
     top: 0px;
     left: 0px;
-    color: #3cb4ac;
+    color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content #pledge2 .left-2 {
     position: relative;
     top: 5px;
     left: -45px;
     margin-bottom: 30px;
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content #pledge2 #radio2 {
     position: relative;
@@ -1032,13 +978,13 @@
     cursor: pointer;
   }
   body .modal-container .modal-content #pledge2 .part2 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     width: 120%;
     margin: 10px 40px 0px -40px;
     font-size: 15px;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 {
-    border-top: #7a7a7a solid 1px;
+    border-top: hsl(0deg, 0%, 48%) solid 1px;
     position: relative;
     right: 40px;
     bottom: 15px;
@@ -1046,7 +992,7 @@
     width: 114.9%;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 h3 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding: 5px 0px 0px 15px;
     text-align: center;
   }
@@ -1056,7 +1002,7 @@
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
     border-radius: 28px;
-    border: solid 1px #7a7a7a;
+    border: solid 1px hsl(0deg, 0%, 48%);
     padding: 11px;
     font-size: 16px;
     text-align: center;
@@ -1070,7 +1016,7 @@
     width: 100px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
@@ -1081,10 +1027,10 @@
     left: 130px;
   }
   body .modal-container .modal-content #pledge2 #donation-amount2 #next2:hover {
-    background-color: #3cb4ac;
+    background-color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content #pledge3 {
-    border: 2px solid #d4d4d4;
+    border: 2px solid hsl(0deg, 0%, 83%);
     margin: 30px 5px 10px 0px;
     width: 70%;
     padding: 0px 20px 15px 65px;
@@ -1100,22 +1046,21 @@
     font-weight: 600;
   }
   body .modal-container .modal-content #pledge3 h2:hover {
-    color: #3cb4ac;
-    -webkit-transition: ease-in 0.1s;
+    color: hsl(176deg, 50%, 47%);
     transition: ease-in 0.1s;
   }
   body .modal-container .modal-content #pledge3 .mini-3 {
     position: relative;
     top: 2px;
     left: 0px;
-    color: #3cb4ac;
+    color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content #pledge3 .left-3 {
     position: relative;
     top: 5px;
     left: -45px;
     margin-bottom: 35px;
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content #pledge3 #radio3 {
     position: relative;
@@ -1126,13 +1071,13 @@
     cursor: pointer;
   }
   body .modal-container .modal-content #pledge3 .part3 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     width: 130%;
     margin: 10px 20px 0px -45px;
     font-size: 15px;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 {
-    border-top: #7a7a7a solid 1px;
+    border-top: hsl(0deg, 0%, 48%) solid 1px;
     position: relative;
     right: 40px;
     bottom: 15px;
@@ -1141,7 +1086,7 @@
     display: none;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 h3 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     padding: 5px 0px 10px 15px;
     text-align: center;
   }
@@ -1151,7 +1096,7 @@
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
     border-radius: 28px;
-    border: solid 1px #7a7a7a;
+    border: solid 1px hsl(0deg, 0%, 48%);
     padding: 11px;
     font-size: 16px;
     text-align: center;
@@ -1164,7 +1109,7 @@
     width: 100px;
     border: none;
     border-radius: 28px;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
@@ -1175,10 +1120,10 @@
     left: 50px;
   }
   body .modal-container .modal-content #pledge3 #donation-amount3 #next:hover {
-    background-color: #3cb4ac;
+    background-color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content .pledge4 {
-    border: 2px solid #d4d4d4;
+    border: 2px solid hsl(0deg, 0%, 83%);
     margin: 30px 5px 10px 0px;
     width: 70%;
     padding: 0px 20px 15px 65px;
@@ -1194,21 +1139,20 @@
     font-weight: 600;
   }
   body .modal-container .modal-content .pledge4 h2:hover {
-    color: #3cb4ac;
-    -webkit-transition: ease-in 0.1s;
+    color: hsl(176deg, 50%, 47%);
     transition: ease-in 0.1s;
   }
   body .modal-container .modal-content .pledge4 .mini-4 {
     position: relative;
     top: 2px;
     left: 0px;
-    color: #3cb4ac;
+    color: hsl(176deg, 50%, 47%);
   }
   body .modal-container .modal-content .pledge4 .left-4 {
     position: relative;
     top: 2px;
     left: -45px;
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
   }
   body .modal-container .modal-content .pledge4 #radio4 {
     position: relative;
@@ -1219,7 +1163,7 @@
     cursor: pointer;
   }
   body .modal-container .modal-content .pledge4 .part4 {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     width: 130%;
     margin: 10px 10px 0px -45px;
     font-size: 15px;
@@ -1259,7 +1203,7 @@
     margin: 16px;
   }
   body #thankyou-container .thankyou-content p {
-    color: #7a7a7a;
+    color: hsl(0deg, 0%, 48%);
     font-size: 16px;
   }
   body #thankyou-container .thankyou-content button {
@@ -1269,16 +1213,14 @@
     border-radius: 28px;
     margin-top: 10px;
     border: none;
-    background-color: #147b74;
+    background-color: hsl(176deg, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
   }
   body #thankyou-container .thankyou-content #ty-btn:hover {
-    background-color: #3cb4ac;
-    -webkit-transition-duration: 0.2s;
-            transition-duration: 0.2s;
+    background-color: hsl(176deg, 50%, 47%);
+    transition-duration: 0.2s;
     cursor: pointer;
   }
-}
-/*# sourceMappingURL=styles.css.map */
+}/*# sourceMappingURL=styles.css.map */

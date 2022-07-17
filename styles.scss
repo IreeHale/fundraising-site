@@ -705,7 +705,7 @@ $med-gray: hsl(0,0%,83%);
     }
 }
 
-@media(max-width: 375px) {
+@media(min-width: 320px) {
     body{
         padding: 0px;
         margin: 0px;
