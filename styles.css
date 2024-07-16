@@ -8,12 +8,11 @@ body {
   background-color: whitesmoke;
 }
 body .navbar {
-  height: 400px;
+  height: 700px;
   color: white;
   background: url("./images/image-hero-desktop.jpg");
-  background-size: cover;
+  background-size: 1366px 768px;
   background-repeat: no-repeat;
-  overflow: hidden;
 }
 body .navbar .logo {
   position: relative;
@@ -39,7 +38,7 @@ body .navbar a {
 body .column {
   display: flex;
   flex-direction: column;
-  margin: 0px 270px 0px 360px;
+  margin: 0px 270px 0px 270px;
 }
 body .column .logo-mastercraft {
   position: relative;
@@ -60,7 +59,7 @@ body .column #intro h1 {
   font-size: 30px;
 }
 body .column #intro .detail {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
   padding-top: 20px;
   font-size: 17.5px;
 }
@@ -74,18 +73,18 @@ body .column #intro button {
   border-radius: 28px;
 }
 body .column #intro #back {
-  background-color: hsl(176deg, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
   color: white;
   position: relative;
   right: 150px;
 }
 body .column #intro #back:hover {
-  background-color: hsl(176deg, 50%, 47%);
+  background-color: hsl(176, 50%, 47%);
   cursor: pointer;
   transition: 0.2s;
 }
 body .column #intro #book {
-  color: hsl(176deg, 72%, 28%);
+  color: hsl(176, 72%, 28%);
   position: relative;
   left: 85px;
   padding-left: 49px;
@@ -122,7 +121,7 @@ body .column #goal .money:nth-child(3) {
   padding-top: 32px;
 }
 body .column #goal .info {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
   font-size: 18px;
 }
 body .column #goal b {
@@ -138,7 +137,7 @@ body .column .amount {
   background-color: lightgray;
 }
 body .column #status-bar {
-  background-color: hsl(176deg, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
   width: 80%;
   height: 10px;
   border-radius: 10px;
@@ -159,14 +158,14 @@ body .column #about-section .about {
   line-height: 20px;
 }
 body .column #about-section p {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
   line-height: 32px;
 }
 body .column #about-section p:nth-child(3) {
   padding: 15px 0px 35px 0px;
 }
 body .column #about-section .Pledge {
-  border: 1px solid hsl(0deg, 0%, 83%);
+  border: 1px solid hsl(0, 0%, 83%);
   border-radius: 8px;
   padding: 20px;
   height: 190px;
@@ -179,13 +178,13 @@ body .column #about-section .Pledge h3 {
   font-weight: bold;
 }
 body .column #about-section .Pledge .extra {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body .column #about-section .Pledge span {
   position: relative;
   left: 420px;
   bottom: 12px;
-  color: hsl(176deg, 50%, 47%);
+  color: hsl(176, 50%, 47%);
 }
 body .column #about-section .Pledge b {
   font-weight: bold;
@@ -198,7 +197,7 @@ body .column #about-section .Pledge #reward1 {
   padding: 13px 22px 13px 22px;
   border: none;
   border-radius: 28px;
-  background-color: hsl(176deg, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
   font-family: "Commissioner", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -211,7 +210,7 @@ body .column #about-section .Pledge #reward2 {
   padding: 13px 22px 13px 22px;
   border: none;
   border-radius: 28px;
-  background-color: hsl(176deg, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
   font-family: "Commissioner", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -224,7 +223,7 @@ body .column #about-section .Pledge #reward3 {
   padding: 13px 22px 13px 22px;
   border: none;
   border-radius: 28px;
-  background-color: hsl(176deg, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
   font-family: "Commissioner", sans-serif;
   font-weight: 500;
   font-size: 15px;
@@ -234,17 +233,17 @@ body .column #about-section .Pledge #reward3 {
   bottom: 40px;
 }
 body .column #about-section .Pledge #reward1:hover {
-  background-color: hsl(176deg, 50%, 47%);
+  background-color: hsl(176, 50%, 47%);
   transition-duration: 0.4s;
   cursor: pointer;
 }
 body .column #about-section .Pledge #reward2:hover {
-  background-color: hsl(176deg, 50%, 47%);
+  background-color: hsl(176, 50%, 47%);
   transition-duration: 0.4s;
   cursor: pointer;
 }
 body .column #about-section .Pledge #reward3:hover {
-  background-color: hsl(176deg, 50%, 47%);
+  background-color: hsl(176, 50%, 47%);
   transition-duration: 0.4s;
   cursor: pointer;
 }
@@ -275,7 +274,7 @@ body .modal-container .modal-content .close {
   bottom: 50px;
   left: 665px;
   cursor: pointer;
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body .modal-container .modal-content .close:hover {
   color: black;
@@ -287,11 +286,11 @@ body .modal-container .modal-content h1 {
   font-size: 22px;
 }
 body .modal-container .modal-content .tell {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
   padding: 0px 0px 15px 35px;
 }
 body .modal-container .modal-content #pledge1 {
-  border: 2px solid hsl(0deg, 0%, 83%);
+  border: 2px solid hsl(0, 0%, 83%);
   margin: 32px;
   padding: 0px 20px 15px 65px;
   border-radius: 12px;
@@ -306,7 +305,7 @@ body .modal-container .modal-content #pledge1 h2 {
   font-weight: 600;
 }
 body .modal-container .modal-content #pledge1 h2:hover {
-  color: hsl(176deg, 50%, 47%);
+  color: hsl(176, 50%, 47%);
   transition: ease-in 0.1s;
 }
 body .modal-container .modal-content #pledge1 #radio1 {
@@ -318,10 +317,10 @@ body .modal-container .modal-content #pledge1 #radio1 {
   cursor: pointer;
 }
 body .modal-container .modal-content #pledge1 .part1 {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body .modal-container .modal-content #pledge2 {
-  border: 2px solid hsl(0deg, 0%, 83%);
+  border: 2px solid hsl(0, 0%, 83%);
   margin: 32px;
   padding: 0px 20px 15px 65px;
   border-radius: 12px;
@@ -336,20 +335,20 @@ body .modal-container .modal-content #pledge2 h2 {
   font-weight: 600;
 }
 body .modal-container .modal-content #pledge2 h2:hover {
-  color: hsl(176deg, 50%, 47%);
+  color: hsl(176, 50%, 47%);
   transition: ease-in 0.1s;
 }
 body .modal-container .modal-content #pledge2 .mini-2 {
   position: relative;
   left: 130px;
   bottom: 30px;
-  color: hsl(176deg, 50%, 47%);
+  color: hsl(176, 50%, 47%);
 }
 body .modal-container .modal-content #pledge2 .left-2 {
   position: relative;
   bottom: 155px;
   left: 452px;
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body .modal-container .modal-content #pledge2 #radio2 {
   position: relative;
@@ -360,10 +359,10 @@ body .modal-container .modal-content #pledge2 #radio2 {
   cursor: pointer;
 }
 body .modal-container .modal-content #pledge2 .part2 {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body .modal-container .modal-content #pledge2 #donation-amount2 {
-  border-top: hsl(0deg, 0%, 48%) solid 1px;
+  border-top: hsl(0, 0%, 48%) solid 1px;
   position: relative;
   right: 65px;
   bottom: 15px;
@@ -371,7 +370,7 @@ body .modal-container .modal-content #pledge2 #donation-amount2 {
   width: 114.9%;
 }
 body .modal-container .modal-content #pledge2 #donation-amount2 h3 {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
   padding: 30px 0px 0px 15px;
   text-align: left;
 }
@@ -381,7 +380,7 @@ body .modal-container .modal-content #pledge2 #donation-amount2 #donation2 {
   font-weight: bold;
   font-family: "Commissioner", sans-serif;
   border-radius: 28px;
-  border: solid 1px hsl(0deg, 0%, 48%);
+  border: solid 1px hsl(0, 0%, 48%);
   padding: 11px;
   font-size: 16px;
   text-align: center;
@@ -395,7 +394,7 @@ body .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
   width: 100px;
   border: none;
   border-radius: 28px;
-  background-color: hsl(176deg, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
   color: white;
   font-weight: bold;
   font-family: "Commissioner", sans-serif;
@@ -406,10 +405,10 @@ body .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
   left: 29%;
 }
 body .modal-container .modal-content #pledge2 #donation-amount2 #next2:hover {
-  background-color: hsl(176deg, 50%, 47%);
+  background-color: hsl(176, 50%, 47%);
 }
 body .modal-container .modal-content #pledge3 {
-  border: 2px solid hsl(0deg, 0%, 83%);
+  border: 2px solid hsl(0, 0%, 83%);
   margin: 32px;
   padding: 0px 20px 15px 65px;
   border-radius: 12px;
@@ -424,20 +423,20 @@ body .modal-container .modal-content #pledge3 h2 {
   font-weight: 600;
 }
 body .modal-container .modal-content #pledge3 h2:hover {
-  color: hsl(176deg, 50%, 47%);
+  color: hsl(176, 50%, 47%);
   transition: ease-in 0.1s;
 }
 body .modal-container .modal-content #pledge3 .mini-3 {
   position: relative;
   left: 170px;
   bottom: 30px;
-  color: hsl(176deg, 50%, 47%);
+  color: hsl(176, 50%, 47%);
 }
 body .modal-container .modal-content #pledge3 .left-3 {
   position: relative;
   bottom: 120px;
   left: 452px;
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body .modal-container .modal-content #pledge3 #radio3 {
   position: relative;
@@ -448,10 +447,10 @@ body .modal-container .modal-content #pledge3 #radio3 {
   cursor: pointer;
 }
 body .modal-container .modal-content #pledge3 .part3 {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body .modal-container .modal-content #pledge3 #donation-amount3 {
-  border-top: hsl(0deg, 0%, 48%) solid 1px;
+  border-top: hsl(0, 0%, 48%) solid 1px;
   position: relative;
   right: 65px;
   bottom: 15px;
@@ -460,7 +459,7 @@ body .modal-container .modal-content #pledge3 #donation-amount3 {
   display: none;
 }
 body .modal-container .modal-content #pledge3 #donation-amount3 h3 {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
   padding: 30px 0px 0px 15px;
 }
 body .modal-container .modal-content #pledge3 #donation-amount3 #donation3 {
@@ -469,7 +468,7 @@ body .modal-container .modal-content #pledge3 #donation-amount3 #donation3 {
   font-weight: bold;
   font-family: "Commissioner", sans-serif;
   border-radius: 28px;
-  border: solid 1px hsl(0deg, 0%, 48%);
+  border: solid 1px hsl(0, 0%, 48%);
   padding: 11px;
   font-size: 16px;
   text-align: center;
@@ -482,7 +481,7 @@ body .modal-container .modal-content #pledge3 #donation-amount3 #next3 {
   width: 100px;
   border: none;
   border-radius: 28px;
-  background-color: hsl(176deg, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
   color: white;
   font-weight: bold;
   font-family: "Commissioner", sans-serif;
@@ -493,10 +492,10 @@ body .modal-container .modal-content #pledge3 #donation-amount3 #next3 {
   left: 65%;
 }
 body .modal-container .modal-content #pledge3 #donation-amount3 #next:hover {
-  background-color: hsl(176deg, 50%, 47%);
+  background-color: hsl(176, 50%, 47%);
 }
 body .modal-container .modal-content .pledge4 {
-  border: 2px solid hsl(0deg, 0%, 83%);
+  border: 2px solid hsl(0, 0%, 83%);
   margin: 32px;
   padding: 0px 20px 15px 65px;
   border-radius: 12px;
@@ -511,20 +510,20 @@ body .modal-container .modal-content .pledge4 h2 {
   font-weight: 600;
 }
 body .modal-container .modal-content .pledge4 h2:hover {
-  color: hsl(176deg, 50%, 47%);
+  color: hsl(176, 50%, 47%);
   transition: ease-in 0.1s;
 }
 body .modal-container .modal-content .pledge4 .mini-4 {
   position: relative;
   left: 210px;
   bottom: 30px;
-  color: hsl(176deg, 50%, 47%);
+  color: hsl(176, 50%, 47%);
 }
 body .modal-container .modal-content .pledge4 .left-4 {
   position: relative;
   bottom: 149px;
   left: 452px;
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body .modal-container .modal-content .pledge4 #radio4 {
   position: relative;
@@ -535,7 +534,7 @@ body .modal-container .modal-content .pledge4 #radio4 {
   cursor: pointer;
 }
 body .modal-container .modal-content .pledge4 .part4 {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body #thankyou-container {
   position: fixed;
@@ -572,7 +571,7 @@ body #thankyou-container .thankyou-content h2 {
   margin: 20px;
 }
 body #thankyou-container .thankyou-content p {
-  color: hsl(0deg, 0%, 48%);
+  color: hsl(0, 0%, 48%);
 }
 body #thankyou-container .thankyou-content button {
   height: 50px;
@@ -581,18 +580,18 @@ body #thankyou-container .thankyou-content button {
   border-radius: 28px;
   margin-top: 25px;
   border: none;
-  background-color: hsl(176deg, 72%, 28%);
+  background-color: hsl(176, 72%, 28%);
   color: white;
   font-weight: bold;
   font-family: "Commissioner", sans-serif;
 }
 body #thankyou-container .thankyou-content #ty-btn:hover {
-  background-color: hsl(176deg, 50%, 47%);
+  background-color: hsl(176, 50%, 47%);
   transition-duration: 0.2s;
   cursor: pointer;
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (min-width: 992px) {
   body {
     padding: 0px;
     margin: 0px;
@@ -604,44 +603,66 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
   body .navbar {
     height: 300px;
     color: white;
-    background: url("./images/image-hero-desktop.jpg");
+    background: url("./images/image-hero-mobile.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
   }
-  body .navbar .logo {
+  body .logo {
+    position: relative;
+    top: 50px;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 768px) {
+  body {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    background-color: whitesmoke;
+  }
+  body .navbar {
+    height: 300px;
+    color: white;
+    background: url("./images/image-hero-mobile.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+  body .logo {
     position: relative;
     top: 25px;
     left: 20px;
   }
-  body .navbar ul {
+  body ul {
     display: flex;
     display: none;
     padding-top: 20px;
     padding-right: 45px;
     justify-content: flex-end;
   }
-  body .navbar li {
+  body li {
     flex-direction: row;
     padding: 0px 4px 0px 30px;
     font-family: "Commissioner", sans-serif;
   }
-  body .navbar a {
+  body a {
     color: white;
     text-decoration: none;
     cursor: pointer;
   }
-  body .column {
+  .column {
     display: flex;
     flex-direction: column;
     width: 75%;
     margin-right: 55px;
   }
-  body .column .logo-mastercraft {
+  .column .logo-mastercraft {
     position: relative;
     bottom: 30px;
   }
-  body .column #intro {
+  .column #intro {
     position: relative;
     right: 332px;
     bottom: 50px;
@@ -652,16 +673,16 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     height: 275px;
     width: 115%;
   }
-  body .column #intro h1 {
+  .column #intro h1 {
     font-weight: 700;
     font-size: 24px;
   }
-  body .column #intro .detail {
-    color: hsl(0deg, 0%, 48%);
+  .column #intro .detail {
+    color: hsl(0, 0%, 48%);
     padding-top: 29px;
     font-size: 16px;
   }
-  body .column #intro button {
+  .column #intro button {
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 19px;
@@ -672,30 +693,30 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     bottom: 25px;
     left: -69px;
   }
-  body .column #intro #back {
-    background-color: hsl(176deg, 72%, 28%);
+  .column #intro #back {
+    background-color: hsl(176, 72%, 28%);
     color: white;
     position: relative;
   }
-  body .column #intro #back:hover {
-    background-color: hsl(176deg, 50%, 47%);
+  .column #intro #back:hover {
+    background-color: hsl(176, 50%, 47%);
     cursor: pointer;
     transition: 0.2s;
   }
-  body .column #intro #book {
+  .column #intro #book {
     display: none;
-    color: hsl(176deg, 72%, 28%);
+    color: hsl(176, 72%, 28%);
     position: relative;
     left: 85px;
     padding-left: 49px;
   }
-  body .column #intro .bookmark {
+  .column #intro .bookmark {
     position: relative;
     left: 229px;
     top: -5px;
     z-index: 1;
   }
-  body .column #goal {
+  .column #goal {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -708,28 +729,28 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     text-align: center;
     font-family: "Commissioner", sans-serif;
   }
-  body .column #goal .money {
+  .column #goal .money {
     padding: 20px 10px 25px 10px;
     font-size: 30px;
   }
-  body .column #goal .money:nth-child(1) {
+  .column #goal .money:nth-child(1) {
     border-bottom: gray solid 0.5px;
     border-right: none;
     margin: 15px 90px 0px 90px;
   }
-  body .column #goal .money:nth-child(2) {
+  .column #goal .money:nth-child(2) {
     border-bottom: gray solid 0.5px;
     border-right: none;
     margin: 0px 90px 5px 90px;
   }
-  body .column #goal .info {
-    color: hsl(0deg, 0%, 48%);
+  .column #goal .info {
+    color: hsl(0, 0%, 48%);
     font-size: 16px;
   }
-  body .column #goal b {
+  .column #goal b {
     font-weight: bold;
   }
-  body .column .amount {
+  .column .amount {
     position: absolute;
     top: 1000px;
     right: 20px;
@@ -739,13 +760,13 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     width: 80%;
     background-color: lightgray;
   }
-  body .column #status-bar {
-    background-color: hsl(176deg, 72%, 28%);
+  .column #status-bar {
+    background-color: hsl(176, 72%, 28%);
     width: 75%;
     height: 16px;
     border-radius: 10px;
   }
-  body .column #about-section {
+  .column #about-section {
     height: 1750px;
     width: 83%;
     border-radius: 5px;
@@ -758,55 +779,55 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     font-family: "Commissioner", sans-serif;
     background-color: white;
   }
-  body .column #about-section .about {
+  .column #about-section .about {
     font-size: 20px;
     font-weight: 600;
     margin-bottom: 20px;
     line-height: 20px;
   }
-  body .column #about-section p {
-    color: hsl(0deg, 0%, 48%);
+  .column #about-section p {
+    color: hsl(0, 0%, 48%);
     line-height: 32px;
   }
-  body .column #about-section p:nth-child(3) {
+  .column #about-section p:nth-child(3) {
     padding: 15px 0px 35px 0px;
   }
-  body .column #about-section .Pledge {
-    border: 1px solid hsl(0deg, 0%, 83%);
+  .column #about-section .Pledge {
+    border: 1px solid hsl(0, 0%, 83%);
     border-radius: 8px;
     padding: 15px;
     height: 320px;
     width: 220px;
     margin-bottom: 30px;
   }
-  body .column #about-section .Pledge h3 {
+  .column #about-section .Pledge h3 {
     position: relative;
     top: 5px;
     font-size: 16px;
     font-weight: bold;
   }
-  body .column #about-section .Pledge .extra {
-    color: hsl(0deg, 0%, 48%);
+  .column #about-section .Pledge .extra {
+    color: hsl(0, 0%, 48%);
     padding-top: 25px;
   }
-  body .column #about-section .Pledge span {
+  .column #about-section .Pledge span {
     position: relative;
     left: 0px;
     bottom: -19px;
-    color: hsl(176deg, 50%, 47%);
+    color: hsl(176, 50%, 47%);
   }
-  body .column #about-section .Pledge b {
+  .column #about-section .Pledge b {
     font-weight: bold;
     color: black;
     font-size: 1.5em;
     position: relative;
     top: 0px;
   }
-  body .column #about-section .Pledge #reward1 {
+  .column #about-section .Pledge #reward1 {
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: hsl(176deg, 72%, 28%);
+    background-color: hsl(176, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -815,11 +836,11 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     left: 85px;
     bottom: 40px;
   }
-  body .column #about-section .Pledge #reward2 {
+  .column #about-section .Pledge #reward2 {
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: hsl(176deg, 72%, 28%);
+    background-color: hsl(176, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -828,11 +849,11 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     left: 75px;
     bottom: 40px;
   }
-  body .column #about-section .Pledge #reward3 {
+  .column #about-section .Pledge #reward3 {
     padding: 13px 22px 13px 22px;
     border: none;
     border-radius: 28px;
-    background-color: hsl(176deg, 72%, 28%);
+    background-color: hsl(176, 72%, 28%);
     font-family: "Commissioner", sans-serif;
     font-weight: 500;
     font-size: 15px;
@@ -841,22 +862,22 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     left: 75px;
     bottom: 40px;
   }
-  body .column #about-section .Pledge #reward1:hover {
-    background-color: hsl(176deg, 50%, 47%);
+  .column #about-section .Pledge #reward1:hover {
+    background-color: hsl(176, 50%, 47%);
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  body .column #about-section .Pledge #reward2:hover {
-    background-color: hsl(176deg, 50%, 47%);
+  .column #about-section .Pledge #reward2:hover {
+    background-color: hsl(176, 50%, 47%);
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  body .column #about-section .Pledge #reward3:hover {
-    background-color: hsl(176deg, 50%, 47%);
+  .column #about-section .Pledge #reward3:hover {
+    background-color: hsl(176, 50%, 47%);
     transition-duration: 0.4s;
     cursor: pointer;
   }
-  body .modal-container {
+  .modal-container {
     position: fixed;
     z-index: 1;
     top: 0;
@@ -868,7 +889,7 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     overflow-x: hidden;
     background-color: rgba(0, 0, 0, 0.5);
   }
-  body .modal-container .modal-content {
+  .modal-container .modal-content {
     display: block;
     background-color: white;
     margin-left: 20px;
@@ -881,50 +902,50 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     overflow: hidden;
     overflow-x: hidden;
   }
-  body .modal-container .modal-content .close {
+  .modal-container .modal-content .close {
     position: relative;
     left: 270px;
     bottom: 60px;
     cursor: pointer;
-    color: hsl(0deg, 0%, 48%);
+    color: hsl(0, 0%, 48%);
   }
-  body .modal-container .modal-content .close:hover {
+  .modal-container .modal-content .close:hover {
     color: black;
     transition-duration: 0.4s;
   }
-  body .modal-container .modal-content h1 {
+  .modal-container .modal-content h1 {
     font-weight: bold;
     font-size: 19px;
     position: relative;
     top: 10px;
     right: 30px;
   }
-  body .modal-container .modal-content .tell {
-    color: hsl(0deg, 0%, 48%);
+  .modal-container .modal-content .tell {
+    color: hsl(0, 0%, 48%);
     padding: 0px 0px 40px 0px;
     font-size: 14px;
   }
-  body .modal-container .modal-content #pledge1 {
-    border: 2px solid hsl(0deg, 0%, 83%);
+  .modal-container .modal-content #pledge1 {
+    border: 2px solid hsl(0, 0%, 83%);
     margin: -5px 5px 20px 0px;
     width: 70%;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
   }
-  body .modal-container .modal-content #pledge1 b {
+  .modal-container .modal-content #pledge1 b {
     font-weight: bold;
     color: black;
     font-size: 16px;
     padding-bottom: 20px;
   }
-  body .modal-container .modal-content #pledge1 h2 {
+  .modal-container .modal-content #pledge1 h2 {
     font-weight: 600;
   }
-  body .modal-container .modal-content #pledge1 h2:hover {
-    color: hsl(176deg, 50%, 47%);
+  .modal-container .modal-content #pledge1 h2:hover {
+    color: hsl(176, 50%, 47%);
     transition: ease-in 0.1s;
   }
-  body .modal-container .modal-content #pledge1 #radio1 {
+  .modal-container .modal-content #pledge1 #radio1 {
     position: relative;
     top: 33px;
     right: 55px;
@@ -932,46 +953,46 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     width: 25px;
     cursor: pointer;
   }
-  body .modal-container .modal-content #pledge1 .part1 {
-    color: hsl(0deg, 0%, 48%);
+  .modal-container .modal-content #pledge1 .part1 {
+    color: hsl(0, 0%, 48%);
     width: 120%;
     margin: 10px 40px 0px -30px;
     font-size: 15px;
   }
-  body .modal-container .modal-content #pledge2 {
-    border: 2px solid hsl(0deg, 0%, 83%);
+  .modal-container .modal-content #pledge2 {
+    border: 2px solid hsl(0, 0%, 83%);
     margin: 30px 5px 10px 0px;
     width: 70%;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
   }
-  body .modal-container .modal-content #pledge2 b {
+  .modal-container .modal-content #pledge2 b {
     font-weight: bold;
     color: black;
     font-size: 23px;
     padding-right: 6px;
   }
-  body .modal-container .modal-content #pledge2 h2 {
+  .modal-container .modal-content #pledge2 h2 {
     font-weight: 600;
   }
-  body .modal-container .modal-content #pledge2 h2:hover {
-    color: hsl(176deg, 50%, 47%);
+  .modal-container .modal-content #pledge2 h2:hover {
+    color: hsl(176, 50%, 47%);
     transition: ease-in 0.1s;
   }
-  body .modal-container .modal-content #pledge2 .mini-2 {
+  .modal-container .modal-content #pledge2 .mini-2 {
     position: relative;
     top: 0px;
     left: 0px;
-    color: hsl(176deg, 50%, 47%);
+    color: hsl(176, 50%, 47%);
   }
-  body .modal-container .modal-content #pledge2 .left-2 {
+  .modal-container .modal-content #pledge2 .left-2 {
     position: relative;
     top: 5px;
     left: -45px;
     margin-bottom: 30px;
-    color: hsl(0deg, 0%, 48%);
+    color: hsl(0, 0%, 48%);
   }
-  body .modal-container .modal-content #pledge2 #radio2 {
+  .modal-container .modal-content #pledge2 #radio2 {
     position: relative;
     top: 33px;
     right: 40px;
@@ -979,32 +1000,32 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     width: 20px;
     cursor: pointer;
   }
-  body .modal-container .modal-content #pledge2 .part2 {
-    color: hsl(0deg, 0%, 48%);
+  .modal-container .modal-content #pledge2 .part2 {
+    color: hsl(0, 0%, 48%);
     width: 120%;
     margin: 10px 40px 0px -40px;
     font-size: 15px;
   }
-  body .modal-container .modal-content #pledge2 #donation-amount2 {
-    border-top: hsl(0deg, 0%, 48%) solid 1px;
+  .modal-container .modal-content #pledge2 #donation-amount2 {
+    border-top: hsl(0, 0%, 48%) solid 1px;
     position: relative;
     right: 40px;
     bottom: 15px;
     height: 75px;
     width: 114.9%;
   }
-  body .modal-container .modal-content #pledge2 #donation-amount2 h3 {
-    color: hsl(0deg, 0%, 48%);
+  .modal-container .modal-content #pledge2 #donation-amount2 h3 {
+    color: hsl(0, 0%, 48%);
     padding: 5px 0px 0px 15px;
     text-align: center;
   }
-  body .modal-container .modal-content #pledge2 #donation-amount2 #donation2 {
+  .modal-container .modal-content #pledge2 #donation-amount2 #donation2 {
     height: 25px;
     width: 24%;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
     border-radius: 28px;
-    border: solid 1px hsl(0deg, 0%, 48%);
+    border: solid 1px hsl(0, 0%, 48%);
     padding: 11px;
     font-size: 16px;
     text-align: center;
@@ -1013,12 +1034,12 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     top: -20px;
     left: -200px;
   }
-  body .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
+  .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
     height: 50px;
     width: 100px;
     border: none;
     border-radius: 28px;
-    background-color: hsl(176deg, 72%, 28%);
+    background-color: hsl(176, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
@@ -1028,43 +1049,43 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     top: -68px;
     left: 130px;
   }
-  body .modal-container .modal-content #pledge2 #donation-amount2 #next2:hover {
-    background-color: hsl(176deg, 50%, 47%);
+  .modal-container .modal-content #pledge2 #donation-amount2 #next2:hover {
+    background-color: hsl(176, 50%, 47%);
   }
-  body .modal-container .modal-content #pledge3 {
-    border: 2px solid hsl(0deg, 0%, 83%);
+  .modal-container .modal-content #pledge3 {
+    border: 2px solid hsl(0, 0%, 83%);
     margin: 30px 5px 10px 0px;
     width: 70%;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
   }
-  body .modal-container .modal-content #pledge3 b {
+  .modal-container .modal-content #pledge3 b {
     font-weight: bold;
     color: black;
     font-size: 22px;
     padding-right: 6px;
   }
-  body .modal-container .modal-content #pledge3 h2 {
+  .modal-container .modal-content #pledge3 h2 {
     font-weight: 600;
   }
-  body .modal-container .modal-content #pledge3 h2:hover {
-    color: hsl(176deg, 50%, 47%);
+  .modal-container .modal-content #pledge3 h2:hover {
+    color: hsl(176, 50%, 47%);
     transition: ease-in 0.1s;
   }
-  body .modal-container .modal-content #pledge3 .mini-3 {
+  .modal-container .modal-content #pledge3 .mini-3 {
     position: relative;
     top: 2px;
     left: 0px;
-    color: hsl(176deg, 50%, 47%);
+    color: hsl(176, 50%, 47%);
   }
-  body .modal-container .modal-content #pledge3 .left-3 {
+  .modal-container .modal-content #pledge3 .left-3 {
     position: relative;
     top: 5px;
     left: -45px;
     margin-bottom: 35px;
-    color: hsl(0deg, 0%, 48%);
+    color: hsl(0, 0%, 48%);
   }
-  body .modal-container .modal-content #pledge3 #radio3 {
+  .modal-container .modal-content #pledge3 #radio3 {
     position: relative;
     top: 33px;
     right: 40px;
@@ -1072,14 +1093,14 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     width: 20px;
     cursor: pointer;
   }
-  body .modal-container .modal-content #pledge3 .part3 {
-    color: hsl(0deg, 0%, 48%);
+  .modal-container .modal-content #pledge3 .part3 {
+    color: hsl(0, 0%, 48%);
     width: 130%;
     margin: 10px 20px 0px -45px;
     font-size: 15px;
   }
-  body .modal-container .modal-content #pledge3 #donation-amount3 {
-    border-top: hsl(0deg, 0%, 48%) solid 1px;
+  .modal-container .modal-content #pledge3 #donation-amount3 {
+    border-top: hsl(0, 0%, 48%) solid 1px;
     position: relative;
     right: 40px;
     bottom: 15px;
@@ -1087,18 +1108,18 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     width: 114.9%;
     display: none;
   }
-  body .modal-container .modal-content #pledge3 #donation-amount3 h3 {
-    color: hsl(0deg, 0%, 48%);
+  .modal-container .modal-content #pledge3 #donation-amount3 h3 {
+    color: hsl(0, 0%, 48%);
     padding: 5px 0px 10px 15px;
     text-align: center;
   }
-  body .modal-container .modal-content #pledge3 #donation-amount3 #donation3 {
+  .modal-container .modal-content #pledge3 #donation-amount3 #donation3 {
     height: 25px;
     width: 20%;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
     border-radius: 28px;
-    border: solid 1px hsl(0deg, 0%, 48%);
+    border: solid 1px hsl(0, 0%, 48%);
     padding: 11px;
     font-size: 16px;
     text-align: center;
@@ -1106,12 +1127,12 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     top: 0px;
     left: 33px;
   }
-  body .modal-container .modal-content #pledge3 #donation-amount3 #next3 {
+  .modal-container .modal-content #pledge3 #donation-amount3 #next3 {
     height: 50px;
     width: 100px;
     border: none;
     border-radius: 28px;
-    background-color: hsl(176deg, 72%, 28%);
+    background-color: hsl(176, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
@@ -1121,42 +1142,42 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     top: 0px;
     left: 50px;
   }
-  body .modal-container .modal-content #pledge3 #donation-amount3 #next:hover {
-    background-color: hsl(176deg, 50%, 47%);
+  .modal-container .modal-content #pledge3 #donation-amount3 #next:hover {
+    background-color: hsl(176, 50%, 47%);
   }
-  body .modal-container .modal-content .pledge4 {
-    border: 2px solid hsl(0deg, 0%, 83%);
+  .modal-container .modal-content .pledge4 {
+    border: 2px solid hsl(0, 0%, 83%);
     margin: 30px 5px 10px 0px;
     width: 70%;
     padding: 0px 20px 15px 65px;
     border-radius: 12px;
   }
-  body .modal-container .modal-content .pledge4 b {
+  .modal-container .modal-content .pledge4 b {
     font-weight: bold;
     color: black;
     font-size: 24px;
     padding-right: 3px;
   }
-  body .modal-container .modal-content .pledge4 h2 {
+  .modal-container .modal-content .pledge4 h2 {
     font-weight: 600;
   }
-  body .modal-container .modal-content .pledge4 h2:hover {
-    color: hsl(176deg, 50%, 47%);
+  .modal-container .modal-content .pledge4 h2:hover {
+    color: hsl(176, 50%, 47%);
     transition: ease-in 0.1s;
   }
-  body .modal-container .modal-content .pledge4 .mini-4 {
+  .modal-container .modal-content .pledge4 .mini-4 {
     position: relative;
     top: 2px;
     left: 0px;
-    color: hsl(176deg, 50%, 47%);
+    color: hsl(176, 50%, 47%);
   }
-  body .modal-container .modal-content .pledge4 .left-4 {
+  .modal-container .modal-content .pledge4 .left-4 {
     position: relative;
     top: 2px;
     left: -45px;
-    color: hsl(0deg, 0%, 48%);
+    color: hsl(0, 0%, 48%);
   }
-  body .modal-container .modal-content .pledge4 #radio4 {
+  .modal-container .modal-content .pledge4 #radio4 {
     position: relative;
     top: 33px;
     right: 40px;
@@ -1164,13 +1185,13 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     width: 20px;
     cursor: pointer;
   }
-  body .modal-container .modal-content .pledge4 .part4 {
-    color: hsl(0deg, 0%, 48%);
+  .modal-container .modal-content .pledge4 .part4 {
+    color: hsl(0, 0%, 48%);
     width: 130%;
     margin: 10px 10px 0px -45px;
     font-size: 15px;
   }
-  body #thankyou-container {
+  #thankyou-container {
     position: fixed;
     z-index: 1;
     top: 0;
@@ -1183,7 +1204,7 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     padding: 50px;
     display: none;
   }
-  body #thankyou-container .thankyou-content {
+  #thankyou-container .thankyou-content {
     background-color: white;
     margin-left: -30px;
     padding: 20px;
@@ -1194,34 +1215,34 @@ body #thankyou-container .thankyou-content #ty-btn:hover {
     border-radius: 10px;
     text-align: center;
   }
-  body #thankyou-container .thankyou-content .check {
+  #thankyou-container .thankyou-content .check {
     margin-top: 15px;
     height: 20%;
     width: 20%;
   }
-  body #thankyou-container .thankyou-content h2 {
+  #thankyou-container .thankyou-content h2 {
     font-weight: bold;
     font-size: 1.5em;
     margin: 16px;
   }
-  body #thankyou-container .thankyou-content p {
-    color: hsl(0deg, 0%, 48%);
+  #thankyou-container .thankyou-content p {
+    color: hsl(0, 0%, 48%);
     font-size: 16px;
   }
-  body #thankyou-container .thankyou-content button {
+  #thankyou-container .thankyou-content button {
     height: 50px;
     width: 110px;
     font-size: 15px;
     border-radius: 28px;
     margin-top: 10px;
     border: none;
-    background-color: hsl(176deg, 72%, 28%);
+    background-color: hsl(176, 72%, 28%);
     color: white;
     font-weight: bold;
     font-family: "Commissioner", sans-serif;
   }
-  body #thankyou-container .thankyou-content #ty-btn:hover {
-    background-color: hsl(176deg, 50%, 47%);
+  #thankyou-container .thankyou-content #ty-btn:hover {
+    background-color: hsl(176, 50%, 47%);
     transition-duration: 0.2s;
     cursor: pointer;
   }
