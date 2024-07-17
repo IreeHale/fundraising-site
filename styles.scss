@@ -20,7 +20,7 @@ $med-gray: hsl(0,0%,83%);
             background-size: 1366px 768px;
             background-repeat: no-repeat;
 
-            @media (min-width: 768px) {
+            @media (max-width: 768px) {
                 background-image: url('./images/image-hero-mobile.jpg');
                 background-size: 768px 1024px;
         }
@@ -77,7 +77,7 @@ $med-gray: hsl(0,0%,83%);
                 bottom: 30px;
 
 
-                @media (max-width: 768px) {
+                @media (min-width: 768px) {
                     right: 10px;
                 }
             }
@@ -149,19 +149,19 @@ $med-gray: hsl(0,0%,83%);
             #goal{
                 display: flex;
                 flex-direction: row;
-                position: relative;
-                bottom: 68px;
+                margin-bottom: 100px;
                 height: 190px;
+                width: 100%;
                 border-radius: 5px;
                 background-color: white;
                 font-family: "Commissioner", sans-serif;
 
-                @media (min-width: 768px) {
+                @media (max-width: 768px) {
+                    position: relative;
                     right: 190px;
-                    width: 625px;
-                    
-                }
+                    width: 628px;
             }
+        }
 
                 .money{
                     padding:  15px 80px 0px 40px;
@@ -194,17 +194,17 @@ $med-gray: hsl(0,0%,83%);
 
             .amount{
                 position: relative;
-                bottom: 115px;
+                bottom: 135px;
                 left: 30px;
                 border-radius: 10px;
                 height: 10px;
-                width: 90%;
+                width: 92%;
                 background-color: lightgray;
 
 
                 @media (max-width: 768px) {
                     position: relative;
-                    width: 568px;
+                    width: 548px;
                     left: -160px;
                 }
             }
@@ -224,6 +224,11 @@ $med-gray: hsl(0,0%,83%);
                 padding: 45px;
                 font-family: "Commissioner", sans-serif;
                 background-color: white;
+
+                @media (max-width: 768px) {
+                    width: 538px;
+                    right: 190px;
+                }
 
                 .about{
                     font-size: 20px;

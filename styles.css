@@ -14,7 +14,7 @@ body .navbar {
   background-size: 1366px 768px;
   background-repeat: no-repeat;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body .navbar {
     background-image: url("./images/image-hero-mobile.jpg");
     background-size: 768px 1024px;
@@ -67,7 +67,7 @@ body .column .logo-mastercraft {
   position: relative;
   bottom: 30px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
   body .column .logo-mastercraft {
     right: 10px;
   }
@@ -132,17 +132,18 @@ body .column #intro .bookmark {
 body .column #goal {
   display: flex;
   flex-direction: row;
-  position: relative;
-  bottom: 68px;
+  margin-bottom: 100px;
   height: 190px;
+  width: 100%;
   border-radius: 5px;
   background-color: white;
   font-family: "Commissioner", sans-serif;
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body .column #goal {
+    position: relative;
     right: 190px;
-    width: 625px;
+    width: 628px;
   }
 }
 body .column .money {
@@ -169,17 +170,17 @@ body .column .info b {
 }
 body .column .amount {
   position: relative;
-  bottom: 115px;
+  bottom: 135px;
   left: 30px;
   border-radius: 10px;
   height: 10px;
-  width: 90%;
+  width: 92%;
   background-color: lightgray;
 }
 @media (max-width: 768px) {
   body .column .amount {
     position: relative;
-    width: 568px;
+    width: 548px;
     left: -160px;
   }
 }
@@ -197,6 +198,12 @@ body .column #about-section {
   padding: 45px;
   font-family: "Commissioner", sans-serif;
   background-color: white;
+}
+@media (max-width: 768px) {
+  body .column #about-section {
+    width: 538px;
+    right: 190px;
+  }
 }
 body .column #about-section .about {
   font-size: 20px;
