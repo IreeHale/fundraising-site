@@ -19,6 +19,23 @@ $med-gray: hsl(0,0%,83%);
             background: url('./images/image-hero-desktop.jpg');
             background-size: 1366px 768px;
             background-repeat: no-repeat;
+
+            @media (min-width: 768px) {
+                background-image: url('./images/image-hero-mobile.jpg');
+                background-size: 768px 1024px;
+        }
+
+            .hamburger{
+                position: absolute;
+                height: 25px;
+                width: 25px;
+                top: 35px;
+                left: 700px;
+
+                @media  (min-width: 1440px){
+                    display: none;
+            }
+        }
     
             .logo{
                 position: relative;
@@ -31,6 +48,10 @@ $med-gray: hsl(0,0%,83%);
                 padding-top: 20px;
                 padding-right: 45px;
                 justify-content: flex-end;
+
+                @media (max-width: 768px) {
+                    display: none;
+                }
             }
     
             li {
@@ -54,6 +75,11 @@ $med-gray: hsl(0,0%,83%);
             .logo-mastercraft{
                 position: relative;
                 bottom: 30px;
+
+
+                @media (max-width: 768px) {
+                    right: 10px;
+                }
             }
     
             #intro{
@@ -64,6 +90,11 @@ $med-gray: hsl(0,0%,83%);
                 text-align: center;
                 font-family: "Commissioner", sans-serif;
                 height: 275px;
+
+                @media (max-width: 768px) {
+                    right: 190px;
+                    width: 630px;
+                }
         
                 h1{
                     padding-top: 5px;
@@ -91,7 +122,7 @@ $med-gray: hsl(0,0%,83%);
                     background-color: $dark-cyan;
                     color: white;
                     position: relative;
-                    right: 150px;
+                    right: 100px;
                 }
 
                 #back:hover{
@@ -103,14 +134,14 @@ $med-gray: hsl(0,0%,83%);
                 #book{
                     color: $dark-cyan;
                     position: relative;
-                    left: 85px;
+                    left: 20px;
                     padding-left: 49px;
                 }
     
                 .bookmark{
                     position: relative;
                     top: 22px;
-                    left: 351px;
+                    left: 281px;
                     z-index: 1;
                 }
             }
@@ -124,6 +155,13 @@ $med-gray: hsl(0,0%,83%);
                 border-radius: 5px;
                 background-color: white;
                 font-family: "Commissioner", sans-serif;
+
+                @media (min-width: 768px) {
+                    right: 190px;
+                    width: 625px;
+                    
+                }
+            }
 
                 .money{
                     padding:  15px 80px 0px 40px;
@@ -146,8 +184,7 @@ $med-gray: hsl(0,0%,83%);
 
                 .info{
                     color: $dark-gray;
-                    font-size: 18px;
-                }
+                    font-size: 20px;
     
                 b{
                     font-weight: bold;
@@ -163,6 +200,13 @@ $med-gray: hsl(0,0%,83%);
                 height: 10px;
                 width: 90%;
                 background-color: lightgray;
+
+
+                @media (max-width: 768px) {
+                    position: relative;
+                    width: 568px;
+                    left: -160px;
+                }
             }
 
             #status-bar{

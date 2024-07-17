@@ -14,6 +14,24 @@ body .navbar {
   background-size: 1366px 768px;
   background-repeat: no-repeat;
 }
+@media (min-width: 768px) {
+  body .navbar {
+    background-image: url("./images/image-hero-mobile.jpg");
+    background-size: 768px 1024px;
+  }
+}
+body .navbar .hamburger {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  top: 35px;
+  left: 700px;
+}
+@media (min-width: 1440px) {
+  body .navbar .hamburger {
+    display: none;
+  }
+}
 body .navbar .logo {
   position: relative;
   top: 35px;
@@ -24,6 +42,11 @@ body .navbar ul {
   padding-top: 20px;
   padding-right: 45px;
   justify-content: flex-end;
+}
+@media (max-width: 768px) {
+  body .navbar ul {
+    display: none;
+  }
 }
 body .navbar li {
   flex-direction: row;
@@ -44,6 +67,11 @@ body .column .logo-mastercraft {
   position: relative;
   bottom: 30px;
 }
+@media (max-width: 768px) {
+  body .column .logo-mastercraft {
+    right: 10px;
+  }
+}
 body .column #intro {
   position: relative;
   bottom: 88px;
@@ -52,6 +80,12 @@ body .column #intro {
   text-align: center;
   font-family: "Commissioner", sans-serif;
   height: 275px;
+}
+@media (max-width: 768px) {
+  body .column #intro {
+    right: 190px;
+    width: 630px;
+  }
 }
 body .column #intro h1 {
   padding-top: 5px;
@@ -76,7 +110,7 @@ body .column #intro #back {
   background-color: hsl(176, 72%, 28%);
   color: white;
   position: relative;
-  right: 150px;
+  right: 100px;
 }
 body .column #intro #back:hover {
   background-color: hsl(176, 50%, 47%);
@@ -86,13 +120,13 @@ body .column #intro #back:hover {
 body .column #intro #book {
   color: hsl(176, 72%, 28%);
   position: relative;
-  left: 85px;
+  left: 20px;
   padding-left: 49px;
 }
 body .column #intro .bookmark {
   position: relative;
   top: 22px;
-  left: 351px;
+  left: 281px;
   z-index: 1;
 }
 body .column #goal {
@@ -105,26 +139,32 @@ body .column #goal {
   background-color: white;
   font-family: "Commissioner", sans-serif;
 }
-body .column #goal .money {
+@media (min-width: 768px) {
+  body .column #goal {
+    right: 190px;
+    width: 625px;
+  }
+}
+body .column .money {
   padding: 15px 80px 0px 40px;
   font-size: 30px;
 }
-body .column #goal .money:nth-child(1) {
+body .column .money:nth-child(1) {
   border-right: gray solid 0.5px;
   margin: 18px 0px 90px 0px;
 }
-body .column #goal .money:nth-child(2) {
+body .column .money:nth-child(2) {
   border-right: gray solid 0.5px;
   margin: 18px 0px 90px 0px;
 }
-body .column #goal .money:nth-child(3) {
+body .column .money:nth-child(3) {
   padding-top: 32px;
 }
-body .column #goal .info {
+body .column .info {
   color: hsl(0, 0%, 48%);
-  font-size: 18px;
+  font-size: 20px;
 }
-body .column #goal b {
+body .column .info b {
   font-weight: bold;
 }
 body .column .amount {
@@ -135,6 +175,13 @@ body .column .amount {
   height: 10px;
   width: 90%;
   background-color: lightgray;
+}
+@media (max-width: 768px) {
+  body .column .amount {
+    position: relative;
+    width: 568px;
+    left: -160px;
+  }
 }
 body .column #status-bar {
   background-color: hsl(176, 72%, 28%);
