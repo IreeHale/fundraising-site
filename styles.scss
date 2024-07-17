@@ -13,6 +13,10 @@ $med-gray: hsl(0,0%,83%);
         scroll-behavior: smooth;
         background-color: whitesmoke;
 
+        @media (min-width: 768px) {
+            height: 1224px;
+        }
+
         .navbar{
             height: 700px;
             color: white;
@@ -34,6 +38,7 @@ $med-gray: hsl(0,0%,83%);
 
                 @media  (min-width: 1440px){
                     display: none;
+                    cursor: pointer;
             }
         }
     
@@ -93,6 +98,7 @@ $med-gray: hsl(0,0%,83%);
 
                 @media (max-width: 768px) {
                     right: 190px;
+                    bottom: 28px;
                     width: 630px;
                 }
         
@@ -158,6 +164,8 @@ $med-gray: hsl(0,0%,83%);
 
                 @media (max-width: 768px) {
                     position: relative;
+                    top: 10px;
+                    bottom: -20px;
                     right: 190px;
                     width: 628px;
             }
@@ -226,6 +234,7 @@ $med-gray: hsl(0,0%,83%);
                 background-color: white;
 
                 @media (max-width: 768px) {
+                    height: 1130px;
                     width: 538px;
                     right: 190px;
                 }
@@ -261,15 +270,34 @@ $med-gray: hsl(0,0%,83%);
                         font-weight: bold;
                     }
 
+                    .left1{
+
+                        @media (max-width: 768px){
+                            position: relative;
+                            bottom: 15px;
+                        }
+                    }
+
+                    .left3{
+                        @media (max-width: 768px){
+                            position: relative;
+                            bottom: 25px;
+                        }
+                    }
+
                     .extra{
                         color: $dark-gray;
                     }
 
                     span{
                         position: relative;
-                        left: 420px;
+                        left: 590px;
                         bottom: 12px;
                         color: $med-cyan;
+
+                        @media (max-width: 768px){
+                            left: 350px;
+                        }
                     }
 
                     b{
@@ -278,6 +306,8 @@ $med-gray: hsl(0,0%,83%);
                         font-size: 1.7em;
                         position: relative;
                         top: 2px;
+
+
                     }
 
                     #reward1{
@@ -290,8 +320,13 @@ $med-gray: hsl(0,0%,83%);
                         font-size: 15px;
                         color: white;
                         position: relative;
-                        left: 420px;
+                        left: 600px;
                         bottom: 40px;
+
+                        @media (max-width: 768px) {
+                            left: 350px;
+                            bottom: 60px;
+                        }
                     }
 
 
@@ -305,8 +340,13 @@ $med-gray: hsl(0,0%,83%);
                         font-size: 15px;
                         color: white;
                         position: relative;
-                        left: 420px;
+                        left: 600px;
                         bottom: 40px;
+
+                        @media (max-width: 768px) {
+                            left: 350px;
+                            bottom: 40px;
+                        }
                     }
 
 
@@ -320,8 +360,13 @@ $med-gray: hsl(0,0%,83%);
                         font-size: 15px;
                         color: white;
                         position: relative;
-                        left: 420px;
+                        left: 600px;
                         bottom: 40px;
+
+                        @media (max-width: 768px) {
+                            left: 350px;
+                            bottom: 70px;
+                        }
                     }
 
 
@@ -368,6 +413,10 @@ $med-gray: hsl(0,0%,83%);
                 line-height: 30px;
                 border-radius: 20px;
 
+                @media (max-width: 768px) {
+                    width: 75%;
+                }
+
                 .close{
                     position: relative;
                     font-size: 27px;
@@ -376,11 +425,16 @@ $med-gray: hsl(0,0%,83%);
                     left: 665px;
                     cursor: pointer;
                     color: $dark-gray;
+
+                    @media (max-width: 768px) {
+                        bottom: 55px;
+                        left: 570px;
+                    }
                 }
 
                 .close:hover{
                     color: black;
-                    transition-duration: 0.4s;
+                    transition-duration: 0.2s;
                 }
 
                 h1{

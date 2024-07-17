@@ -7,6 +7,11 @@ body {
   scroll-behavior: smooth;
   background-color: whitesmoke;
 }
+@media (min-width: 768px) {
+  body {
+    height: 1224px;
+  }
+}
 body .navbar {
   height: 700px;
   color: white;
@@ -30,6 +35,7 @@ body .navbar .hamburger {
 @media (min-width: 1440px) {
   body .navbar .hamburger {
     display: none;
+    cursor: pointer;
   }
 }
 body .navbar .logo {
@@ -84,6 +90,7 @@ body .column #intro {
 @media (max-width: 768px) {
   body .column #intro {
     right: 190px;
+    bottom: 28px;
     width: 630px;
   }
 }
@@ -142,6 +149,8 @@ body .column #goal {
 @media (max-width: 768px) {
   body .column #goal {
     position: relative;
+    top: 10px;
+    bottom: -20px;
     right: 190px;
     width: 628px;
   }
@@ -201,6 +210,7 @@ body .column #about-section {
 }
 @media (max-width: 768px) {
   body .column #about-section {
+    height: 1130px;
     width: 538px;
     right: 190px;
   }
@@ -231,14 +241,31 @@ body .column #about-section .Pledge h3 {
   font-size: 19px;
   font-weight: bold;
 }
+@media (max-width: 768px) {
+  body .column #about-section .Pledge .left1 {
+    position: relative;
+    bottom: 15px;
+  }
+}
+@media (max-width: 768px) {
+  body .column #about-section .Pledge .left3 {
+    position: relative;
+    bottom: 25px;
+  }
+}
 body .column #about-section .Pledge .extra {
   color: hsl(0, 0%, 48%);
 }
 body .column #about-section .Pledge span {
   position: relative;
-  left: 420px;
+  left: 590px;
   bottom: 12px;
   color: hsl(176, 50%, 47%);
+}
+@media (max-width: 768px) {
+  body .column #about-section .Pledge span {
+    left: 350px;
+  }
 }
 body .column #about-section .Pledge b {
   font-weight: bold;
@@ -257,8 +284,14 @@ body .column #about-section .Pledge #reward1 {
   font-size: 15px;
   color: white;
   position: relative;
-  left: 420px;
+  left: 600px;
   bottom: 40px;
+}
+@media (max-width: 768px) {
+  body .column #about-section .Pledge #reward1 {
+    left: 350px;
+    bottom: 60px;
+  }
 }
 body .column #about-section .Pledge #reward2 {
   padding: 13px 22px 13px 22px;
@@ -270,8 +303,14 @@ body .column #about-section .Pledge #reward2 {
   font-size: 15px;
   color: white;
   position: relative;
-  left: 420px;
+  left: 600px;
   bottom: 40px;
+}
+@media (max-width: 768px) {
+  body .column #about-section .Pledge #reward2 {
+    left: 350px;
+    bottom: 40px;
+  }
 }
 body .column #about-section .Pledge #reward3 {
   padding: 13px 22px 13px 22px;
@@ -283,8 +322,14 @@ body .column #about-section .Pledge #reward3 {
   font-size: 15px;
   color: white;
   position: relative;
-  left: 420px;
+  left: 600px;
   bottom: 40px;
+}
+@media (max-width: 768px) {
+  body .column #about-section .Pledge #reward3 {
+    left: 350px;
+    bottom: 70px;
+  }
 }
 body .column #about-section .Pledge #reward1:hover {
   background-color: hsl(176, 50%, 47%);
@@ -321,6 +366,11 @@ body .modal-container .modal-content {
   line-height: 30px;
   border-radius: 20px;
 }
+@media (max-width: 768px) {
+  body .modal-container .modal-content {
+    width: 75%;
+  }
+}
 body .modal-container .modal-content .close {
   position: relative;
   font-size: 27px;
@@ -330,9 +380,15 @@ body .modal-container .modal-content .close {
   cursor: pointer;
   color: hsl(0, 0%, 48%);
 }
+@media (max-width: 768px) {
+  body .modal-container .modal-content .close {
+    bottom: 55px;
+    left: 570px;
+  }
+}
 body .modal-container .modal-content .close:hover {
   color: black;
-  transition-duration: 0.4s;
+  transition-duration: 0.2s;
 }
 body .modal-container .modal-content h1 {
   font-weight: bold;
