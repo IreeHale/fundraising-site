@@ -32,9 +32,15 @@ body .navbar .hamburger {
   top: 35px;
   left: 700px;
 }
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   body .navbar .hamburger {
     display: none;
+    cursor: pointer;
+  }
+}
+@media (max-width: 768px) {
+  body .navbar .hamburger {
+    display: block;
     cursor: pointer;
   }
 }

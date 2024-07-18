@@ -36,9 +36,14 @@ $med-gray: hsl(0,0%,83%);
                 top: 35px;
                 left: 700px;
 
-                @media  (min-width: 1440px){
+                @media  (max-width: 1440px){
                     display: none;
                     cursor: pointer;
+            }
+
+            @media (max-width: 768px) {
+                display: block;
+                cursor: pointer;
             }
         }
     
