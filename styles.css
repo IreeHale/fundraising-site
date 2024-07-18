@@ -466,6 +466,12 @@ body .modal-container .modal-content #pledge2 .left-2 {
   left: 452px;
   color: hsl(0, 0%, 48%);
 }
+@media (min-width: 768px) {
+  body .modal-container .modal-content #pledge2 .left-2 {
+    bottom: 150px;
+    left: 350px;
+  }
+}
 body .modal-container .modal-content #pledge2 #radio2 {
   position: relative;
   top: 33px;
@@ -554,6 +560,12 @@ body .modal-container .modal-content #pledge3 .left-3 {
   left: 452px;
   color: hsl(0, 0%, 48%);
 }
+@media (min-width: 768px) {
+  body .modal-container .modal-content #pledge3 .left-3 {
+    bottom: 150px;
+    left: 350px;
+  }
+}
 body .modal-container .modal-content #pledge3 #radio3 {
   position: relative;
   top: 33px;
@@ -640,6 +652,12 @@ body .modal-container .modal-content .pledge4 .left-4 {
   bottom: 149px;
   left: 452px;
   color: hsl(0, 0%, 48%);
+}
+@media (min-width: 768px) {
+  body .modal-container .modal-content .pledge4 .left-4 {
+    bottom: 150px;
+    left: 380px;
+  }
 }
 body .modal-container .modal-content .pledge4 #radio4 {
   position: relative;

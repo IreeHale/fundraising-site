@@ -523,6 +523,11 @@ $med-gray: hsl(0,0%,83%);
                         bottom: 155px;
                         left: 452px;
                         color: $dark-gray;
+
+                        @media (min-width: 768px){
+                            bottom: 150px;
+                            left: 350px;
+                        }
                     }
 
                     #radio2{
@@ -627,6 +632,11 @@ $med-gray: hsl(0,0%,83%);
                         bottom: 120px;
                         left: 452px;
                         color: $dark-gray;
+
+                        @media (min-width: 768px){
+                            bottom: 150px;
+                            left: 350px;
+                        }
                     }
 
                     #radio3{
@@ -729,6 +739,11 @@ $med-gray: hsl(0,0%,83%);
                         bottom: 149px;
                         left: 452px;
                         color: $dark-gray;
+
+                        @media (min-width: 768px){
+                            bottom: 150px;
+                            left: 380px;
+                        }
                     }
 
                     #radio4{
