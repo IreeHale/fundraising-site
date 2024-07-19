@@ -375,6 +375,7 @@ body .modal-container .modal-content {
 @media (max-width: 768px) {
   body .modal-container .modal-content {
     width: 75%;
+    height: 105%;
   }
 }
 body .modal-container .modal-content .close {
@@ -466,7 +467,7 @@ body .modal-container .modal-content #pledge2 .left-2 {
   left: 452px;
   color: hsl(0, 0%, 48%);
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body .modal-container .modal-content #pledge2 .left-2 {
     bottom: 150px;
     left: 350px;
@@ -560,7 +561,7 @@ body .modal-container .modal-content #pledge3 .left-3 {
   left: 452px;
   color: hsl(0, 0%, 48%);
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body .modal-container .modal-content #pledge3 .left-3 {
     bottom: 150px;
     left: 350px;
@@ -653,7 +654,7 @@ body .modal-container .modal-content .pledge4 .left-4 {
   left: 452px;
   color: hsl(0, 0%, 48%);
 }
-@media (min-width: 768px) {
+@media (max-width: 768px) {
   body .modal-container .modal-content .pledge4 .left-4 {
     bottom: 150px;
     left: 380px;

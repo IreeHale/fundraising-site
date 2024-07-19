@@ -420,6 +420,7 @@ $med-gray: hsl(0,0%,83%);
 
                 @media (max-width: 768px) {
                     width: 75%;
+                    height: 105%;
                 }
 
                 .close{
@@ -524,7 +525,7 @@ $med-gray: hsl(0,0%,83%);
                         left: 452px;
                         color: $dark-gray;
 
-                        @media (min-width: 768px){
+                        @media (max-width: 768px){
                             bottom: 150px;
                             left: 350px;
                         }
@@ -633,7 +634,7 @@ $med-gray: hsl(0,0%,83%);
                         left: 452px;
                         color: $dark-gray;
 
-                        @media (min-width: 768px){
+                        @media (max-width: 768px){
                             bottom: 150px;
                             left: 350px;
                         }
@@ -740,7 +741,7 @@ $med-gray: hsl(0,0%,83%);
                         left: 452px;
                         color: $dark-gray;
 
-                        @media (min-width: 768px){
+                        @media (max-width: 768px){
                             bottom: 150px;
                             left: 380px;
                         }
