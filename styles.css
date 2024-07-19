@@ -375,7 +375,7 @@ body .modal-container .modal-content {
 @media (max-width: 768px) {
   body .modal-container .modal-content {
     width: 75%;
-    height: 120%;
+    height: 105%;
   }
 }
 body .modal-container .modal-content .close {
