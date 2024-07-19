@@ -420,7 +420,7 @@ $med-gray: hsl(0,0%,83%);
 
                 @media (max-width: 768px) {
                     width: 75%;
-                    height: 105%;
+                    height: 120%;
                 }
 
                 .close{
@@ -572,6 +572,10 @@ $med-gray: hsl(0,0%,83%);
                             position: relative;
                             bottom: 88%;
                             left: 25%;
+
+                             @media (max-width: 768px){
+                                left: 15%;
+                            }
                         }
     
                         #next2{
@@ -588,6 +592,10 @@ $med-gray: hsl(0,0%,83%);
                             position: relative;
                             bottom: 88%;
                             left: 29%;
+
+                            @media (max-width: 768px){
+                                left: 17%;
+                            }
                         }
 
                         #next2:hover {
@@ -786,6 +794,12 @@ $med-gray: hsl(0,0%,83%);
                 line-height: 30px;
                 border-radius: 10px;
                 text-align: center;
+
+                @media (min-width: 768px) {
+                    width: 55%;
+                    height: 40%;
+                    margin-left: 120px;
+                }
 
 
                 .check{

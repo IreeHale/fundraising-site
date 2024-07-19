@@ -375,7 +375,7 @@ body .modal-container .modal-content {
 @media (max-width: 768px) {
   body .modal-container .modal-content {
     width: 75%;
-    height: 105%;
+    height: 120%;
   }
 }
 body .modal-container .modal-content .close {
@@ -512,6 +512,11 @@ body .modal-container .modal-content #pledge2 #donation-amount2 #donation2 {
   bottom: 88%;
   left: 25%;
 }
+@media (max-width: 768px) {
+  body .modal-container .modal-content #pledge2 #donation-amount2 #donation2 {
+    left: 15%;
+  }
+}
 body .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
   height: 50px;
   width: 100px;
@@ -526,6 +531,11 @@ body .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
   position: relative;
   bottom: 88%;
   left: 29%;
+}
+@media (max-width: 768px) {
+  body .modal-container .modal-content #pledge2 #donation-amount2 #next2 {
+    left: 17%;
+  }
 }
 body .modal-container .modal-content #pledge2 #donation-amount2 #next2:hover {
   background-color: hsl(176, 50%, 47%);
@@ -694,6 +704,13 @@ body #thankyou-container .thankyou-content {
   line-height: 30px;
   border-radius: 10px;
   text-align: center;
+}
+@media (min-width: 768px) {
+  body #thankyou-container .thankyou-content {
+    width: 55%;
+    height: 40%;
+    margin-left: 120px;
+  }
 }
 body #thankyou-container .thankyou-content .check {
   margin-top: 20px;
