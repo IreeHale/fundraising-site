@@ -12,6 +12,11 @@ body {
     height: 1224px;
   }
 }
+@media (max-width: 390px) {
+  body {
+    width: 390px;
+  }
+}
 body .navbar {
   height: 700px;
   color: white;
@@ -23,6 +28,12 @@ body .navbar {
   body .navbar {
     background-image: url("./images/image-hero-mobile.jpg");
     background-size: 768px 1024px;
+  }
+}
+@media (max-width: 768px) and (max-width: 390px) {
+  body .navbar {
+    background-image: url("./images/image-hero-mobile.jpg");
+    background-size: 390px 644px;
   }
 }
 body .navbar .hamburger {
@@ -38,6 +49,11 @@ body .navbar .hamburger {
     cursor: pointer;
   }
 }
+@media (max-width: 390px) {
+  body .navbar .hamburger {
+    left: 350px;
+  }
+}
 @media (max-width: 768px) {
   body .navbar .hamburger {
     display: block;
@@ -48,6 +64,11 @@ body .navbar .logo {
   position: relative;
   top: 35px;
   left: 55px;
+}
+@media (max-width: 390px) {
+  body .navbar .logo {
+    left: 25px;
+  }
 }
 body .navbar ul {
   display: flex;

@@ -17,6 +17,11 @@ $med-gray: hsl(0,0%,83%);
             height: 1224px;
         }
 
+        @media (max-width: 390px) {
+            width: 390px;
+        }
+
+
         .navbar{
             height: 700px;
             color: white;
@@ -27,7 +32,14 @@ $med-gray: hsl(0,0%,83%);
             @media (max-width: 768px) {
                 background-image: url('./images/image-hero-mobile.jpg');
                 background-size: 768px 1024px;
+
+                @media (max-width: 390px) {
+                    background-image: url('./images/image-hero-mobile.jpg');
+                    background-size: 390px 644px;
+                }
         }
+
+
 
             .hamburger{
                 position: absolute;
@@ -41,6 +53,10 @@ $med-gray: hsl(0,0%,83%);
                     cursor: pointer;
             }
 
+            @media (max-width: 390px){
+                left: 350px;
+            }
+
             @media (max-width: 768px) {
                 display: block;
                 cursor: pointer;
@@ -51,6 +67,10 @@ $med-gray: hsl(0,0%,83%);
                 position: relative;
                 top: 35px;
                 left: 55px;
+                
+                @media (max-width: 390px){
+                    left: 25px;
+                }
             }
     
             ul{
