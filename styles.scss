@@ -35,7 +35,7 @@ $med-gray: hsl(0,0%,83%);
 
                 @media (max-width: 390px) {
                     background-image: url('./images/image-hero-mobile.jpg');
-                    background-size: 390px 644px;
+                    background-size: 390px 404px;
                 }
         }
 
@@ -54,7 +54,8 @@ $med-gray: hsl(0,0%,83%);
             }
 
             @media (max-width: 390px){
-                left: 350px;
+                left: 340px;
+                top: 20px;
             }
 
             @media (max-width: 768px) {
@@ -69,7 +70,8 @@ $med-gray: hsl(0,0%,83%);
                 left: 55px;
                 
                 @media (max-width: 390px){
-                    left: 25px;
+                    left: 15px;
+                    top: 20px;
                 }
             }
     
@@ -125,6 +127,11 @@ $med-gray: hsl(0,0%,83%);
                     right: 190px;
                     bottom: 28px;
                     width: 630px;
+                }
+
+                @media (max-width: 390px) {
+                    \width: 327px;
+                    height: 312px;
                 }
         
                 h1{
