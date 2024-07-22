@@ -15,6 +15,7 @@ body {
 @media (max-width: 390px) {
   body {
     width: 390px;
+    height: 844px;
   }
 }
 body .navbar {
@@ -98,6 +99,14 @@ body .column {
   flex-direction: column;
   margin: 0px 270px 0px 270px;
 }
+@media (max-width: 390px) {
+  body .column {
+    border: red solid 2px;
+    width: 327px;
+    position: relative;
+    bottom: 320px;
+  }
+}
 body .column .logo-mastercraft {
   position: relative;
   bottom: 30px;
@@ -127,6 +136,7 @@ body .column #intro {
   body .column #intro {
     width: 327px;
     height: 312px;
+    right: 240px;
   }
 }
 body .column #intro h1 {
@@ -134,10 +144,21 @@ body .column #intro h1 {
   font-weight: 700;
   font-size: 30px;
 }
+@media (max-width: 390px) {
+  body .column #intro h1 {
+    font-size: 25px;
+  }
+}
 body .column #intro .detail {
   color: hsl(0, 0%, 48%);
   padding-top: 20px;
   font-size: 17.5px;
+}
+@media (max-width: 390px) {
+  body .column #intro .detail {
+    font-size: 14px;
+    line-height: 24px;
+  }
 }
 body .column #intro button {
   font-family: "Commissioner", sans-serif;
@@ -154,6 +175,11 @@ body .column #intro #back {
   position: relative;
   right: 100px;
 }
+@media (max-width: 390px) {
+  body .column #intro #back {
+    right: 70px;
+  }
+}
 body .column #intro #back:hover {
   background-color: hsl(176, 50%, 47%);
   cursor: pointer;
@@ -165,11 +191,21 @@ body .column #intro #book {
   left: 20px;
   padding-left: 49px;
 }
+@media (max-width: 390px) {
+  body .column #intro #book {
+    display: none;
+  }
+}
 body .column #intro .bookmark {
   position: relative;
   top: 22px;
   left: 281px;
   z-index: 1;
+}
+@media (max-width: 390px) {
+  body .column #intro .bookmark {
+    left: 230px;
+  }
 }
 body .column #goal {
   display: flex;

@@ -19,6 +19,7 @@ $med-gray: hsl(0,0%,83%);
 
         @media (max-width: 390px) {
             width: 390px;
+            height: 844px;
         }
 
 
@@ -38,8 +39,6 @@ $med-gray: hsl(0,0%,83%);
                     background-size: 390px 404px;
                 }
         }
-
-
 
             .hamburger{
                 position: absolute;
@@ -104,6 +103,14 @@ $med-gray: hsl(0,0%,83%);
             flex-direction: column;
             margin: 0px 270px 0px 270px;
 
+            @media (max-width: 390px) {
+                border: red solid 2px;
+                width: 327px;
+                position: relative;
+                bottom: 320px;
+
+            }
+
             .logo-mastercraft{
                 position: relative;
                 bottom: 30px;
@@ -130,20 +137,30 @@ $med-gray: hsl(0,0%,83%);
                 }
 
                 @media (max-width: 390px) {
-                    \width: 327px;
+                    width: 327px;
                     height: 312px;
+                    right: 240px;
                 }
         
                 h1{
                     padding-top: 5px;
                     font-weight: 700;
                     font-size: 30px;
+
+                    @media (max-width: 390px){
+                        font-size: 25px;
+                    }
                 }
         
                 .detail{
                     color: $dark-gray;
                     padding-top: 20px;
                     font-size: 17.5px;
+
+                    @media (max-width: 390px){
+                        font-size: 14px;
+                        line-height: 24px;
+                    }
                 }
     
                 button{
@@ -161,6 +178,10 @@ $med-gray: hsl(0,0%,83%);
                     color: white;
                     position: relative;
                     right: 100px;
+
+                    @media (max-width: 390px) {
+                        right: 70px;
+                    }
                 }
 
                 #back:hover{
@@ -174,6 +195,10 @@ $med-gray: hsl(0,0%,83%);
                     position: relative;
                     left: 20px;
                     padding-left: 49px;
+
+                    @media (max-width: 390px) {
+                        display: none;
+                    }
                 }
     
                 .bookmark{
@@ -181,6 +206,10 @@ $med-gray: hsl(0,0%,83%);
                     top: 22px;
                     left: 281px;
                     z-index: 1;
+
+                    @media (max-width: 390px) {
+                        left: 230px;
+                    }
                 }
             }
 
