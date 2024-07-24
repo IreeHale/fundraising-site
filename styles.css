@@ -101,7 +101,6 @@ body .column {
 }
 @media (max-width: 390px) {
   body .column {
-    border: red solid 2px;
     width: 327px;
     position: relative;
     bottom: 320px;
@@ -226,17 +225,44 @@ body .column #goal {
     width: 628px;
   }
 }
+@media (max-width: 390px) {
+  body .column #goal {
+    height: 412px;
+    width: 327px;
+    flex-direction: column;
+    text-align: center;
+    right: 240px;
+    width: 99%;
+  }
+}
 body .column .money {
   padding: 15px 80px 0px 40px;
   font-size: 30px;
+}
+@media (max-width: 390px) {
+  body .column .money {
+    padding-top: 20px;
+  }
 }
 body .column .money:nth-child(1) {
   border-right: gray solid 0.5px;
   margin: 18px 0px 90px 0px;
 }
+@media (max-width: 390px) {
+  body .column .money:nth-child(1) {
+    margin-bottom: 10px;
+    border-right: none;
+  }
+}
 body .column .money:nth-child(2) {
   border-right: gray solid 0.5px;
   margin: 18px 0px 90px 0px;
+}
+@media (max-width: 390px) {
+  body .column .money:nth-child(2) {
+    margin-bottom: 10px;
+    border-right: none;
+  }
 }
 body .column .money:nth-child(3) {
   padding-top: 32px;
@@ -264,11 +290,24 @@ body .column .amount {
     left: -160px;
   }
 }
+@media (max-width: 390px) {
+  body .column .amount {
+    position: relative;
+    margin-left: -30px;
+    right: 390px;
+    width: 70%;
+  }
+}
 body .column #status-bar {
   background-color: hsl(176, 72%, 28%);
   width: 80%;
   height: 10px;
   border-radius: 10px;
+}
+@media (max-width: 390px) {
+  body .column #status-bar {
+    width: 70%;
+  }
 }
 body .column #about-section {
   height: 1050px;
