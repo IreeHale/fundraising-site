@@ -322,6 +322,13 @@ body .column #about-section {
     right: 190px;
   }
 }
+@media (max-width: 390px) {
+  body .column #about-section {
+    right: 240px;
+    width: 240px;
+    align-items: center;
+  }
+}
 body .column #about-section .about {
   font-size: 20px;
   font-weight: 600;
@@ -341,6 +348,14 @@ body .column #about-section .Pledge {
   padding: 20px;
   height: 190px;
   margin-bottom: 30px;
+}
+@media (max-width: 390px) {
+  body .column #about-section .Pledge {
+    width: 249px;
+    height: 370px;
+    position: relative;
+    left: -25px;
+  }
 }
 body .column #about-section .Pledge h3 {
   position: relative;
@@ -363,6 +378,11 @@ body .column #about-section .Pledge h3 {
 body .column #about-section .Pledge .extra {
   color: hsl(0, 0%, 48%);
 }
+@media (max-width: 390px) {
+  body .column #about-section .Pledge .extra {
+    margin-top: 15px;
+  }
+}
 body .column #about-section .Pledge span {
   position: relative;
   left: 590px;
@@ -372,6 +392,12 @@ body .column #about-section .Pledge span {
 @media (max-width: 768px) {
   body .column #about-section .Pledge span {
     left: 350px;
+  }
+}
+@media (max-width: 390px) {
+  body .column #about-section .Pledge span {
+    bottom: -20px;
+    left: 0px;
   }
 }
 body .column #about-section .Pledge b {

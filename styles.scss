@@ -332,6 +332,13 @@ $med-gray: hsl(0,0%,83%);
                     right: 190px;
                 }
 
+                @media (max-width: 390px) {
+                    right: 240px;
+                    width: 240px;
+                    align-items: center;
+
+                }
+
                 .about{
                     font-size: 20px;
                     font-weight: 600;
@@ -355,6 +362,13 @@ $med-gray: hsl(0,0%,83%);
                     padding: 20px;
                     height: 190px;
                     margin-bottom: 30px;
+
+                    @media (max-width: 390px) {
+                        width: 249px;
+                        height: 370px;
+                        position: relative;
+                        left: -25px;
+                    }
 
                     h3{
                         position: relative;
@@ -380,6 +394,10 @@ $med-gray: hsl(0,0%,83%);
 
                     .extra{
                         color: $dark-gray;
+
+                        @media (max-width: 390px) {
+                            margin-top: 15px;
+                        }
                     }
 
                     span{
@@ -390,6 +408,11 @@ $med-gray: hsl(0,0%,83%);
 
                         @media (max-width: 768px){
                             left: 350px;
+                        }
+
+                        @media (max-width: 390px) {
+                            bottom: -20px;
+                            left: 0px;
                         }
                     }
 
