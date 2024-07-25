@@ -302,7 +302,9 @@ $med-gray: hsl(0,0%,83%);
 
                 @media (max-width: 390px) {
                     position: relative;
-                    margin-left: -30px;
+                    margin-left: -40px;
+                    width: 327px;
+                    height: 12px;
                     right: 390px;
                     width: 70%;
                 }
@@ -313,10 +315,6 @@ $med-gray: hsl(0,0%,83%);
                 width: 80%;
                 height: 10px;
                 border-radius: 10px;
-
-                @media (max-width: 390px) {
-                    width: 70%;
-                }
             }
 
             #about-section{
