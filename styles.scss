@@ -335,6 +335,7 @@ $med-gray: hsl(0,0%,83%);
                 @media (max-width: 390px) {
                     right: 240px;
                     width: 240px;
+                    height: 1655px;
                     align-items: center;
 
                 }
@@ -423,7 +424,9 @@ $med-gray: hsl(0,0%,83%);
                         position: relative;
                         top: 2px;
 
-
+                        @media (min-width: 390px) {
+                            font-size: 32px;
+                        }
                     }
 
                     #reward1{
@@ -442,6 +445,11 @@ $med-gray: hsl(0,0%,83%);
                         @media (max-width: 768px) {
                             left: 350px;
                             bottom: 60px;
+                        }
+
+                        @media (max-width: 390px) {
+                            top: 20px;
+                            left: -15px;
                         }
                     }
 
@@ -463,6 +471,11 @@ $med-gray: hsl(0,0%,83%);
                             left: 350px;
                             bottom: 40px;
                         }
+
+                        @media (max-width: 390px) {
+                            top: 20px;
+                            left: -15px;
+                        }
                     }
 
 
@@ -482,6 +495,11 @@ $med-gray: hsl(0,0%,83%);
                         @media (max-width: 768px) {
                             left: 350px;
                             bottom: 70px;
+                        }
+
+                        @media (max-width: 390px) {
+                            top: 20px;
+                            left: -15px;
                         }
                     }
 

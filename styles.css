@@ -326,6 +326,7 @@ body .column #about-section {
   body .column #about-section {
     right: 240px;
     width: 240px;
+    height: 1655px;
     align-items: center;
   }
 }
@@ -407,6 +408,11 @@ body .column #about-section .Pledge b {
   position: relative;
   top: 2px;
 }
+@media (min-width: 390px) {
+  body .column #about-section .Pledge b {
+    font-size: 32px;
+  }
+}
 body .column #about-section .Pledge #reward1 {
   padding: 13px 22px 13px 22px;
   border: none;
@@ -424,6 +430,12 @@ body .column #about-section .Pledge #reward1 {
   body .column #about-section .Pledge #reward1 {
     left: 350px;
     bottom: 60px;
+  }
+}
+@media (max-width: 390px) {
+  body .column #about-section .Pledge #reward1 {
+    top: 20px;
+    left: -15px;
   }
 }
 body .column #about-section .Pledge #reward2 {
@@ -445,6 +457,12 @@ body .column #about-section .Pledge #reward2 {
     bottom: 40px;
   }
 }
+@media (max-width: 390px) {
+  body .column #about-section .Pledge #reward2 {
+    top: 20px;
+    left: -15px;
+  }
+}
 body .column #about-section .Pledge #reward3 {
   padding: 13px 22px 13px 22px;
   border: none;
@@ -462,6 +480,12 @@ body .column #about-section .Pledge #reward3 {
   body .column #about-section .Pledge #reward3 {
     left: 350px;
     bottom: 70px;
+  }
+}
+@media (max-width: 390px) {
+  body .column #about-section .Pledge #reward3 {
+    top: 20px;
+    left: -15px;
   }
 }
 body .column #about-section .Pledge #reward1:hover {
