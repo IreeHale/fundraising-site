@@ -593,6 +593,10 @@ $med-gray: hsl(0,0%,83%);
                 .tell{
                     color: $dark-gray;
                     padding: 0px 0px 15px 35px;
+
+                    @media (max-width: 390px) {
+                        font-size: 14px;
+                    }
                 }
 
                 #pledge1{
@@ -600,6 +604,13 @@ $med-gray: hsl(0,0%,83%);
                     margin: 32px;
                     padding: 0px 20px 15px 65px;
                     border-radius: 12px;
+
+                    @media  (max-width: 390px){
+                        position: relative;
+                        right: 40px;
+                        width: 240px;
+                        height: 242px;
+                    }
 
                     b{
                         font-weight : bold;
@@ -610,6 +621,11 @@ $med-gray: hsl(0,0%,83%);
 
                     h2{
                         font-weight : 600;
+
+                        @media (max-width: 390px) {
+                            font-size: 14px;
+                            margin-bottom: 20px;
+                        }
                     }
 
                     h2:hover{
@@ -628,6 +644,13 @@ $med-gray: hsl(0,0%,83%);
 
                     .part1{
                         color: $dark-gray;
+
+                        @media (max-width: 390px) {
+                            width: 251px;
+                            font-size: 15px;
+                            position: relative;
+                            right: 35px;
+                        }
                     }
                 }
 

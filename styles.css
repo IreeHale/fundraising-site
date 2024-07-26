@@ -571,11 +571,24 @@ body .modal-container .modal-content .tell {
   color: hsl(0, 0%, 48%);
   padding: 0px 0px 15px 35px;
 }
+@media (max-width: 390px) {
+  body .modal-container .modal-content .tell {
+    font-size: 14px;
+  }
+}
 body .modal-container .modal-content #pledge1 {
   border: 2px solid hsl(0, 0%, 83%);
   margin: 32px;
   padding: 0px 20px 15px 65px;
   border-radius: 12px;
+}
+@media (max-width: 390px) {
+  body .modal-container .modal-content #pledge1 {
+    position: relative;
+    right: 40px;
+    width: 240px;
+    height: 242px;
+  }
 }
 body .modal-container .modal-content #pledge1 b {
   font-weight: bold;
@@ -585,6 +598,12 @@ body .modal-container .modal-content #pledge1 b {
 }
 body .modal-container .modal-content #pledge1 h2 {
   font-weight: 600;
+}
+@media (max-width: 390px) {
+  body .modal-container .modal-content #pledge1 h2 {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
 }
 body .modal-container .modal-content #pledge1 h2:hover {
   color: hsl(176, 50%, 47%);
@@ -600,6 +619,14 @@ body .modal-container .modal-content #pledge1 #radio1 {
 }
 body .modal-container .modal-content #pledge1 .part1 {
   color: hsl(0, 0%, 48%);
+}
+@media (max-width: 390px) {
+  body .modal-container .modal-content #pledge1 .part1 {
+    width: 251px;
+    font-size: 15px;
+    position: relative;
+    right: 35px;
+  }
 }
 body .modal-container .modal-content #pledge2 {
   border: 2px solid hsl(0, 0%, 83%);
