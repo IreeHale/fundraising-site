@@ -16,6 +16,7 @@ body {
   body {
     width: 390px;
     height: 844px;
+    overflow-x: hidden;
   }
 }
 body .navbar {
@@ -326,8 +327,9 @@ body .column #about-section {
   body .column #about-section {
     right: 240px;
     width: 240px;
-    height: 1655px;
+    height: 1995px;
     align-items: center;
+    margin-bottom: 90px;
   }
 }
 body .column #about-section .about {
@@ -484,8 +486,8 @@ body .column #about-section .Pledge #reward3 {
 }
 @media (max-width: 390px) {
   body .column #about-section .Pledge #reward3 {
-    top: 20px;
-    left: -15px;
+    top: 5px;
+    left: -10px;
   }
 }
 body .column #about-section .Pledge #reward1:hover {
@@ -529,6 +531,12 @@ body .modal-container .modal-content {
     height: 105%;
   }
 }
+@media (max-width: 390px) {
+  body .modal-container .modal-content {
+    height: 2159px;
+    width: 307px;
+  }
+}
 body .modal-container .modal-content .close {
   position: relative;
   font-size: 27px;
@@ -542,6 +550,12 @@ body .modal-container .modal-content .close {
   body .modal-container .modal-content .close {
     bottom: 55px;
     left: 570px;
+  }
+}
+@media (max-width: 390px) {
+  body .modal-container .modal-content .close {
+    bottom: 60px;
+    left: 305px;
   }
 }
 body .modal-container .modal-content .close:hover {
