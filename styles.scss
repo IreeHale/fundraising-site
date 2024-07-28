@@ -660,6 +660,13 @@ $med-gray: hsl(0,0%,83%);
                     padding: 0px 20px 15px 65px;
                     border-radius: 12px;
 
+                    @media  (max-width: 390px){
+                        position: relative;
+                        right: 50px;
+                        width: 249px;
+                        height: 288px;
+                    }
+
                     b{
                         font-weight : bold;
                         color: black;
@@ -681,6 +688,13 @@ $med-gray: hsl(0,0%,83%);
                         left: 130px;
                         bottom: 30px;
                         color: $med-cyan;
+
+                        @media (min-width: 390px) {
+                            top: -5px;
+                            left: -0px;
+                            margin-bottom: 15px;
+
+                        }
                     }
 
                     .left-2{
@@ -706,6 +720,14 @@ $med-gray: hsl(0,0%,83%);
 
                     .part2{
                         color: $dark-gray;
+
+                        @media (max-width: 390px) {
+                            width: 251px;
+                            font-size: 15px;
+                            position: relative;
+                            right: 35px;
+                            top: 15px;
+                        }
                     }
 
                     #donation-amount2{
@@ -776,6 +798,13 @@ $med-gray: hsl(0,0%,83%);
                     margin: 32px;
                     padding: 0px 20px 15px 65px;
                     border-radius: 12px;
+
+                    @media  (max-width: 390px){
+                        position: relative;
+                        right: 50px;
+                        width: 249px;
+                        height: 288px;
+                    }
 
                     b{
                         font-weight : bold;
