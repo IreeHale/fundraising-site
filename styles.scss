@@ -665,7 +665,7 @@ $med-gray: hsl(0,0%,83%);
                         position: relative;
                         right: 50px;
                         width: 249px;
-                        height: 288px;
+                        height: 328px;
                     }
 
                     b{
@@ -743,6 +743,8 @@ $med-gray: hsl(0,0%,83%);
                         bottom: 15px;
                         height: 65px;
                         width: 114.9%;
+
+                        @media  (min-width: 390px) {}
     
                         h3{
                             color: $dark-gray;
